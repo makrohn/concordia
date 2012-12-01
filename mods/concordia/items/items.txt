@@ -1,0 +1,13 @@
+[item]
+id=1
+name=Carrot
+level=1
+quality=normal
+icon=32
+power=100
+power_desc=Restore 4 HP
+item_type=consumable
+loot_animation=carrot
+rand_vendor=3
+max_quantity=25
+price=5

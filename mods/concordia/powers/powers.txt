@@ -1,0 +1,15 @@
+[power]
+id=1
+name=Swing
+type=effect
+icon=1
+description=Basic melee attack
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
