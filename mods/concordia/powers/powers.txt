@@ -16,7 +16,7 @@ allow_power_mod=true
 
 [power]
 id=2
-name=Shoot (enemy)
+name=Shoot
 type=missile
 icon=9
 new_state=shoot
@@ -33,3 +33,22 @@ radius=64
 speed=30
 post_power=126
 wall_power=126
+
+[power]
+id=3
+name=Seed
+type=missile
+icon=2
+description=Basic magic attack
+new_state=swing
+requires_mental_weapon=true
+face=true
+directional=true
+animation=channel.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=8
+radius=64
+speed=24
+starting_pos=melee

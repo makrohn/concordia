@@ -7,70 +7,38 @@
 
 caption=160,8,center,top
 close=294,2
-unspent_points=160,396,center,bottom
-tabs=1
+unspent_points=160,396,center,top
+#unspent_points=hidden
+tabs=4
 
-#tab_title=Melee
-#tab_tree=powers_tree.png
+tab_area=32,30,240,348
 
-#tab_title=Ranged
-#tab_tree=powers_tree2.png
+tab_title=Fighter
+tab_tree=powers_tree.png
 
-#tab_title=Elemental
-#tab_tree=powers_tree3.png
+tab_title=Hunter
+tab_tree=powers_tree.png
+
+tab_title=Mage
+tab_tree=powers_tree.png
+
+tab_title=Passive
+tab_tree=powers_tree.png
 
 # First tab has index=0 
 # Don't add tab_title=, tab_tree=, and tab= keys if you use only 1 tab
 
 [power]
 id=1
+tab=0
 position=144,64
 
 [power]
 id=2
-position=176,128
-requires_level=1
-requires_point=true
+tab=1
+position=144,64
 
 [power]
 id=3
-position=240,128
-requires_level=1
-requires_point=true
-
-[power]
-id=11
-position=176,192
-requires_level=2
-requires_point=true
-
-[power]
-id=4
-position=240,192
-requires_level=2
-requires_point=true
-
-[power]
-id=5
-position=176,256
-requires_level=3
-requires_point=true
-
-[power]
-id=6
-position=240,256
-requires_level=3
-requires_point=true
-
-[power]
-id=7
-position=176,320
-requires_level=4
-requires_point=true
-
-[power]
-id=8
-position=240,320
-requires_level=4
-requires_point=true
-
+tab=2
+position=144,64
