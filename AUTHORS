@@ -12,6 +12,19 @@ Brandon Morris
 --------------
 mods/core/music/calmtown.ogg
 
+Lorc
+----
+His icons, with color added by Matthew Krohn, was adapted into the following:
+mods/core/images/icons/icons.png
+
+Artur Reterski
+---------------
+His work was adapted into the following:
+mods/core/images/icons/icons.png
+
+Daniel Eddeland
+----------------
+Vegetable icons
 
 ---------------------------------------------------------------------
 #####################################################################
@@ -121,3 +134,33 @@ housey.png
 town_buildings.png
 ---------------------------------------------------------------------
 #####################################################################
+
+For full credits for the hero animations used, please see the Universal Sprite Sheet, https://github.com/makrohn/Universal-LPC-spritesheet.git
+
+Johannes Sjölund
+----------------
+Male dagger and armor
+Original thrusting and shooting animations
+
+Matthew Krohn
+-------------
+Adapted male dagger and armor to females
+Adapted female thrusting and shooting animations
+
+Lanea Zimmerman (AKA Sharm)
+---------------------------
+Original dress (recolored brown by Matthew Krohn)
+Female hairstyle
+
+Stephen Challener (AKA Redshrike)
+---------------------------------
+Base for all Walkcyckles, Hurt, Slash, and Spellcast animations
+
+Daniel Eddeland
+---------------
+greatbow
+recurve bow
+
+Manuel Riecke
+-------------
+mohawk

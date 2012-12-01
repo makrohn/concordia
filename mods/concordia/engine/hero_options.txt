@@ -4,7 +4,7 @@
 # portrait is the png in /images/portraits
 
 option=female,head_long,female01
-option=male,mohawk,female01
+option=male,mohawk,male01
 
 layer=0,body,head,main
 layer=1,body,head,main
