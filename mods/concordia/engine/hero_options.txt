@@ -6,11 +6,11 @@
 option=female,head_long,female01
 option=male,mohawk,female01
 
-layer=0,torso,body,head,main
-layer=1,torso,body,head,main
-layer=2,torso,body,head,main
-layer=3,torso,body,head,main
-layer=4,torso,body,head,main
-layer=5,torso,body,head,main
-layer=6,torso,body,head,main
-layer=7,torso,body,head,main
+layer=0,body,head,main
+layer=1,body,head,main
+layer=2,body,head,main
+layer=3,body,head,main
+layer=4,body,head,main
+layer=5,body,head,main
+layer=6,body,head,main
+layer=7,body,head,main

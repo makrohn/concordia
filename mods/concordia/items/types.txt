@@ -1,5 +1,5 @@
 [type]
-name=torso
+name=body
 description=Body
 
 [type]
