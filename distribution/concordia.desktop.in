@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Concordia
+GenericName=Concordia (Action Role-Playing Game)
+Comment=A single player, 2D-isometric, action Role-Playing Game
+TryExec=@FLARE_EXECUTABLE_PATH@
+Exec=@FLARE_EXECUTABLE_PATH@
+Categories=Game;RolePlaying;
+Icon=concordia
+Terminal=false
