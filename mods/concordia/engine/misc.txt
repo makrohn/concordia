@@ -1,0 +1,3 @@
+# Miscellaneous engine settings
+
+aim_assist=32
