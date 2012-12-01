@@ -8,3 +8,7 @@ build/
 # ignore also vim swap files
 .*.sw*
 flare.desktop
+concordia
+concordia.exe
+concordia.desktop
+!mods/concordia
