@@ -26,8 +26,8 @@ rm die-*
 convert walkcycle.png slash.png spellcast.png shoot.png thrust.png death.png +append +repage $1.png
 rm temp-* death.png shoot.png slash.png spellcast.png thrust.png walkcycle.png
 convert $1.png -define png:color-type=6 $1.png
-echo image=images/avatar/$2/$1.png > mods/concordia/animations/avatar/$2/$1.txt
-cat hero.txt >> mods/concordia/animations/avatar/$2/$1.txt
-mv $1.png mods/concordia/images/avatar/$2/$1.png
-cd tools/flare
+echo image=images/avatar/$2/$1.png > ../mods/concordia/animations/avatar/$2/$1.txt
+cat hero.txt >> ../mods/concordia/animations/avatar/$2/$1.txt
+mv $1.png ../mods/concordia/images/avatar/$2/$1.png
+cd flare
 ./spritesheetpacker.py --images ../../mods/concordia/images/avatar/$2/$1.png --definitions ../../mods/concordia/animations/avatar/$2/$1.txt

@@ -15,7 +15,7 @@ starting_pos=melee
 allow_power_mod=true
 
 [power]
-id=30
+id=2
 name=Shoot (enemy)
 type=missile
 icon=9
