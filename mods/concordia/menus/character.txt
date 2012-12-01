@@ -7,7 +7,7 @@ caption=160,8,center,top
 
 upgrade_physical=110,64
 upgrade_mental=110,88
-upgrade_offense=250,64
+upgrade_offense=110,112
 upgrade_defense=250,88
 
 statlist=24,128
@@ -24,13 +24,13 @@ label_physical=40,72,left,center
 mental=16,88,16,16
 label_mental=40,96,left,center
 
-offense=156,64,16,16
-label_offense=hidden
+offense=16,112,16,16
+label_offense=40,120,left,center
 
 defense=156,88,16,16
 label_defense=hidden
 
-unspent=96,106,120,16
+unspent=156,88,144,16
 
 
 # item visibility
@@ -40,26 +40,26 @@ show_name=1
 show_level=1
 show_physical=1
 show_mental=1
-show_offense=0
+show_offense=1
 show_defense=0
 show_unspent=1
 show_upgrade_physical=1
 show_upgrade_mental=1
-show_upgrade_offense=0
+show_upgrade_offense=1
 show_upgrade_defense=0
 
 show_maxhp=1
-show_hpregen=0
+show_hpregen=1
 show_maxmp=1
-show_mpregen=0
-show_accuracy_v1=0
+show_mpregen=1
+show_accuracy_v1=1
 show_accuracy_v5=0
-show_avoidance_v1=0
+show_avoidance_v1=1
 show_avoidance_v5=0
 show_melee=1
-show_ranged=0
-show_mental=0
-show_crit=0
+show_ranged=1
+show_mental=1
+show_crit=1
 show_absorb=1
 show_resists=1
 
