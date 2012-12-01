@@ -1,22 +1,27 @@
-[header]
-width=16
-height=16
-tilewidth=32
-tileheight=32
-music=calmtown.ogg
-tileset=master.txt
-title=Testmap
-
-[tilesets]
-tileset=../../../tiled/masters/tiled_collision.png,32,32,0,0
-tileset=../../../tiled/masters/32.png,32,32,0,0
-tileset=../../../tiled/masters/64.png,32,64,0,0
-tileset=../../../tiled/masters/96.png,32,96,0,0
-tileset=../../../tiled/masters/128.png,32,128,0,0
-
-[layer]
-type=background
-data=
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="16" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="calmtown.ogg"/>
+  <property name="tileset" value="master.txt"/>
+  <property name="title" value="Testmap"/>
+ </properties>
+ <tileset firstgid="1" name="tiled_collision" tilewidth="32" tileheight="32">
+  <image source="masters/tiled_collision.png" width="480" height="32"/>
+ </tileset>
+ <tileset firstgid="16" name="32" tilewidth="32" tileheight="32">
+  <image source="masters/32.png" width="960" height="1120"/>
+ </tileset>
+ <tileset firstgid="1066" name="64" tilewidth="32" tileheight="64">
+  <image source="masters/64.png" width="960" height="256"/>
+ </tileset>
+ <tileset firstgid="1186" name="96" tilewidth="32" tileheight="96">
+  <image source="masters/96.png" width="960" height="384"/>
+ </tileset>
+ <tileset firstgid="1306" name="128" tilewidth="32" tileheight="128">
+  <image source="masters/128.png" width="960" height="256"/>
+ </tileset>
+ <layer name="background" width="16" height="16">
+  <data encoding="csv">
 107,107,107,107,107,107,107,107,107,107,107,107,107,488,308,308,
 107,107,107,107,107,107,107,107,107,107,107,107,107,488,308,308,
 107,107,107,107,107,107,107,107,107,107,107,107,107,488,308,308,
@@ -33,10 +38,10 @@ data=
 107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,
 107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,
 107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107
-
-[layer]
-type=fringe
-data=
+</data>
+ </layer>
+ <layer name="fringe" width="16" height="16">
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,487,306,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,487,306,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,487,306,0,0,
@@ -53,10 +58,10 @@ data=
 91,92,93,0,0,0,0,0,0,0,0,0,0,0,0,0,
 121,122,123,0,0,0,0,0,0,0,0,0,0,0,0,0,
 151,152,153,0,0,0,0,0,0,0,0,0,0,0,0,0
-
-[layer]
-type=object
-data=
+</data>
+ </layer>
+ <layer name="object" width="16" height="16">
+  <data encoding="csv">
 736,737,772,772,738,739,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,624,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -73,10 +78,10 @@ data=
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,1316,1317,1318
-
-[layer]
-type=collision
-data=
+</data>
+ </layer>
+ <layer name="collision" width="16" height="16">
+  <data encoding="csv">
 1,1,1,1,1,1,0,0,0,0,0,0,0,2,4,4,
 1,1,1,1,1,1,0,0,0,0,0,0,0,2,4,4,
 1,1,1,1,1,1,0,0,0,0,0,0,0,2,4,4,
@@ -93,10 +98,10 @@ data=
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-
-[layer]
-type=foreground
-data=
+</data>
+ </layer>
+ <layer name="foreground" width="16" height="16">
+  <data encoding="csv">
 0,740,741,741,742,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -113,4 +118,6 @@ data=
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-
+</data>
+ </layer>
+</map>
