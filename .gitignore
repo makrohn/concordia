@@ -12,3 +12,4 @@ concordia
 concordia.exe
 concordia.desktop
 !mods/concordia
+tools/bestEnclosingRect/

@@ -9,7 +9,7 @@ help=2,2,24,24
 equipment_slot=128,80,32,main,
 slot_name=Main Hand
 
-equipment_slot=160,80,32,body
+equipment_slot=160,80,32,torso
 slot_name=Body
 
 #equipment_slot=160,48,64,off

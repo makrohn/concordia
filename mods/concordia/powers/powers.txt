@@ -13,3 +13,23 @@ lifespan=1
 radius=64
 starting_pos=melee
 allow_power_mod=true
+
+[power]
+id=30
+name=Shoot (enemy)
+type=missile
+icon=9
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=arrow.txt
+sfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=26
+radius=64
+speed=30
+post_power=126
+wall_power=126

@@ -7,4 +7,4 @@ for x in os.listdir("./"):
         for z in y:
             if z != "png":
 		print "packing",z
-                call(["./lpcuss2flare.sh", z, "female"])
+                call(["./lpcuss2flare.sh", z, "male"])

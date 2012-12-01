@@ -4,12 +4,13 @@
 # portrait is the png in /images/portraits
 
 option=female,head_long,female01
+option=male,mohawk,female01
 
-layer=0,body,main,head
-layer=1,body,main,head
-layer=2,body,main,head
-layer=3,body,main,head
-layer=4,body,main,head
-layer=5,body,main,head
-layer=6,body,main,head
-layer=7,body,main,head
+layer=0,torso,body,head,main
+layer=1,torso,body,head,main
+layer=2,torso,body,head,main
+layer=3,torso,body,head,main
+layer=4,torso,body,head,main
+layer=5,torso,body,head,main
+layer=6,torso,body,head,main
+layer=7,torso,body,head,main
