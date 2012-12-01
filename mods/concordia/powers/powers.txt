@@ -18,7 +18,8 @@ allow_power_mod=true
 id=2
 name=Shoot
 type=missile
-icon=9
+icon=0
+description=Basic ranged attack
 new_state=shoot
 face=true
 directional=true
@@ -36,9 +37,9 @@ wall_power=126
 
 [power]
 id=3
-name=Seed
+name=Bolt
 type=missile
-icon=2
+icon=6
 description=Basic magic attack
 new_state=swing
 requires_mental_weapon=true
