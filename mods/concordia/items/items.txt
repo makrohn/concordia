@@ -53,7 +53,7 @@ dmg_melee=2,6
 gfx=rapier
 
 [item]
-id=53
+id=54
 name=longsword
 level=1
 quality=normal
