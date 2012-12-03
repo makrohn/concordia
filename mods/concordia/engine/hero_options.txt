@@ -5,6 +5,14 @@
 
 option=femalelight,head_long,female01
 option=malelight,mohawk,male01
+option=femaledark,head_long,female01
+option=femaleorc,head_long,female01
+option=femaletanned,head_long,female01
+option=femaletanned2,head_long,female01
+option=maledark,mohawk,male01
+option=maleorc,mohawk,male01
+option=maletanned,mohawk,male01
+option=maletanned2,mohawk,male01
 
 layer=0,body,head,main
 layer=1,body,head,main

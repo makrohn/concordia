@@ -1,4 +1,4 @@
-#Copyright © 2011-2012 Matthew Krohn
+#Copyright 2011-2012 Matthew Krohn
 #
 #This program is free software: you can redistribute it and/or modify
 #it under the terms of the GNU General Public License as published by
@@ -22,4 +22,4 @@ for x in os.listdir("./"):
         for z in y:
             if z != "png":
 		print "packing",z
-                call(["./lpcuss2flare.sh", z, "male"])
+                call(["./lpcuss2flare.sh", z, "maletanned2"])

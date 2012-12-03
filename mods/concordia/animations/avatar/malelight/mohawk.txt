@@ -1,5 +1,5 @@
 
-image=images/avatar/male/mohawk.png
+image=images/avatar/malelight/mohawk.png
 
 [stance]
 frames=1

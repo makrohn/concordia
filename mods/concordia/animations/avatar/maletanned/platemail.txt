@@ -1,5 +1,5 @@
 
-image=images/avatar/malelight/platemail.png
+image=images/avatar/maletanned/platemail.png
 
 [stance]
 frames=1

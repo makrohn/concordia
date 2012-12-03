@@ -1,5 +1,5 @@
 
-image=images/avatar/malelight/chainmail.png
+image=images/avatar/maletanned/chainmail.png
 
 [stance]
 frames=1
