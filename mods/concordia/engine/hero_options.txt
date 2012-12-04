@@ -3,16 +3,16 @@
 # head is the png in /images/avatar/[base]
 # portrait is the png in /images/portraits
 
-option=femalelight,head_long,female01
-option=malelight,mohawk,male01
-option=femaledark,head_long,female01
-option=femaleorc,head_long,female01
-option=femaletanned,head_long,female01
-option=femaletanned2,head_long,female01
-option=maledark,mohawk,male01
-option=maleorc,mohawk,male01
-option=maletanned,mohawk,male01
-option=maletanned2,mohawk,male01
+option=femalelight,purplepixie,female01
+option=malelight,greenlong,male01
+option=femaledark,greenlong,female01
+option=femaleorc,purplepixie,female01
+option=femaletanned,purplepixie,female01
+option=femaletanned2,purplepixie,female01
+option=maledark,greenlong,male01
+option=maleorc,greenlong,male01
+option=maletanned,greenlong,male01
+option=maletanned2,greenlong,male01
 
 layer=0,body,head,main
 layer=1,body,head,main
