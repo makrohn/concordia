@@ -5,13 +5,13 @@
 # Mental + Offense grants elemental spell attacks
 # Mental + Defense grants healing and magical protection
 
-caption=160,8,center,top
+caption=160,24,center,top
 close=294,2
 unspent_points=160,396,center,top
 #unspent_points=hidden
 tabs=4
 
-tab_area=32,30,240,348
+tab_area=40,48,240,348
 
 tab_title=Fighter
 tab_tree=powers_tree.png
@@ -31,14 +31,14 @@ tab_tree=powers_tree.png
 [power]
 id=1
 tab=0
-position=144,64
+position=144,80
 
 [power]
 id=2
 tab=1
-position=144,64
+position=144,80
 
 [power]
 id=3
 tab=2
-position=144,64
+position=144,80
