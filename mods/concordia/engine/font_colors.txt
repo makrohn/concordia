@@ -3,7 +3,7 @@ menu_normal=255,255,255
 menu_bonus=0,255,0
 menu_penalty=255,0,0
 widget_normal=240,240,240
-widget_disabled=127,127,127
+widget_disabled=200,200,0
 
 # combat log
 combat_givedmg=255,255,255
