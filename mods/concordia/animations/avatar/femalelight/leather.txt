@@ -1,5 +1,5 @@
 
-image=images/avatar/female/leather.png
+image=images/avatar/femalelight/leather.png
 
 [stance]
 frames=1

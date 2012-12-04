@@ -1,5 +1,5 @@
 
-image=images/avatar/female/default_body.png
+image=images/avatar/femalelight/default_body.png
 
 [stance]
 frames=1
