@@ -1,3 +1,4 @@
 # Miscellaneous engine settings
 
 aim_assist=32
+window_title=Valley of Concordia v0.1
