@@ -5,3 +5,4 @@
 
 pos=1,0,18,106
 orientation=1
+text_pos=32,0

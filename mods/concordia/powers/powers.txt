@@ -13,6 +13,7 @@ lifespan=1
 radius=64
 starting_pos=melee
 allow_power_mod=true
+requires_mp=1
 
 [power]
 id=2
@@ -53,3 +54,27 @@ lifespan=8
 radius=64
 speed=24
 starting_pos=melee
+
+[power]
+id=6
+name=Shock
+type=missile
+icon=7
+description=Electrocute an enemy from a distance; +25% crit chance against movement-impaired enemies.
+new_state=cast
+requires_mp=1
+requires_hp=1
+face=true
+directional=true
+animation=lightning.txt
+sfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=24
+radius=64
+speed=32
+trait_elemental=wind
+trait_crits_impaired=25
+post_power=126
+wall_power=126
