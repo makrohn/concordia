@@ -119,6 +119,8 @@ void ItemManager::load(const string& filename) {
 
 		if (infile.key == "name")
 			items[id].name = msg->get(infile.val);
+		else if (infile.key == "flavor")
+			items[id].flavor = msg->get(infile.val);
 		else if (infile.key == "level")
 			items[id].level = toInt(infile.val);
 		else if (infile.key == "icon") {
@@ -320,7 +322,11 @@ void ItemManager::loadSets(const string& filename) {
 				if (temp_id > 0 && temp_id < static_cast<int>(items.size())) {
 					items[temp_id].set = id;
 					item_sets[id].items.push_back(temp_id);
-				} else fprintf(stderr, "Item index inside item set %s definition out of bounds 1-%d, skipping item\n", item_sets[id].name.c_str(), items.size()-1);
+				} else {
+					const int maxsize = static_cast<int>(items.size()-1);
+					const char* cname = item_sets[id].name.c_str();
+					fprintf(stderr, "Item index inside item set %s definition out of bounds 1-%d, skipping item\n", cname, maxsize);
+				}
 				item_id = infile.nextValue();
 			}
 		}
@@ -595,6 +601,11 @@ TooltipData ItemManager::getTooltip(int item, StatBlock *stats, int context) {
 		}
 	}
 
+	// flavor text
+	if (items[item].flavor != "") {
+		tip.addText(items[item].flavor, color_bonus);
+	}
+	
 	// buy or sell price
 	if (items[item].price > 0) {
 
