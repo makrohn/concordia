@@ -1,18 +1,4 @@
 [item]
-id=1
-name=Carrot
-level=1
-quality=normal
-icon=32
-power=100
-power_desc=Restore 4 HP
-item_type=consumable
-loot_animation=carrot
-rand_vendor=3
-max_quantity=25
-price=5
-
-[item]
 id=50
 name=dagger
 level=1
@@ -104,7 +90,7 @@ sfx=cloth
 gfx=clothes
 
 [item]
-id=101
+id=110
 name=Leather Armor
 level=1
 quality=normal
@@ -115,7 +101,7 @@ sfx=cloth
 gfx=leather
 
 [item]
-id=102
+id=120
 name=Chaimmail
 level=1
 quality=normal
@@ -126,7 +112,7 @@ sfx=cloth
 gfx=chainmail
 
 [item]
-id=103
+id=130
 name=Platemail
 level=1
 quality=normal
