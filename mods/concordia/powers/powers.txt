@@ -34,8 +34,6 @@ base_damage=ranged
 lifespan=26
 radius=64
 speed=30
-post_power=126
-wall_power=126
 requires_offense_weapon=true
 
 [power]
@@ -56,6 +54,10 @@ lifespan=8
 radius=64
 speed=24
 starting_pos=melee
+
+[power]
+id=4
+name=Shell
 
 [power]
 id=6

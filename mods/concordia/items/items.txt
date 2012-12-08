@@ -93,7 +93,7 @@ level=1
 quality=normal
 icon=65
 item_type=main
-dmg_mental=2,6
+dmg_ment=2,6
 gfx=woodwand
 req=m,1
 
@@ -104,7 +104,7 @@ level=1
 quality=normal
 icon=64
 item_type=main
-dmg_mental=2,6
+dmg_ment=2,6
 gfx=steelwand
 req=m,1
 

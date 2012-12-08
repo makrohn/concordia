@@ -1,0 +1,10 @@
+image=images/powers/arrow.png
+
+render_size=64,64
+render_offset=32,32
+
+[power]
+frames=1
+duration=1
+type=looped
+active_frame=all
