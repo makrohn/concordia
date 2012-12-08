@@ -14,6 +14,7 @@ radius=64
 starting_pos=melee
 allow_power_mod=true
 requires_mp=1
+requires_physical_weapon=true
 
 [power]
 id=2
@@ -35,6 +36,7 @@ radius=64
 speed=30
 post_power=126
 wall_power=126
+requires_offense_weapon=true
 
 [power]
 id=3

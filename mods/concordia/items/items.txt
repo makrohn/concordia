@@ -7,6 +7,7 @@ icon=32
 item_type=main
 dmg_melee=2,6
 gfx=dagger
+req=p,1
 
 [item]
 id=51
@@ -17,6 +18,7 @@ icon=32
 item_type=main
 dmg_melee=2,6
 gfx=mace
+req=p,1
 
 [item]
 id=52
@@ -27,6 +29,7 @@ icon=32
 item_type=main
 dmg_melee=2,6
 gfx=saber
+req=p,1
 
 [item]
 id=53
@@ -37,6 +40,7 @@ icon=32
 item_type=main
 dmg_melee=2,6
 gfx=rapier
+req=p,1
 
 [item]
 id=54
@@ -47,6 +51,7 @@ icon=32
 item_type=main
 dmg_melee=2,6
 gfx=longsword
+req=p,1
 
 [item]
 id=60
@@ -57,6 +62,7 @@ icon=32
 item_type=main
 dmg_ranged=2,6
 gfx=shortbow
+req=o,1
 
 [item]
 id=61
@@ -67,6 +73,7 @@ icon=32
 item_type=main
 dmg_ranged=2,6
 gfx=greatbow
+req=o,1
 
 [item]
 id=62
@@ -77,6 +84,7 @@ icon=32
 item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
+req=o,1
 
 [item]
 id=70
@@ -87,6 +95,7 @@ icon=32
 item_type=main
 dmg_mental=2,6
 gfx=woodwand
+req=m,1
 
 [item]
 id=73
@@ -97,6 +106,7 @@ icon=32
 item_type=main
 dmg_mental=2,6
 gfx=steelwand
+req=m,1
 
 [item]
 id=100
@@ -106,7 +116,6 @@ quality=normal
 item_type=body
 abs=1,1
 icon=113
-sfx=cloth
 gfx=clothes
 
 [item]
@@ -117,7 +126,6 @@ quality=normal
 item_type=body
 abs=1,1
 icon=113
-sfx=cloth
 gfx=leather
 
 [item]
@@ -128,7 +136,6 @@ quality=normal
 item_type=body
 abs=1,1
 icon=113
-sfx=cloth
 gfx=chainmail
 
 [item]
@@ -139,5 +146,14 @@ quality=normal
 item_type=body
 abs=1,1
 icon=113
-sfx=cloth
 gfx=platemail
+
+[item]
+id=141
+name=Leather Hat
+level=1
+quality=normal
+item_type=hat
+abs=1,1
+icon=113
+gfx=leatherhat
