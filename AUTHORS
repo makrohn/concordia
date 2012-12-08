@@ -8,6 +8,10 @@ Justin Jacobs (AKA dorkster)
 ----------------------------
 Menu design
 
+Matthew Krohn
+-------------
+UI Elements
+
 Brandon Morris
 --------------
 mods/core/music/calmtown.ogg
@@ -16,11 +20,7 @@ Lorc
 ----
 His icons, with color added by Matthew Krohn, was adapted into the following:
 mods/core/images/icons/icons.png
-
-Artur Reterski
----------------
-His work was adapted into the following:
-mods/core/images/icons/icons.png
+Originals are in art_src/icons
 
 Daniel Eddeland
 ----------------
@@ -146,11 +146,11 @@ Matthew Krohn
 -------------
 Adapted male dagger and armor to females
 Adapted female thrusting and shooting animations
+Wand animations
 
 Lanea Zimmerman (AKA Sharm)
 ---------------------------
 Original dress (recolored brown by Matthew Krohn)
-Female hairstyle
 
 Stephen Challener (AKA Redshrike)
 ---------------------------------
@@ -163,4 +163,4 @@ recurve bow
 
 Manuel Riecke
 -------------
-mohawk
+All hairstyles

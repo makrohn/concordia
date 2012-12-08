@@ -3,7 +3,7 @@ id=50
 name=Dagger
 level=1
 quality=normal
-icon=32
+icon=58
 item_type=main
 dmg_melee=2,6
 gfx=dagger
@@ -14,7 +14,7 @@ id=51
 name=Mace
 level=1
 quality=normal
-icon=32
+icon=59
 item_type=main
 dmg_melee=2,6
 gfx=mace
@@ -25,7 +25,7 @@ id=52
 name=Saber
 level=1
 quality=normal
-icon=32
+icon=56
 item_type=main
 dmg_melee=2,6
 gfx=saber
@@ -36,7 +36,7 @@ id=53
 name=Rapier
 level=1
 quality=normal
-icon=32
+icon=57
 item_type=main
 dmg_melee=2,6
 gfx=rapier
@@ -47,7 +47,7 @@ id=54
 name=Longsword
 level=1
 quality=normal
-icon=32
+icon=60
 item_type=main
 dmg_melee=2,6
 gfx=longsword
@@ -58,7 +58,7 @@ id=60
 name=Short Bow
 level=1
 quality=normal
-icon=32
+icon=48
 item_type=main
 dmg_ranged=2,6
 gfx=shortbow
@@ -66,24 +66,24 @@ req=o,1
 
 [item]
 id=61
-name=Great Bow
+name=Recurve Bow
 level=1
 quality=normal
-icon=32
+icon=50
 item_type=main
 dmg_ranged=2,6
-gfx=greatbow
+gfx=recurvebow
 req=o,1
 
 [item]
 id=62
-name=Recurve Bow
+name=Great Bow
 level=1
 quality=normal
-icon=32
+icon=49
 item_type=main
 dmg_ranged=2,6
-gfx=recurvebow
+gfx=greatbow
 req=o,1
 
 [item]
@@ -91,7 +91,7 @@ id=70
 name=Wooden Wand
 level=1
 quality=normal
-icon=32
+icon=65
 item_type=main
 dmg_mental=2,6
 gfx=woodwand
@@ -102,7 +102,7 @@ id=73
 name=Steel Wand
 level=1
 quality=normal
-icon=32
+icon=64
 item_type=main
 dmg_mental=2,6
 gfx=steelwand
@@ -115,7 +115,7 @@ level=1
 quality=normal
 item_type=body
 abs=1,1
-icon=113
+icon=80
 gfx=clothes
 
 [item]
@@ -125,7 +125,7 @@ level=1
 quality=normal
 item_type=body
 abs=1,1
-icon=113
+icon=88
 gfx=leather
 
 [item]
@@ -135,7 +135,7 @@ level=1
 quality=normal
 item_type=body
 abs=1,1
-icon=113
+icon=96
 gfx=chainmail
 
 [item]
@@ -145,15 +145,55 @@ level=1
 quality=normal
 item_type=body
 abs=1,1
-icon=113
+icon=104
 gfx=platemail
 
 [item]
-id=141
+id=140
+name=Cloth Hood
+level=1
+quality=normal
+item_type=hat
+abs=1,1
+icon=72
+gfx=clothhood
+
+[item]
+id=150
 name=Leather Hat
 level=1
 quality=normal
 item_type=hat
 abs=1,1
-icon=113
+icon=74
 gfx=leatherhat
+
+[item]
+id=160
+name=Chain Hat
+level=1
+quality=normal
+item_type=hat
+abs=1,1
+icon=75
+gfx=chainhat
+
+[item]
+id=161
+name=Chain Hood
+level=1
+quality=normal
+item_type=hat
+abs=1,1
+icon=75
+gfx=chainhood
+
+[item]
+id=170
+name=Helmet
+level=1
+quality=normal
+item_type=hat
+abs=1,1
+icon=73
+gfx=helmet

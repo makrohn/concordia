@@ -40,9 +40,9 @@ requires_offense_weapon=true
 
 [power]
 id=3
-name=Bolt
+name=Cast
 type=missile
-icon=6
+icon=2
 description=Basic magic attack
 new_state=swing
 requires_mental_weapon=true

@@ -18,9 +18,9 @@ slot_name=Headgear
 equipment_slot=192,64,32,artifact
 slot_name=Artifact
 
-carried_area=32,192
+carried_area=32,128
 carried_cols=8
-carried_rows=6
+carried_rows=8
 
 caption=160,8,center,top
 currency=160,112,center,top
