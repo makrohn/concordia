@@ -28,7 +28,7 @@ label_mental=40,96,left,center
 offense=16,112,16,16
 label_offense=40,120,left,center
 
-defense=156,88,16,16
+defense=156,112,16,16
 label_defense=hidden
 
 unspent=156,88,144,16

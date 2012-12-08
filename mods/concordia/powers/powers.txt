@@ -118,6 +118,7 @@ post_effect=228,0,0
 [power]
 id=22
 name=Hermetic Speed
+icon=18
 passive=true
 post_effect=229,300,0
 buff=true
@@ -125,7 +126,48 @@ type=fixed
 
 [power]
 id=23
-name=Luck of 
+name=Tough as Nails
+icon=4
+passive=true
+post_effect=232,20,0
+buff=true
+type=fixed
+
+[power]
+id=24
+name=Camouflage
+icon=3
+passive=true
+post_effect=215,10,0
+buff=true
+type=fixed
+
+[power]
+id=25
+name=Wear Heavy Armor
+icon=104
+passive=true
+post_effect=219,1,0
+buff=true
+type=fixed
+
+[power]
+id=26
+name=Hawkeye
+icon=17
+passive=true
+post_effect=214,10,0
+buff=true
+type=fixed
+
+[power]
+id=27
+name=Midas Touch
+icon=16
+passive=true
+post_effect=223,10,0
+buff=true
+type=fixed
 
 ########################################
 #Enemy Powers
@@ -201,7 +243,7 @@ name=Accuracy (bonus)
 tag=accuracy
 type=effect
 effect_type=accuracy
-effect_additive=true
+effect_additive=false
 
 [power]
 id=215
@@ -209,7 +251,7 @@ name=Avoidance (bonus)
 tag=avoidance
 type=effect
 effect_type=avoidance
-effect_additive=true
+effect_additive=false
 
 [power]
 id=216
@@ -240,7 +282,7 @@ name=Defense (bonus)
 tag=defense
 type=effect
 effect_type=defense
-effect_additive=true
+effect_additive=false
 
 [power]
 id=220
@@ -272,7 +314,7 @@ name=Gold (bonus)
 tag=gold
 type=effect
 effect_type=currency
-effect_additive=true
+effect_additive=false
 
 [power]
 id=224
@@ -331,3 +373,19 @@ id=231
 name=MP over time
 type=effect
 effect_type=mpot
+
+[power]
+id=232
+name=Max HP (passive bonus)
+tag=HP
+type=effect
+effect_type=hp
+effect_additive=false
+
+[power]
+id=233
+name=HP Regen (passive bonus)
+tag=HP regen
+type=effect
+effect_type=hp_regen
+effect_additive=false

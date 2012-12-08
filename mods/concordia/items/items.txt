@@ -137,6 +137,7 @@ item_type=body
 abs=1,1
 icon=96
 gfx=chainmail
+req=d,2
 
 [item]
 id=130
@@ -147,6 +148,7 @@ item_type=body
 abs=1,1
 icon=104
 gfx=platemail
+req=d,2
 
 [item]
 id=140
