@@ -1,6 +1,6 @@
 [item]
 id=50
-name=dagger
+name=Dagger
 level=1
 quality=normal
 icon=32
@@ -10,7 +10,7 @@ gfx=dagger
 
 [item]
 id=51
-name=mace
+name=Mace
 level=1
 quality=normal
 icon=32
@@ -20,7 +20,7 @@ gfx=mace
 
 [item]
 id=52
-name=saber
+name=Saber
 level=1
 quality=normal
 icon=32
@@ -30,7 +30,7 @@ gfx=saber
 
 [item]
 id=53
-name=rapier
+name=Rapier
 level=1
 quality=normal
 icon=32
@@ -40,7 +40,7 @@ gfx=rapier
 
 [item]
 id=54
-name=longsword
+name=Longsword
 level=1
 quality=normal
 icon=32
@@ -50,7 +50,7 @@ gfx=longsword
 
 [item]
 id=60
-name=shortbow
+name=Short Bow
 level=1
 quality=normal
 icon=32
@@ -60,7 +60,7 @@ gfx=shortbow
 
 [item]
 id=61
-name=greatbow
+name=Great Bow
 level=1
 quality=normal
 icon=32
@@ -70,13 +70,33 @@ gfx=greatbow
 
 [item]
 id=62
-name=recurvebow
+name=Recurve Bow
 level=1
 quality=normal
 icon=32
 item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
+
+[item]
+id=70
+name=Wooden Wand
+level=1
+quality=normal
+icon=32
+item_type=main
+dmg_mental=2,6
+gfx=woodwand
+
+[item]
+id=73
+name=Steel Wand
+level=1
+quality=normal
+icon=32
+item_type=main
+dmg_mental=2,6
+gfx=steelwand
 
 [item]
 id=100
