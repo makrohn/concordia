@@ -7,7 +7,7 @@
 
 caption=160,24,center,top
 close=294,2
-unspent_points=160,396,center,top
+unspent_points=160,380,center,top
 #unspent_points=hidden
 tabs=4
 
