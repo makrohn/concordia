@@ -22,4 +22,4 @@ for x in os.listdir("./"):
         for z in y:
             if z != "png":
 		print "packing",z
-                call(["./lpcuss2flare.sh", z, "weapons/male"])
+                call(["./lpcuss2flare.sh", z, "weapons/female"])
