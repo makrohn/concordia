@@ -51,8 +51,6 @@ private:
 	bool has_scroll_bar;
 	int non_empty_slots;
 	bool any_selected;
-	TooltipData tip_buf;
-	TooltipData tip_new;
 	std::string *values;
 	std::string *tooltips;
 	WidgetLabel *vlabels;
@@ -92,6 +90,7 @@ public:
 	bool multi_select;
 	bool can_deselect;
 	bool can_select;
+	int scrollbar_offset;
 };
 
 #endif
