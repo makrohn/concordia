@@ -243,7 +243,7 @@ name=Accuracy (bonus)
 tag=accuracy
 type=effect
 effect_type=accuracy
-effect_additive=false
+effect_additive=true
 
 [power]
 id=215
@@ -251,7 +251,7 @@ name=Avoidance (bonus)
 tag=avoidance
 type=effect
 effect_type=avoidance
-effect_additive=false
+effect_additive=true
 
 [power]
 id=216
@@ -282,7 +282,7 @@ name=Defense (bonus)
 tag=defense
 type=effect
 effect_type=defense
-effect_additive=false
+effect_additive=true
 
 [power]
 id=220
@@ -303,7 +303,7 @@ effect_additive=true
 [power]
 id=222
 name=XP(bonus)
-tag=XP
+tag=XP gain
 type=effect
 effect_type=xp
 effect_additive=true
@@ -311,13 +311,69 @@ effect_additive=true
 [power]
 id=223
 name=Gold (bonus)
-tag=gold
+tag=gold find
 type=effect
 effect_type=currency
-effect_additive=false
+effect_additive=true
 
 [power]
 id=224
+name=Fire Resistance (bonus)
+tag=fire resist
+type=effect
+effect_type=fire_resist
+effect_additive=true
+
+[power]
+id=225
+name=Ice Resistance (bonus)
+tag=ice resist
+type=effect
+effect_type=ice_resist
+effect_additive=true
+
+[power]
+id=226
+name=Immunity
+type=effect
+icon=12
+effect_type=immunity
+
+[power]
+id=227
+name=Shield
+type=effect
+icon=15
+effect_type=shield
+animation=shield.txt
+
+[power]
+id=228
+name=Heal
+type=effect
+icon=11
+effect_type=heal
+animation=heal.txt
+
+[power]
+id=229
+name=Haste
+type=effect
+icon=9
+effect_type=speed
+
+[power]
+id=230
+name=HP over time
+type=effect
+effect_type=hpot
+
+[power]
+id=231
+name=MP over time
+type=effect
+effect_type=mpot
+
 name=Fire Resistance (bonus)
 tag=fire resist
 type=effect
