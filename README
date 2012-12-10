@@ -1,0 +1,94 @@
+# Valley of Concordia
+-----------------------------------------------------------------------------
+
+Valley of Concordia is a a role-playing game based off of the Flare engine.  The goal is to produce an 8-bit length game within the adventure RPG genre.  Over the course of development, I hope to push the ability of FLARE to develop a storyline, even within a simple narrative structure.  I also hope it's fun!
+
+## Copyright and License
+
+Most of Flare is Copyright © 2011-2012 Clint Bellanger. Contributors retain copyrights to their original contributions.
+
+All of Flare's source code is released under the GNU GPL version 3. Later versions are permitted.
+
+Most of Valley of Concordia's art and data files are released under CC-BY-SA 3.0. Later versions are permitted.  See the AUTHORS file for more information regarding individual assets.
+
+The Liberation Sans fonts version 2 are released under the SIL Open Font License, Version 1.1.
+
+The GNU Unifont font is released under GPL v2, with the exception that embedding the font in a document does not in itself bind that document to the terms of the GPL.
+
+
+## Links
+
+* Source    https://github.com/makrohn/concordia
+* Email     makrohn@gmail.com
+
+
+## Dependencies
+
+See the README.engine for information regarding installation of dependencies.
+
+## Building from Source
+
+There are several ways to build the concordia executable. For developers the cmake method is recommended as it has low overhead when it comes to changes in the code. However you can also build concordia with just one call to your compiler including all source files at once.
+
+### Building with CMake
+
+To build flare, go to the main directory/folder and run the following commands:
+
+    cmake .
+    make
+
+If you want the game installed system-wide, as root, install with:
+
+    make install
+
+The game will be installed into '/usr/local' by default.  You can set different paths in the cmake step, like:
+
+    cmake -DCMAKE_INSTALL_PREFIX:STRING="/usr" ..
+
+### Building with g++
+
+If you prefer building directly with C++, the command will be something like this.
+
+Windows plus MinGW (depending on where your SDL dev headers are)
+
+    g++ -I C:\MinGW\include\SDL src\*.cpp src\*.c -o concordia.exe -lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+
+Linux (depending on where your SDL includes are)
+
+    g++ -I /usr/include/SDL src/*.cpp src/*.c -o concordia -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+
+## Running Valley of Concordia
+
+If the program is installing system-wide (i.e., you typed 'make install' and it worked), you can run it just by executing the 'concordia' command.
+
+If you did not perform the installation step, you should find the binary in in the top directory, and run it from there, like this:
+
+    ./concordia
+
+Also, in newer versions, the game can be launched from an icon in your main menu in your GUI environment (KDE, GNOME, etc.).
+
+If you're running concordia from your operating system's gui file browser (e.g. Windows Explorer or OSX Finder), you'll want to use one of the provided launchers.  This helps the concordia executable use its own working directory, so it can see all those data folders.
+
+
+
+## Settings
+
+Settings are stored in one of these places:
+
+    $XDG_CONFIG_HOME/concordia
+    $HOME/.config/concordia
+    ./config
+
+Here you can enable fullscreen, change the game resolution, enable mouse-move, and change keybindings. The settings files are created the first time you run Flare.
+
+
+
+## Save Files
+
+Save files are stored in one of these places:
+
+    $XDG_DATA_HOME/concordia
+    $HOME/.local/share/concordia
+    ./saves
+
+If permissions are correct, the game is automatically saved when you exit.
