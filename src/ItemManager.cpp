@@ -53,6 +53,7 @@ ItemManager::ItemManager() {
 	color_bonus = font->getColor("item_bonus");
 	color_penalty = font->getColor("item_penalty");
 	color_requirements_not_met = font->getColor("requirements_not_met");
+	color_flavor = font->getColor("item_flavor");
 }
 
 /**
@@ -119,6 +120,8 @@ void ItemManager::load(const string& filename) {
 
 		if (infile.key == "name")
 			items[id].name = msg->get(infile.val);
+		else if (infile.key == "flavor")
+			items[id].flavor = msg->get(infile.val);
 		else if (infile.key == "level")
 			items[id].level = toInt(infile.val);
 		else if (infile.key == "icon") {
@@ -599,6 +602,11 @@ TooltipData ItemManager::getTooltip(int item, StatBlock *stats, int context) {
 		}
 	}
 
+	// flavor text
+	if (items[item].flavor != "") {
+		tip.addText(items[item].flavor, color_flavor);
+	}
+	
 	// buy or sell price
 	if (items[item].price > 0) {
 
