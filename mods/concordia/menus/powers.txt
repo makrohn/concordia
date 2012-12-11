@@ -58,12 +58,12 @@ position=96,208
 requires_point=true
 requires_level=7
 
-#[power]
-#id=
-#tab=0
-#position=192,208
-#requires_point=true
-#requires_level=10
+[power]
+id=7
+tab=0
+position=192,208
+requires_point=true
+requires_level=10
 
 #[power]
 #id=
@@ -88,19 +88,19 @@ id=2
 tab=1
 position=144,80
 
-#[power]
-#id=
-#tab=1
-#position=96,144
-#requires_point=true
-#requires_level=1
+[power]
+id=10
+tab=1
+position=96,144
+requires_point=true
+requires_level=1
 
-#[power]
-#id=
-#tab=1
-#position=192,144
-#requires_point=true
-#requires_level=4
+[power]
+id=11
+tab=1
+position=192,144
+requires_point=true
+requires_level=4
 
 #[power]
 #id=
@@ -160,19 +160,19 @@ position=96,208
 requires_point=true
 requires_level=7
 
-#[power]
-#id=
-#tab=2
-#position=192,208
-#requires_point=true
-#requires_level=10
+[power]
+id=19
+tab=2
+position=192,208
+requires_point=true
+requires_level=10
 
-#[power]
-#id=
-#tab=2
-#position=96,272
-#requires_point=true
-#requires_level=13
+[power]
+id=20
+tab=2
+position=96,272
+requires_point=true
+requires_level=13
 
 [power]
 id=21

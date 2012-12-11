@@ -92,12 +92,27 @@ icon=7
 hp_steal=25
 description=Steal life from the enemy
 
+[power]
+id=7
+name=Poisoned Blade
+icon=25
+description=Poison the enemies around you for ten seconds
+damage_multiplier=50
+post_effect=200,5,300
+
 ########################################
 #Archer Powers
 ########################################
 
 [power]
 id=10
+name=Double Shot
+icon=24
+
+[power]
+id=11
+name=Rain of Arrows
+icon=22
 
 ########################################
 #Mage Powers
@@ -128,10 +143,28 @@ description=Lightning bolt that strikes twice
 post_power=28
 
 [power]
+id=19
+name=Curling Vines
+icon=23
+radius=256
+description=Immobilize a group of enemies for five seconds
+starting_pos=target
+multitarget=true
+requires_mp=5
+post_effect=201,0,150
+
+[power]
+id=20
+name=Spit Acid
+icon=9
+description=Spit blinding acid at your enemies
+post_effect=214,-100,300
+
+[power]
 id=21
-name=Meteor Strike
-icon=
-description=Hit the target and surrounding enemies with a meteor from the sky
+name=Wildfires
+icon=26
+description=Hit the target and surrounding enemies with wildfires
 starting_pos=target
 radius=256
 damage_multiplier=300
