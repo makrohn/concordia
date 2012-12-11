@@ -7,17 +7,17 @@ id=1
 name=Swing
 type=effect
 icon=1
-description=Basic melee attack
+description=Swing your sword through all nearby enemies
 new_state=swing
 face=true
 use_hazard=true
 aim_assist=true
 base_damage=melee
 lifespan=1
-radius=64
+radius=128
+multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_mp=1
 requires_physical_weapon=true
 
 [power]
@@ -25,7 +25,7 @@ id=2
 name=Shoot
 type=missile
 icon=0
-description=Basic ranged attack
+description=Shoot a distant enemy
 new_state=shoot
 face=true
 directional=true
@@ -39,13 +39,14 @@ lifespan=26
 radius=64
 speed=30
 requires_offense_weapon=true
+range=512
 
 [power]
 id=3
 name=Cast
 type=missile
 icon=2
-description=Basic magic attack
+description=Basic magic attack; halves enemy movement for ten seconds
 new_state=swing
 requires_mental_weapon=true
 face=true
@@ -57,15 +58,46 @@ base_damage=ment
 lifespan=8
 radius=64
 speed=24
+range=256
 starting_pos=melee
+post_effect=202,50,300
 
 ########################################
 #Fighter Powers
 ########################################
 
+[power]
+id=4
+name=Preparation
+icon=19
+post_effect=211,10,300
+requires_hp=15
+description=Sacrifice a small amount of HP for increased regeneration for 10 seconds
+cooldown=180000
+
+[power]
+id=5
+name=Warcry
+icon=13
+post_effect=232,60,30
+description=Throw adjacent enemies backwards
+multitarget=true
+radius=360
+range=128
+
+[power]
+id=6
+name=Vampiric Strike
+icon=7
+hp_steal=25
+description=Steal life from the enemy
+
 ########################################
 #Archer Powers
 ########################################
+
+[power]
+id=10
 
 ########################################
 #Mage Powers
@@ -73,43 +105,38 @@ starting_pos=melee
 
 [power]
 id=16
-name=Shell
-
-[power]
-id=17
-name=Shock
-type=missile
-icon=7
-description=Electrocute an enemy from a distance; +25% crit chance against movement-impaired enemies.
-new_state=cast
-requires_mp=1
-requires_hp=1
-face=true
-directional=true
-animation=lightning.txt
-sfx=shock.ogg
-use_hazard=true
-aim_assist=true
-base_damage=ment
-lifespan=24
-radius=64
-speed=32
-trait_elemental=wind
-trait_crits_impaired=25
-post_power=126
-wall_power=126
-
-[power]
-id=18
 name=Heal
 type=fixed
-icon=11
+icon=20
 description=Restore HP
 new_state=cast
 requires_mp=1
 trait_elemental=light
 buff=true
 post_effect=228,0,0
+
+[power]
+id=17
+name=Shell
+icon=21
+
+[power]
+id=18
+name=Chain Lightning
+icon=8
+description=Lightning bolt that strikes twice
+post_power=28
+
+[power]
+id=21
+name=Meteor Strike
+icon=
+description=Hit the target and surrounding enemies with a meteor from the sky
+starting_pos=target
+radius=256
+damage_multiplier=300
+delay=60
+multitarget=true
 
 ########################################
 #Passive Powers
@@ -168,6 +195,14 @@ passive=true
 post_effect=223,10,0
 buff=true
 type=fixed
+
+########################################
+#Misc Powers
+########################################
+
+[power]
+id=28
+name=Secondary bolt
 
 ########################################
 #Enemy Powers
@@ -373,3 +408,9 @@ id=231
 name=MP over time
 type=effect
 effect_type=mpot
+
+[power]
+id=232
+name=Knockback
+type=effect
+effect_type=forced_move
