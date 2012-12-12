@@ -19,7 +19,7 @@ tab_tree=powers_tree.png
 tab_title=Hunter
 tab_tree=powers_tree.png
 
-tab_title=Mage
+tab_title=Devout
 tab_tree=powers_tree.png
 
 tab_title=Passive
