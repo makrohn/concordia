@@ -7,15 +7,21 @@ name=Fighter
 description=A brawler who has learned their craft in the streets.
 equipment=50,100
 actionbar=0,0,0,0,0,0,0,0,0,0,1,0
+campaign=fighter
+physical=1
 
 [class]
 name=Hunter
 description=You picked up skills foraging for food for your family.
 equipment=60,100
 actionbar=0,0,0,0,0,0,0,0,0,0,2,0
+campaign=hunter
+offense=1
 
 [class]
 name=Devout
 description=The spirits you meet in the forest have promsied to help free you.
 equipment=70,100
 actionbar=0,0,0,0,0,0,0,0,0,0,3,0
+campaign=devout
+mental=1
