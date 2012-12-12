@@ -1,0 +1,10 @@
+image=images/powers/shell.png
+
+render_size=128,128
+render_offset=59,80
+
+[power]
+frames=16
+duration=3
+type=looped
+active_frame=all

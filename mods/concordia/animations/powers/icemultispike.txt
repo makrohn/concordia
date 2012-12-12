@@ -1,0 +1,10 @@
+image=images/powers/icemultispike.png
+
+render_size=64,64
+render_offset=32,58
+
+[power]
+frames=10
+duration=3
+type=looped
+active_frame=all

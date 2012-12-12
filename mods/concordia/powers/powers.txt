@@ -31,7 +31,6 @@ face=true
 directional=true
 requires_los=true
 animation=arrow.txt
-sfx=shock.ogg
 use_hazard=true
 aim_assist=true
 base_damage=ranged
@@ -70,10 +69,13 @@ post_effect=202,50,300
 id=4
 name=Preparation
 icon=19
+new_state=cast
 post_effect=211,10,300
 requires_hp=15
 description=Sacrifice a small amount of HP for increased regeneration for 10 seconds
 cooldown=180000
+buff=true
+type=fixed
 
 [power]
 id=5
@@ -108,11 +110,27 @@ post_effect=200,5,300
 id=10
 name=Double Shot
 icon=24
+description=Shoot two arrows simultaneously
+requires_mp=2
+description=Shoot three projectiles simultaneously
+new_state=shoot
+face=true
+count=2
+missile_angle=15
+requires_offense_weapon=true
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
 
 [power]
 id=11
 name=Rain of Arrows
 icon=22
+
+[power]
+id=23
+name=Exploding Arrow
+description=Hit an enemy with a fiery explosion
 
 ########################################
 #Mage Powers
@@ -150,8 +168,16 @@ radius=256
 description=Immobilize a group of enemies for five seconds
 starting_pos=target
 multitarget=true
+new_state=cast
+face=true
 requires_mp=5
 post_effect=201,0,150
+use_hazard=true
+base_damage=ment
+lifespan=60
+radius=128
+floor=true
+type=fixed
 
 [power]
 id=20
@@ -236,6 +262,39 @@ type=fixed
 [power]
 id=28
 name=Secondary bolt
+
+[power]
+id=29
+name=Water Post
+type=fixed
+icon=0
+animation=waterpost.txt
+use_hazard=true
+no_attack=true
+lifespan=6
+starting_pos=target
+
+[power]
+id=30
+name=Fire Post
+type=fixed
+icon=0
+animation=firepost.txt
+use_hazard=true
+no_attack=true
+lifespan=6
+starting_pos=target
+
+[power]
+id=31
+name=Earth Post
+type=fixed
+icon=0
+animation=earthpost.txt
+use_hazard=true
+no_attack=true
+lifespan=6
+starting_pos=target
 
 ########################################
 #Enemy Powers
