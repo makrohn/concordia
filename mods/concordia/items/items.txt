@@ -18,7 +18,7 @@ icon=59
 item_type=main
 dmg_melee=2,6
 gfx=mace
-req=p,1
+req=p,3
 
 [item]
 id=52
@@ -29,7 +29,7 @@ icon=56
 item_type=main
 dmg_melee=2,6
 gfx=saber
-req=p,1
+req=p,5
 
 [item]
 id=53
@@ -40,22 +40,50 @@ icon=57
 item_type=main
 dmg_melee=2,6
 gfx=rapier
-req=p,1
+req=p,7
 
 [item]
 id=54
 name=Longsword
 level=1
-quality=normal
+quality=high
 icon=60
 item_type=main
 dmg_melee=2,6
 gfx=longsword
-req=p,1
+req=p,9
+
+[item]
+id=55
+name=Multiedged Sword
+level=1
+quality=epic
+icon=60
+item_type=main
+dmg_melee=2,6
+dmg_ranged=2,6
+gfx=longsword
+req=p,9
+req=o,5
+#Cooldown power to add accuracy
+
+[item]
+id=56
+name=Magic Longsword
+level=1
+quality=epic
+icon=60
+item_type=main
+dmg_melee=2,6
+dmg_ment=2,6
+gfx=longsword
+req=p,9
+req=m,5
+#Cooldown power to add mp regen
 
 [item]
 id=60
-name=Short Bow
+name=Wooden Bow
 level=1
 quality=normal
 icon=48
@@ -66,6 +94,17 @@ req=o,1
 
 [item]
 id=61
+name=Composite Bow
+level=1
+quality=normal
+icon=48
+item_type=main
+dmg_ranged=2,6
+gfx=shortbow
+req=o,3
+
+[item]
+id=62
 name=Recurve Bow
 level=1
 quality=normal
@@ -73,18 +112,57 @@ icon=50
 item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
-req=o,1
+req=o,5
 
 [item]
-id=62
-name=Great Bow
+id=63
+name=Longbow
 level=1
 quality=normal
+icon=50
+item_type=main
+dmg_ranged=2,6
+gfx=recurvebow
+req=o,7
+
+[item]
+id=64
+name=Great Bow
+level=1
+quality=high
 icon=49
 item_type=main
 dmg_ranged=2,6
 gfx=greatbow
-req=o,1
+req=o,9
+
+[item]
+id=65
+name=Razor Bow
+level=1
+quality=epic
+icon=49
+item_type=main
+dmg_ranged=2,6
+dmg_melee=2,6
+gfx=greatbow
+req=o,9
+req=p,5
+#power to knockback foes
+
+[item]
+id=66
+name=Mage Bow
+level=1
+quality=epic
+icon=49
+item_type=main
+dmg_ranged=2,6
+dmg_melee=2,6
+gfx=greatbow
+req=o,9
+req=m,5
+#power to add crit
 
 [item]
 id=70
@@ -98,15 +176,74 @@ gfx=woodwand
 req=m,1
 
 [item]
-id=73
-name=Steel Wand
+id=71
+name=Fairy Wand
 level=1
 quality=normal
+icon=65
+item_type=main
+dmg_ment=2,6
+gfx=woodwand
+req=m,3
+
+[item]
+id=72
+name=Fire Wand
+level=1
+quality=normal
+icon=65
+item_type=main
+dmg_ment=2,6
+gfx=woodwand
+req=m,5
+
+[item]
+id=73
+name=Ice Wand
+level=1
+quality=normal
+icon=65
+item_type=main
+dmg_ment=2,6
+gfx=woodwand
+req=m,7
+
+[item]
+id=74
+name=Lightning Wand
+level=1
+quality=high
 icon=64
 item_type=main
 dmg_ment=2,6
 gfx=steelwand
-req=m,1
+req=m,9
+
+[item]
+id=75
+name=Steel Wand
+level=1
+quality=epic
+icon=64
+item_type=main
+dmg_ment=2,6
+gfx=steelwand
+req=m,9
+req=p,5
+#power for temp immunity
+
+[item]
+id=76
+name=Magic Arrow
+level=1
+quality=epic
+icon=64
+item_type=main
+dmg_ment=2,6
+gfx=steelwand
+req=m,9
+req=o,5
+#power for ice burst
 
 [item]
 id=100
