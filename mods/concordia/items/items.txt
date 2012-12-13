@@ -264,6 +264,40 @@ item_type=body
 abs=1,1
 icon=88
 gfx=leather
+req=o,2
+
+[item]
+id=111
+name=Hardend Leather Armor
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=88
+gfx=leather
+req=o,4
+
+[item]
+id=112
+name=Salamander Armor
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=88
+gfx=leather
+req=o,6
+
+[item]
+id=113
+name=Yetihide Armor
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=88
+gfx=leather
+req=o,8
 
 [item]
 id=120
@@ -274,18 +308,84 @@ item_type=body
 abs=1,1
 icon=96
 gfx=chainmail
-req=d,2
+req=m,2
+
+[item]
+id=121
+name=Hardened Chaimmail
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=96
+gfx=chainmail
+req=m,4
+
+[item]
+id=122
+name=Mithril Chainmail
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=96
+gfx=chainmail
+req=m,6
+
+[item]
+id=123
+name=Archmage Chaimmail
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=96
+gfx=chainmail
+req=m,8
 
 [item]
 id=130
-name=Platemail
+name=Copper Platemail
 level=1
 quality=normal
 item_type=body
 abs=1,1
 icon=104
 gfx=platemail
-req=d,2
+req=p,2
+
+[item]
+id=131
+name=Steel Platemail
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=104
+gfx=platemail
+req=p,4
+
+[item]
+id=132
+name=Icy Platemail
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=104
+gfx=platemail
+req=p,6
+
+[item]
+id=133
+name=Holy Platemail
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=104
+gfx=platemail
+req=p,8
 
 [item]
 id=140
