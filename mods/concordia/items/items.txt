@@ -12,7 +12,7 @@ req=p,1
 [item]
 id=51
 name=Mace
-level=1
+level=4
 quality=normal
 icon=59
 item_type=main
@@ -23,7 +23,7 @@ req=p,3
 [item]
 id=52
 name=Saber
-level=1
+level=7
 quality=normal
 icon=56
 item_type=main
@@ -34,7 +34,7 @@ req=p,5
 [item]
 id=53
 name=Rapier
-level=1
+level=10
 quality=normal
 icon=57
 item_type=main
@@ -45,7 +45,7 @@ req=p,7
 [item]
 id=54
 name=Longsword
-level=1
+level=13
 quality=high
 icon=60
 item_type=main
@@ -56,9 +56,9 @@ req=p,9
 [item]
 id=55
 name=Multiedged Sword
-level=1
+level=16
 quality=epic
-icon=60
+icon=61
 item_type=main
 dmg_melee=2,6
 dmg_ranged=2,6
@@ -70,9 +70,9 @@ req=o,5
 [item]
 id=56
 name=Magic Longsword
-level=1
+level=16
 quality=epic
-icon=60
+icon=62
 item_type=main
 dmg_melee=2,6
 dmg_ment=2,6
@@ -95,9 +95,9 @@ req=o,1
 [item]
 id=61
 name=Composite Bow
-level=1
+level=4
 quality=normal
-icon=48
+icon=50
 item_type=main
 dmg_ranged=2,6
 gfx=shortbow
@@ -106,9 +106,9 @@ req=o,3
 [item]
 id=62
 name=Recurve Bow
-level=1
+level=7
 quality=normal
-icon=50
+icon=51
 item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
@@ -117,9 +117,9 @@ req=o,5
 [item]
 id=63
 name=Longbow
-level=1
+level=10
 quality=normal
-icon=50
+icon=52
 item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
@@ -128,7 +128,7 @@ req=o,7
 [item]
 id=64
 name=Great Bow
-level=1
+level=13
 quality=high
 icon=49
 item_type=main
@@ -139,9 +139,9 @@ req=o,9
 [item]
 id=65
 name=Razor Bow
-level=1
+level=16
 quality=epic
-icon=49
+icon=53
 item_type=main
 dmg_ranged=2,6
 dmg_melee=2,6
@@ -153,9 +153,9 @@ req=p,5
 [item]
 id=66
 name=Mage Bow
-level=1
+level=16
 quality=epic
-icon=49
+icon=54
 item_type=main
 dmg_ranged=2,6
 dmg_melee=2,6
@@ -178,9 +178,9 @@ req=m,1
 [item]
 id=71
 name=Fairy Wand
-level=1
+level=4
 quality=normal
-icon=65
+icon=66
 item_type=main
 dmg_ment=2,6
 gfx=woodwand
@@ -189,9 +189,9 @@ req=m,3
 [item]
 id=72
 name=Fire Wand
-level=1
+level=7
 quality=normal
-icon=65
+icon=66
 item_type=main
 dmg_ment=2,6
 gfx=woodwand
@@ -200,9 +200,9 @@ req=m,5
 [item]
 id=73
 name=Ice Wand
-level=1
+level=10
 quality=normal
-icon=65
+icon=67
 item_type=main
 dmg_ment=2,6
 gfx=woodwand
@@ -211,9 +211,9 @@ req=m,7
 [item]
 id=74
 name=Lightning Wand
-level=1
+level=13
 quality=high
-icon=64
+icon=68
 item_type=main
 dmg_ment=2,6
 gfx=steelwand
@@ -222,9 +222,9 @@ req=m,9
 [item]
 id=75
 name=Steel Wand
-level=1
+level=16
 quality=epic
-icon=64
+icon=69
 item_type=main
 dmg_ment=2,6
 gfx=steelwand
@@ -235,9 +235,9 @@ req=p,5
 [item]
 id=76
 name=Magic Arrow
-level=1
+level=16
 quality=epic
-icon=64
+icon=70
 item_type=main
 dmg_ment=2,6
 gfx=steelwand
@@ -269,33 +269,33 @@ req=o,2
 [item]
 id=111
 name=Hardend Leather Armor
-level=1
+level=4
 quality=normal
 item_type=body
 abs=1,1
-icon=88
+icon=89
 gfx=leather
 req=o,4
 
 [item]
 id=112
 name=Salamander Armor
-level=1
+level=8
 quality=normal
 item_type=body
 abs=1,1
-icon=88
+icon=90
 gfx=leather
 req=o,6
 
 [item]
 id=113
 name=Yetihide Armor
-level=1
+level=12
 quality=normal
 item_type=body
 abs=1,1
-icon=88
+icon=91
 gfx=leather
 req=o,8
 
@@ -306,14 +306,14 @@ level=1
 quality=normal
 item_type=body
 abs=1,1
-icon=96
+icon=97
 gfx=chainmail
 req=m,2
 
 [item]
 id=121
 name=Hardened Chaimmail
-level=1
+level=4
 quality=normal
 item_type=body
 abs=1,1
@@ -324,22 +324,22 @@ req=m,4
 [item]
 id=122
 name=Mithril Chainmail
-level=1
+level=8
 quality=normal
 item_type=body
 abs=1,1
-icon=96
+icon=98
 gfx=chainmail
 req=m,6
 
 [item]
 id=123
 name=Archmage Chaimmail
-level=1
+level=12
 quality=normal
 item_type=body
 abs=1,1
-icon=96
+icon=99
 gfx=chainmail
 req=m,8
 
@@ -350,14 +350,14 @@ level=1
 quality=normal
 item_type=body
 abs=1,1
-icon=104
+icon=107
 gfx=platemail
 req=p,2
 
 [item]
 id=131
 name=Steel Platemail
-level=1
+level=4
 quality=normal
 item_type=body
 abs=1,1
@@ -368,22 +368,22 @@ req=p,4
 [item]
 id=132
 name=Icy Platemail
-level=1
+level=8
 quality=normal
 item_type=body
 abs=1,1
-icon=104
+icon=106
 gfx=platemail
 req=p,6
 
 [item]
 id=133
 name=Holy Platemail
-level=1
+level=12
 quality=normal
 item_type=body
 abs=1,1
-icon=104
+icon=105
 gfx=platemail
 req=p,8
 

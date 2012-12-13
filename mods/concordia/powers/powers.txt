@@ -128,9 +128,15 @@ name=Rain of Arrows
 icon=22
 
 [power]
-id=23
+id=12
+icon=27
 name=Exploding Arrow
 description=Hit an enemy with a fiery explosion
+
+[power]
+id=13
+name=Thorned Arrow
+icon=30
 
 ########################################
 #Mage Powers
@@ -188,9 +194,9 @@ post_effect=214,-100,300
 
 [power]
 id=21
-name=Wildfires
-icon=26
-description=Hit the target and surrounding enemies with wildfires
+name=Tornado
+icon=29
+description=Hit the target and surrounding enemies with tornados
 starting_pos=target
 radius=256
 damage_multiplier=300
@@ -206,7 +212,7 @@ id=22
 name=Hermetic Speed
 icon=18
 passive=true
-post_effect=229,300,0
+post_effect=229,15,0
 buff=true
 type=fixed
 
@@ -215,7 +221,7 @@ id=23
 name=Tough as Nails
 icon=4
 passive=true
-post_effect=210,20,0
+post_effect=210,15,0
 buff=true
 type=fixed
 
@@ -224,16 +230,16 @@ id=24
 name=Camouflage
 icon=3
 passive=true
-post_effect=215,10,0
+post_effect=215,15,0
 buff=true
 type=fixed
 
 [power]
 id=25
-name=Wear Heavy Armor
-icon=104
+name=Wisdom of Ages
+icon=28
 passive=true
-post_effect=219,1,0
+post_effect=212,15,0
 buff=true
 type=fixed
 
@@ -242,7 +248,7 @@ id=26
 name=Hawkeye
 icon=17
 passive=true
-post_effect=214,10,0
+post_effect=214,15,0
 buff=true
 type=fixed
 
@@ -251,7 +257,7 @@ id=27
 name=Midas Touch
 icon=16
 passive=true
-post_effect=223,10,0
+post_effect=223,15,0
 buff=true
 type=fixed
 
