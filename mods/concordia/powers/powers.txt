@@ -506,3 +506,35 @@ id=232
 name=Knockback
 type=effect
 effect_type=forced_move
+
+[power]
+id=233
+name=Earth Resistance (bonus)
+tag=ice resist
+type=effect
+effect_type=earth_resist
+effect_additive=true
+
+[power]
+id=234
+name=Wind Resistance (bonus)
+tag=ice resist
+type=effect
+effect_type=wind_resist
+effect_additive=true
+
+[power]
+id=235
+name=Holy Resistance (bonus)
+tag=ice resist
+type=effect
+effect_type=holy_resist
+effect_additive=true
+
+[power]
+id=236
+name=Dark Resistance (bonus)
+tag=ice resist
+type=effect
+effect_type=dark_resist
+effect_additive=true
