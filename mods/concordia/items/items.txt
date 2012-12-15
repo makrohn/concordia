@@ -274,7 +274,7 @@ quality=normal
 item_type=body
 abs=1,1
 icon=89
-gfx=leather
+gfx=hardenedleather
 req=o,4
 
 [item]
@@ -285,7 +285,7 @@ quality=normal
 item_type=body
 abs=1,1
 icon=90
-gfx=leather
+gfx=salamanderleather
 req=o,6
 
 [item]
@@ -296,7 +296,7 @@ quality=normal
 item_type=body
 abs=1,1
 icon=91
-gfx=leather
+gfx=yetihide
 req=o,8
 
 [item]
@@ -312,24 +312,24 @@ req=m,2
 
 [item]
 id=121
-name=Hardened Chaimmail
+name=Mithril Chaimmail
 level=4
 quality=normal
 item_type=body
 abs=1,1
 icon=96
-gfx=chainmail
+gfx=mithril
 req=m,4
 
 [item]
 id=122
-name=Mithril Chainmail
+name=Burnt Chainmail
 level=8
 quality=normal
 item_type=body
 abs=1,1
 icon=98
-gfx=chainmail
+gfx=burntchain
 req=m,6
 
 [item]
@@ -340,18 +340,18 @@ quality=normal
 item_type=body
 abs=1,1
 icon=99
-gfx=chainmail
+gfx=archmagechain
 req=m,8
 
 [item]
 id=130
-name=Copper Platemail
+name=Bronze Platemail
 level=1
 quality=normal
 item_type=body
 abs=1,1
 icon=107
-gfx=platemail
+gfx=bronzeplate
 req=p,2
 
 [item]
@@ -373,7 +373,7 @@ quality=normal
 item_type=body
 abs=1,1
 icon=106
-gfx=platemail
+gfx=icyplate
 req=p,6
 
 [item]
@@ -384,7 +384,7 @@ quality=normal
 item_type=body
 abs=1,1
 icon=105
-gfx=platemail
+gfx=holyplate
 req=p,8
 
 [item]
