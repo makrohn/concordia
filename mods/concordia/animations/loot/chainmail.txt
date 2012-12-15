@@ -1,0 +1,8 @@
+image=images/loot/chainmail.png
+render_size=64,64
+render_offset=32,38
+
+[power]
+frames=5
+duration=3
+type=play_once
