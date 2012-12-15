@@ -19,6 +19,7 @@ multitarget=true
 starting_pos=melee
 allow_power_mod=true
 requires_physical_weapon=true
+sfx=swoosh.ogg
 
 [power]
 id=2
@@ -39,6 +40,7 @@ radius=64
 speed=30
 requires_offense_weapon=true
 range=512
+soundfx=shoot.ogg
 
 [power]
 id=3
@@ -60,6 +62,7 @@ speed=24
 range=256
 starting_pos=melee
 post_effect=202,50,300
+sfx=spell4.ogg
 
 ########################################
 #Fighter Powers
@@ -93,6 +96,7 @@ name=Vampiric Strike
 icon=7
 hp_steal=25
 description=Steal life from the enemy
+sfx=swoosh.ogg
 
 [power]
 id=7
@@ -101,6 +105,7 @@ icon=25
 description=Poison the enemies around you for ten seconds
 damage_multiplier=50
 post_effect=200,5,300
+sfx=swoosh.ogg
 
 ########################################
 #Archer Powers
@@ -121,22 +126,26 @@ requires_offense_weapon=true
 base_damage=ranged
 aim_assist=true
 allow_power_mod=true
+soundfx=shoot.ogg
 
 [power]
 id=11
 name=Rain of Arrows
 icon=22
+soundfx=shoot.ogg
 
 [power]
 id=12
 icon=27
 name=Exploding Arrow
 description=Hit an enemy with a fiery explosion
+soundfx=shoot.ogg
 
 [power]
 id=13
 name=Thorned Arrow
 icon=30
+soundfx=shoot.ogg
 
 ########################################
 #Mage Powers
@@ -153,11 +162,14 @@ requires_mp=1
 trait_elemental=light
 buff=true
 post_effect=228,0,0
+soundfx=blessing2.ogg
 
 [power]
 id=17
-name=Shell
-icon=21
+name=Earthquake
+icon=31
+description=Stun distant enemies with an earthquake
+sfx=sand-spell.ogg
 
 [power]
 id=18
@@ -202,6 +214,7 @@ radius=256
 damage_multiplier=300
 delay=60
 multitarget=true
+sfx=spell1.ogg
 
 ########################################
 #Passive Powers
