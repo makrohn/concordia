@@ -9,4 +9,4 @@ location=0,0,3
 [event]
 type=teleport
 location=0,0,1,1
-intermap=test.txt,2,4
+intermap=lowlands.txt,50,50
