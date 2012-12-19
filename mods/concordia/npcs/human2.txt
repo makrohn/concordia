@@ -1,0 +1,6 @@
+name=Shell
+gfx=human2
+talker=true
+
+[dialog]
+her=My husband ran away to join the resistance, but I think they're a myth.

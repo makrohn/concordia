@@ -1,0 +1,6 @@
+name=Tanna
+gfx=orc1
+talker=true
+
+[dialog]
+her=I'm going to get out of here, I swear!  They say there's a secret tunnel in the mines, but I hurt myself too badly last time to go back.

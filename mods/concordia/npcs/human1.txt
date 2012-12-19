@@ -1,0 +1,6 @@
+name=Maria
+gfx=human1
+talker=true
+
+[dialog]
+her=Look at our homeland... ruined.  Seven years and I still can't believe it.

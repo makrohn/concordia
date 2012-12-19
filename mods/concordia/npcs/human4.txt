@@ -1,0 +1,6 @@
+name=Ham
+gfx=human4
+talker=true
+
+[dialog]
+him=Work the mines or work the fields.  They promise we can go free if we work hard enough, but I don't believe them anymore.

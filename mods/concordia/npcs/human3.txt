@@ -1,0 +1,6 @@
+name=Toan
+gfx=human3
+talker=true
+
+[dialog]
+him=I'm so hungry, but they never give us enough food.

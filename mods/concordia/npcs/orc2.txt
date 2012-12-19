@@ -1,0 +1,6 @@
+name=Pix
+gfx=orc2
+talker=true
+
+[dialog]
+her=Dragged all the way here from the upper Valley...  I wonder if I'll ever see my family again?
