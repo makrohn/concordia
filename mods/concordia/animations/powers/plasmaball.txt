@@ -1,0 +1,10 @@
+image=images/powers/plasmaball.png
+
+render_size=32,32
+render_offset=16,16
+
+[power]
+frames=4
+duration=2
+type=looped
+active_frame=all

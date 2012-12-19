@@ -39,7 +39,7 @@ lifespan=26
 radius=64
 speed=30
 requires_offense_weapon=true
-range=512
+range=1024
 soundfx=shoot.ogg
 
 [power]
@@ -52,14 +52,14 @@ new_state=swing
 requires_mental_weapon=true
 face=true
 directional=true
-animation=channel.txt
+animation=plasmaball.txt
 use_hazard=true
 aim_assist=true
 base_damage=ment
-lifespan=8
+lifespan=24
 radius=64
 speed=24
-range=256
+range=512
 starting_pos=melee
 post_effect=202,50,300
 sfx=spell4.ogg
