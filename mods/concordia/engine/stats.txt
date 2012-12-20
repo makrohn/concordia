@@ -2,15 +2,15 @@
 # Values should be integer
 
 max_points_per_stat=9
-hp_base=20
-hp_per_level=5
-hp_per_physical=5
+hp_base=48
+hp_per_level=12
+hp_per_physical=6
 hp_regen_base=1
 hp_regen_per_level=0
 hp_regen_per_physical=1
-mp_base=10
-mp_per_level=3
-mp_per_mental=3
+mp_base=32
+mp_per_level=8
+mp_per_mental=4
 mp_regen_base=1
 mp_regen_per_level=0
 mp_regen_per_mental=1
