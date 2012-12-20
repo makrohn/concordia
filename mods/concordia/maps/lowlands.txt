@@ -742,6 +742,7 @@ location=68,21,1,1
 # Teleport to Mine
 type=teleport
 location=104,30,1,1
+intermap=mines.txt,12,6
 
 [event]
 # Teleport to Checkpoint

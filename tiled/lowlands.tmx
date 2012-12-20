@@ -695,7 +695,11 @@
   <object name="Clubb" type="orc3" x="2176" y="672" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="event" width="128" height="128">
-  <object name="Teleport to Mine" type="teleport" x="3328" y="960" width="32" height="32"/>
+  <object name="Teleport to Mine" type="teleport" x="3328" y="960" width="32" height="32">
+   <properties>
+    <property name="intermap" value="mines.txt,12,6"/>
+   </properties>
+  </object>
   <object name="Teleport to Checkpoint" type="teleport" x="3872" y="2592" width="32" height="32"/>
   <object name="Teleport to Cliffside" type="teleport" x="2048" y="0" width="448" height="32"/>
   <object name="Teleport to Overseer's Quarters" type="teleport" x="1536" y="1120" width="32" height="32"/>
