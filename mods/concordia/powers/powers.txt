@@ -225,7 +225,7 @@ id=22
 name=Hermetic Speed
 icon=18
 passive=true
-post_effect=229,115,0
+post_effect=229,110,0
 buff=true
 type=fixed
 
@@ -234,7 +234,7 @@ id=23
 name=Tough as Nails
 icon=4
 passive=true
-post_effect=210,15,0
+post_effect=237,10,0
 buff=true
 type=fixed
 
@@ -243,7 +243,7 @@ id=24
 name=Camouflage
 icon=3
 passive=true
-post_effect=215,15,0
+post_effect=215,10,0
 buff=true
 type=fixed
 
@@ -252,7 +252,7 @@ id=25
 name=Wisdom of Ages
 icon=28
 passive=true
-post_effect=212,15,0
+post_effect=238,10,0
 buff=true
 type=fixed
 
@@ -261,7 +261,7 @@ id=26
 name=Hawkeye
 icon=17
 passive=true
-post_effect=214,15,0
+post_effect=214,10,0
 buff=true
 type=fixed
 
@@ -270,7 +270,7 @@ id=27
 name=Midas Touch
 icon=16
 passive=true
-post_effect=223,15,0
+post_effect=223,10,0
 buff=true
 type=fixed
 
@@ -556,4 +556,20 @@ name=Dark Resistance (bonus)
 tag=ice resist
 type=effect
 effect_type=dark_resist
+effect_additive=true
+
+[power]
+id=237
+name=HP Percent (bonus)
+tag=HPperc
+type=effect
+effect_type=hp_percent
+effect_additive=true
+
+[power]
+id=238
+name=MP Percent (bonus)
+tag=MPperc
+type=effect
+effect_type=mp_percent
 effect_additive=true
