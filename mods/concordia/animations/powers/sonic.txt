@@ -1,0 +1,10 @@
+image=images/powers/sonic.png
+
+render_size=32,32
+render_offset=16,16
+
+[power]
+frames=1
+duration=1
+type=looped
+active_frame=all
