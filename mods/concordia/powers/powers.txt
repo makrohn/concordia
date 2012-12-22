@@ -193,6 +193,21 @@ name=Earthquake
 icon=31
 description=Stun distant enemies with an earthquake
 sfx=sand-spell.ogg
+type=fixed
+new_state=cast
+requires_mp=7
+animation=earthmultispike.txt
+use_hazard=true
+base_damage=ment
+multiplier=150
+lifespan=60
+radius=64
+floor=true
+trait_elemental=earth
+starting_pos=target
+multitarget=true
+cooldown=1000
+post_effect=203,0,30
 
 [power]
 id=18
@@ -560,7 +575,6 @@ animation=heal.txt
 id=229
 name=Haste
 type=effect
-icon=9
 effect_type=speed
 
 [power]
