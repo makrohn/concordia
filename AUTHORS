@@ -103,6 +103,25 @@ CC-BY 3.0
 ------------------------------
 ambientmain.ogg
 
+klankschap (freesound.org)
+CC-BY-NC
+--------------------------
+from bat2.wav:
+bat_die.ogg
+bat_hit.ogg
+
+Adam_N (freesound.org)
+CC0 (Public Domain)
+----------------------
+from Flap of material1.wav:
+bat_phys.ogg
+bat_ment.ogg
+
+RandomationPictures (freesound.org)
+CC0 (Public Domain)
+-----------------------------------
+bat_hit.ogg
+
 ---------------------------------------------------------------------
 #####################################################################
 Original copies of the tileset art can be found in the art_src/tiles folder.  They are all now included in the master tileset.
