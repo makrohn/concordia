@@ -7,7 +7,19 @@ power=32
 power_desc=Restore 25 HP
 item_type=consumable
 sfx=potion
-loot_animation=helmet
+loot_animation=hppotion
+max_quantity=10
+
+[item]
+id=2
+name=Health Potion
+level=3
+icon=33
+power=33
+power_desc=Restore 25 MP
+item_type=consumable
+sfx=potion
+loot_animation=mppotion
 max_quantity=10
 
 [item]

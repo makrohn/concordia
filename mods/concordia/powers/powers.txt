@@ -365,6 +365,18 @@ cooldown=600
 buff=true
 post_effect=230,25,1
 
+[power]
+id=33
+type=fixed
+icon=33
+name=Mana Potion
+sfx=potion.ogg
+new_state=instant
+requires_item=2
+cooldown=600
+buff=true
+post_effect=231,25,1
+
 ########################################
 #Enemy Powers
 ########################################
