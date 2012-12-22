@@ -38,14 +38,14 @@ tab=0
 position=144,80
 
 [power]
-id=4
+id=5
 tab=0
 position=96,144
 requires_point=true
 requires_level=1
 
 [power]
-id=5
+id=4
 tab=0
 position=192,144
 requires_point=true
