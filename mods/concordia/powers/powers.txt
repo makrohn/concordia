@@ -315,6 +315,17 @@ no_attack=true
 lifespan=6
 starting_pos=target
 
+[power]
+id=32
+type=fixed
+name=Healing Potion
+sfx=potion.ogg
+new_state=instant
+requires_item=1
+cooldown=600
+buff=true
+post_effect=230,25,1
+
 ########################################
 #Enemy Powers
 ########################################

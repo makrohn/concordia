@@ -1,4 +1,16 @@
 [item]
+id=1
+name=Health Potion
+level=3
+icon=32
+power=32
+power_desc=Restore 25 HP
+item_type=consumable
+sfx=potion
+loot_animation=helmet
+max_quantity=10
+
+[item]
 id=50
 name=Dagger
 level=1
@@ -474,4 +486,12 @@ item_type=hat
 abs=1,1
 icon=73
 gfx=helmet
+loot_animation=helmet
+
+[item]
+id=200
+name=Minerals
+quality=high
+item_type=quest
+icon=112
 loot_animation=helmet
