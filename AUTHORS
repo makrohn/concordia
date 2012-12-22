@@ -2,7 +2,17 @@ All assets are licensed under the GPL 3.0 and CC-BY-SA 3.0 unless otherwise note
 
 Matthew Krohn
 -------------
-UI Elements
+Most UI Elements
+heal.png
+loot animations
+sonic.png
+plasmaball.png (adapted from art by Thane Brimhall and Geni)
+
+Thane Brimhall
+--------------
+HP, MP, XP bars
+input.png
+enemy_bar.png
 
 Brandon Morris
 --------------
@@ -39,9 +49,9 @@ waterpost.png
 earthpost.png
 firepost.png
 
-artisticdude, opengameart.org
+artisticdude (opengameart.org)
 Licensed CC0
------------------------------
+------------------------------
 bite-small2.ogg
 ogre1.ogg
 ogre2.ogg
@@ -61,15 +71,15 @@ wood-small.ogg
 shoot.ogg
 sword.ogg
 
-p0ss
-----
+p0ss (opengameart.org)
+----------------------
 blessing2.ogg
 explode4.ogg
 insect.ogg
 
-qubodup
+qubodup (opengameart.org)
 Licensed CC0
-------------
+-------------------------
 level_up.ogg
 wobble.ogg
 swoosh.ogg
@@ -78,6 +88,15 @@ spell1.ogg
 spell2.ogg
 spell3.ogg
 spell4.ogg
+
+timgormly (freesound.org)
+CC-BY 3.0
+-------------------------
+screech.ogg
+
+Charles Sanchez (AKA CharlesGabriel)
+------------------------------------
+bat.png (first three frames)
 
 ---------------------------------------------------------------------
 #####################################################################
@@ -189,6 +208,7 @@ town_buildings.png
 #####################################################################
 
 For full credits for the hero animations used, please see the Universal Sprite Sheet, https://github.com/makrohn/Universal-LPC-spritesheet.git
+NPCs and hero portraits are also adapted from this set
 
 Johannes Sjölund
 ----------------
