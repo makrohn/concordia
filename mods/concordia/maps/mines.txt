@@ -3,6 +3,7 @@ width=64
 height=64
 tilewidth=32
 tileheight=32
+music=ambientmain.ogg
 tileset=master.txt
 title=Mines
 
