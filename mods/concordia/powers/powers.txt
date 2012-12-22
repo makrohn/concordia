@@ -5,7 +5,7 @@
 [power]
 id=1
 name=Swing
-type=effect
+type=fixed
 icon=1
 description=Swing your sword through all nearby enemies
 new_state=swing
