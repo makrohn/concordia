@@ -17,6 +17,7 @@
 
 from subprocess import call
 import os
+import sys
 for x in os.listdir("./"):
     if ".png" in str(x):
         y=str(x)
@@ -24,4 +25,4 @@ for x in os.listdir("./"):
         for z in y:
             if z != "png":
 		print "packing",z
-                call(["./lpcuss2flare.sh", z, "weapons/male"])
+                call(["./lpcuss2flare.sh", z, str(sys.argv[1])])
