@@ -18,11 +18,26 @@
 from subprocess import call
 import os
 import sys
-for x in os.listdir("./"):
-    if ".png" in str(x):
-        y=str(x)
-        y=y.split(".")
-        for z in y:
-            if z != "png":
-		print "packing",z
-                call(["./lpcuss2flare.sh", z, str(sys.argv[1])])
+from shutil import copyfile
+def createPackingCommand(imageName,folderName):
+    splitname=str(imageName).split(".")
+    for part in splitname:
+        if part != "png":
+            print "packing",part,"to",folderName
+            call(["./lpcuss2flare.sh", part, folderName])
+for files in os.listdir("./"):
+    if ".png" in str(files):
+        if len(sys.argv) > 1:
+            createPackingCommand(files,str(sys.argv[1]))
+        else:
+            print "Needs an argument for nonassigned sprites!"
+    elif "." not in str(files) and "bestEnclosingRect" not in str(files) and "flare" not in str(files):
+        for subfiles in os.listdir(files):
+            if ".png" in str(subfiles):
+                copyfile(files + "/" + subfiles,subfiles)
+                createPackingCommand(subfiles,files)
+            elif "." not in str(subfiles):
+                for subsubfiles in os.listdir(files + "/" + subfiles):
+                    if ".png" in str(subsubfiles):
+                        copyfile(files + "/" + subfiles + "/" + subsubfiles,subsubfiles)
+                        createPackingCommand(subsubfiles,files + "/" + subfiles)
