@@ -24,6 +24,7 @@ FLARE.  If not, see http://www.gnu.org/licenses/
 #include "PowerManager.h"
 #include "StatBlock.h"
 #include "UtilsFileSystem.h"
+#include "UtilsMath.h"
 #include "UtilsParsing.h"
 
 #include <stdint.h>
@@ -102,7 +103,7 @@ void MapRenderer::push_enemy_group(Map_Group g) {
 	// actual places, so have an upper bound of tries.
 
 	// random number of enemies
-	int enemies_to_spawn = g.numbermin + rand() % (g.numbermax + 1 - g.numbermin);
+	int enemies_to_spawn = randBetween(g.numbermin, g.numbermax);
 
 	// pick an upper bound, which is definitely larger than threetimes the enemy number to spawn.
 	int allowed_misses = 3 * g.numbermax;
@@ -448,6 +449,12 @@ int MapRenderer::load(string filename) {
 
 						repeat_val = infile.nextValue();
 					}
+				}
+				else if (infile.key == "requires_level") {
+					e->x = toInt(infile.nextValue());
+				}
+				else if (infile.key == "requires_not_level") {
+					e->x = toInt(infile.nextValue());
 				}
 				else if (infile.key == "requires_item") {
 					e->x = toInt(infile.nextValue());
@@ -1107,6 +1114,16 @@ bool MapRenderer::isActive(const Map_Event &e){
 		}
 		else if (e.components[i].type == "requires_item") {
 			if (!camp->checkItem(e.components[i].x)) {
+				return false;
+			}
+		}
+		else if (e.components[i].type == "requires_level") {
+			if (camp->hero->level < e.components[i].x) {
+				return false;
+			}
+		}
+		else if (e.components[i].type == "requires_not_level") {
+			if (camp->hero->level >= e.components[i].x) {
 				return false;
 			}
 		}
