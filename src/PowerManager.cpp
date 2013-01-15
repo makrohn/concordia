@@ -304,14 +304,7 @@ int PowerManager::loadSFX(const string& filename) {
 		}
 
 		// we don't already have this sound loaded, so load it
-		Mix_Chunk* sound;
-		if (audio && SOUND_VOLUME) {
-			sound = loadSfx(mods->locate("soundfx/powers/" + filename), "PowerManager sfx");
-			if (!sound)
-				return -1;
-		} else {
-			sound = NULL;
-		}
+		Mix_Chunk* sound = loadSfx("soundfx/powers/" + filename, "PowerManager sfx");
 
 		// success; perform record-keeping
 		sfx_filenames.push_back(filename);
@@ -645,27 +638,22 @@ void PowerManager::playSound(int power_index, StatBlock *src_stats) {
 	if (powers[power_index].allow_power_mod) {
 		if (powers[power_index].base_damage == BASE_DAMAGE_MELEE && src_stats->melee_weapon_power != 0
 				&& powers[src_stats->melee_weapon_power].sfx_index != -1) {
-			if (sfx[powers[src_stats->melee_weapon_power].sfx_index])
-				Mix_PlayChannel(-1,sfx[powers[src_stats->melee_weapon_power].sfx_index],0);
+				playSfx(sfx[powers[src_stats->melee_weapon_power].sfx_index]);
 		}
 		else if (powers[power_index].base_damage == BASE_DAMAGE_MENT && src_stats->mental_weapon_power != 0
 				&& powers[src_stats->mental_weapon_power].sfx_index != -1) {
-			if (sfx[powers[src_stats->mental_weapon_power].sfx_index])
-				Mix_PlayChannel(-1,sfx[powers[src_stats->mental_weapon_power].sfx_index],0);
+				playSfx(sfx[powers[src_stats->mental_weapon_power].sfx_index]);
 		}
 		else if (powers[power_index].base_damage == BASE_DAMAGE_RANGED && src_stats->ranged_weapon_power != 0
 				&& powers[src_stats->ranged_weapon_power].sfx_index != -1) {
-			if (sfx[powers[src_stats->ranged_weapon_power].sfx_index])
-				Mix_PlayChannel(-1,sfx[powers[src_stats->ranged_weapon_power].sfx_index],0);
+				playSfx(sfx[powers[src_stats->ranged_weapon_power].sfx_index]);
 		}
 		else play_base_sound = true;
 	}
 	else play_base_sound = true;
 
-	if (play_base_sound && powers[power_index].sfx_index != -1) {
-		if (sfx[powers[power_index].sfx_index])
-			Mix_PlayChannel(-1,sfx[powers[power_index].sfx_index],0);
-	}
+	if (play_base_sound && powers[power_index].sfx_index != -1)
+		playSfx(sfx[powers[power_index].sfx_index]);
 }
 
 bool PowerManager::effect(StatBlock *src_stats, int power_index) {
@@ -679,14 +667,14 @@ bool PowerManager::effect(StatBlock *src_stats, int power_index) {
 			if (powers[effect_index].effect_type == "shield") {
 				// charge shield to max ment weapon damage * damage multiplier
 				magnitude = (int)ceil(src_stats->dmg_ment_max * powers[power_index].damage_multiplier / 100.0) + (src_stats->get_mental()*src_stats->bonus_per_mental);
-				comb->addMessage(msg->get("+%d Shield",magnitude), src_stats->pos, COMBAT_MESSAGE_BUFF, src_stats->hero);
+				comb->addMessage(msg->get("+%d Shield",magnitude), src_stats->pos, COMBAT_MESSAGE_BUFF);
 			} else if (powers[effect_index].effect_type == "heal") {
 				// heal for ment weapon damage * damage multiplier
 				int heal_max = (int)ceil(src_stats->dmg_ment_max * powers[power_index].damage_multiplier / 100.0) + (src_stats->get_mental()*src_stats->bonus_per_mental);
 				int heal_min = (int)ceil(src_stats->dmg_ment_min * powers[power_index].damage_multiplier / 100.0) + (src_stats->get_mental()*src_stats->bonus_per_mental);
 				magnitude = randBetween(heal_min, heal_max-1);
 
-				comb->addMessage(msg->get("+%d HP",magnitude), src_stats->pos, COMBAT_MESSAGE_BUFF, src_stats->hero);
+				comb->addMessage(msg->get("+%d HP",magnitude), src_stats->pos, COMBAT_MESSAGE_BUFF);
 				src_stats->hp += magnitude;
 				if (src_stats->hp > src_stats->maxhp) src_stats->hp = src_stats->maxhp;
 			}
