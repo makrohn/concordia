@@ -1,0 +1,10 @@
+
+image=images/npcs/chicken.png
+
+render_size=32,32
+render_offset=16,28
+
+[stance]
+frames=1
+duration=60
+type=looped

@@ -1,0 +1,10 @@
+
+image=images/npcs/cowright.png
+
+render_size=128,128
+render_offset=64,64
+
+[stance]
+frames=4
+duration=5
+type=back_forth
