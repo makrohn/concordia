@@ -1,0 +1,10 @@
+image=images/powers/stinger.png
+
+render_size=16,16
+render_offset=8,8
+
+[power]
+frames=1
+duration=1
+type=looped
+active_frame=all

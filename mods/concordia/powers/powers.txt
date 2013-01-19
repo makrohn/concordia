@@ -402,6 +402,27 @@ requires_offense_weapon=true
 range=1024
 sfx=screech.ogg
 
+[power]
+id=102
+name=Remote Stinger
+type=missile
+icon=0
+description=Screech at a distant enemy
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=stinger.txt
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=52
+radius=64
+speed=15
+requires_offense_weapon=true
+range=1024
+sfx=shoot.ogg
+
 ########################################
 #Effects
 ########################################
