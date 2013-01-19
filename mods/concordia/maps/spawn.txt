@@ -7,6 +7,25 @@ height=1
 location=0,0,3
 
 [event]
+requires_status=adventurer
 type=teleport
 location=0,0,1,1
 intermap=lowlands.txt,50,50
+
+[event]
+requires_status=fighter
+type=teleport
+location=0,0,1,1
+intermap=lowlands.txt,50,50
+
+[event]
+requires_status=hunter
+type=teleport
+location=0,0,1,1
+intermap=maroon.txt,107,8
+
+[event]
+requires_status=devout
+type=teleport
+location=0,0,1,1
+intermap=maroon.txt,107,8

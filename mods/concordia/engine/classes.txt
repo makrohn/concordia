@@ -1,6 +1,7 @@
 #[class]
 #name=Adventurer
 #description=A blank slate.
+campaign=adventurer
 
 [class]
 name=Fighter
