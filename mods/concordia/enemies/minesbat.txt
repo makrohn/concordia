@@ -5,7 +5,7 @@ categories=minesbat,dungeon
 rarity=common
 xp=1
 
-sfx_prefix=bat
+sfx_prefix=none
 animations=bat
 
 loot=1,25

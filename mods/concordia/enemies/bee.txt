@@ -5,7 +5,7 @@ categories=bee,forest
 rarity=common
 xp=1
 
-sfx_prefix=bee
+sfx_prefix=none
 animations=bee
 
 loot=1,25
