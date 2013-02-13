@@ -1,0 +1,9 @@
+name=Justice
+gfx=general
+talker=true
+
+[dialog]
+her=I can't believe we're going back to the camp.  We can finally end the occupation.
+her=I was a general back in Haladria, before the undead enslaved our people and shipped me across the ocean.  The morons didn't even know who they had on their hands.
+her=Now that I've escaped, though, they'll never even know what hit them!  Ha!  
+her=You're as great a soldier as I ver trained, and I hope I get to fight by your side soon.

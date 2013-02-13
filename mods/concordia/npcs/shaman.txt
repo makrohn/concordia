@@ -1,0 +1,9 @@
+name=Primal Gentario
+gfx=shaman
+talker=true
+
+[dialog]
+him=You've come a long way since you broke out of the labor camp with Justice.  The time has finally come to go back and free the others, though.  Orc as well as Human.
+him=To the west of our camp is a cavern, with an underground city.  The skeletons have started trying to invade their tunnels, and the subterranean residents have finally realized they can't remain neutral.
+him=You've been in the labor prison most recently, and know the most about the layout.  I need you to meet the Subterrans, forge an alliance with them, and formulate a plan.
+him=Check in with Justice before you go.  She's usually down by the pond, cleaning her armor.

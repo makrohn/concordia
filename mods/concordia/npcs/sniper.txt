@@ -1,0 +1,8 @@
+name=Lucardo
+gfx=sniper
+talker=true
+
+[dialog]
+him=Every time I see the prison, and think of the stain it is on our landscape...  It must be a nightmare for those inside.
+him=I've never been inside, thank goodness.  The skeletons have never been able to conquer us, but I fear it won't stay that way, unless we fight back.
+him=If you ever need help navigating the woods, talk to a Clan Ario sniper.  We've grown up in these mountains, and know them like the backs of our hands.
