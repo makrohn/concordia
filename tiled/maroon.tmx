@@ -819,6 +819,9 @@
   <object name="Cow" type="cowleft" x="3520" y="1280" width="32" height="32"/>
   <object name="Sheep" type="sheepleft" x="3584" y="1344" width="32" height="32"/>
   <object name="Sheep" type="sheepright" x="3712" y="1248" width="32" height="32"/>
+  <object name="Shaman" type="shaman" x="3584" y="288" width="32" height="32"/>
+  <object name="General" type="general" x="2304" y="1952" width="32" height="32"/>
+  <object name="Sniper" type="sniper" x="736" y="3200" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="enemy" width="128" height="128"/>
  <objectgroup name="enemygroup" width="128" height="128">

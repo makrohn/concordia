@@ -826,6 +826,21 @@ location=112,42,1,1
 type=sheepright
 location=116,39,1,1
 
+[npc]
+# Shaman
+type=shaman
+location=112,9,1,1
+
+[npc]
+# General
+type=general
+location=72,61,1,1
+
+[npc]
+# Sniper
+type=sniper
+location=23,100,1,1
+
 [enemygroup]
 # Bats
 type=bee
