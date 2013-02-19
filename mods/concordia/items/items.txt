@@ -6,19 +6,19 @@ icon=32
 power=32
 power_desc=Restore 25 HP
 item_type=consumable
-sfx=potion
+sfx=soundfx/inventory/bottle.ogg
 loot_animation=hppotion
 max_quantity=10
 
 [item]
 id=2
-name=Health Potion
+name=Mana Potion
 level=3
 icon=33
 power=33
 power_desc=Restore 25 MP
 item_type=consumable
-sfx=potion
+sfx=soundfx/inventory/bottle.ogg
 loot_animation=mppotion
 max_quantity=10
 
