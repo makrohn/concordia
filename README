@@ -21,74 +21,7 @@ The GNU Unifont font is released under GPL v2, with the exception that embedding
 * Source    https://github.com/makrohn/concordia
 * Email     makrohn@gmail.com
 
+Savefile Change!
+================
 
-## Dependencies
-
-See the README.engine for information regarding installation of dependencies.
-
-## Building from Source
-
-There are several ways to build the concordia executable. For developers the cmake method is recommended as it has low overhead when it comes to changes in the code. However you can also build concordia with just one call to your compiler including all source files at once.
-
-### Building with CMake
-
-To build flare, go to the main directory/folder and run the following commands:
-
-    cmake .
-    make
-
-If you want the game installed system-wide, as root, install with:
-
-    make install
-
-The game will be installed into '/usr/local' by default.  You can set different paths in the cmake step, like:
-
-    cmake -DCMAKE_INSTALL_PREFIX:STRING="/usr" ..
-
-### Building with g++
-
-If you prefer building directly with C++, the command will be something like this.
-
-Windows plus MinGW (depending on where your SDL dev headers are)
-
-    g++ -I C:\MinGW\include\SDL src\*.cpp src\*.c -o concordia.exe -lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
-
-Linux (depending on where your SDL includes are)
-
-    g++ -I /usr/include/SDL src/*.cpp src/*.c -o concordia -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
-
-## Running Valley of Concordia
-
-If the program is installing system-wide (i.e., you typed 'make install' and it worked), you can run it just by executing the 'concordia' command.
-
-If you did not perform the installation step, you should find the binary in in the top directory, and run it from there, like this:
-
-    ./concordia
-
-Also, in newer versions, the game can be launched from an icon in your main menu in your GUI environment (KDE, GNOME, etc.).
-
-If you're running concordia from your operating system's gui file browser (e.g. Windows Explorer or OSX Finder), you'll want to use one of the provided launchers.  This helps the concordia executable use its own working directory, so it can see all those data folders.
-
-
-
-## Settings
-
-Settings are stored in one of these places:
-
-    $XDG_CONFIG_HOME/concordia
-    $HOME/.config/concordia
-    ./config
-
-Here you can enable fullscreen, change the game resolution, enable mouse-move, and change keybindings. The settings files are created the first time you run Flare.
-
-
-
-## Save Files
-
-Save files are stored in one of these places:
-
-    $XDG_DATA_HOME/concordia
-    $HOME/.local/share/concordia
-    ./saves
-
-If permissions are correct, the game is automatically saved when you exit.
+On 2/21/2013, the savefile mechanic was changed.  If you want to use your old savefiles from before the change, copy them from your Polymorphable save directory to your Flare save directory, and rename them from save#.txt to poly_save#.txt

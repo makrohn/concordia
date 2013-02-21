@@ -2,3 +2,4 @@
 
 aim_assist=32
 window_title=Valley of Concordia v0.1
+game_prefix=conc01
