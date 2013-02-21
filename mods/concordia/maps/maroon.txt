@@ -3,6 +3,7 @@ width=128
 height=128
 tilewidth=32
 tileheight=32
+music=meadowthoughts.ogg
 tileset=master.txt
 title=Maroon
 
