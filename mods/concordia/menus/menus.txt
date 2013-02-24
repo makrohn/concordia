@@ -42,6 +42,8 @@ align=top
 id=vendor
 layout=0,0,320,416
 align=left
+soundfx_open=soundfx/menu_open.ogg
+soundfx_close=soundfx/menu_open.ogg
 
 [menu]
 id=talker
@@ -62,21 +64,29 @@ align=topright
 id=character
 layout=0,0,320,416
 align=left
+soundfx_open=soundfx/menu_open.ogg
+soundfx_close=soundfx/menu_open.ogg
 
 [menu]
 id=inventory
 layout=0,0,320,416
 align=right
+soundfx_open=soundfx/menu_open.ogg
+soundfx_close=soundfx/menu_open.ogg
 
 [menu]
 id=powers
 layout=0,0,320,416
 align=right
+soundfx_open=soundfx/menu_open.ogg
+soundfx_close=soundfx/menu_open.ogg
 
 [menu]
 id=log
 layout=0,0,320,416
 align=left
+soundfx_open=soundfx/menu_open.ogg
+soundfx_close=soundfx/menu_open.ogg
 
 [menu]
 id=stash
