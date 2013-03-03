@@ -153,6 +153,7 @@ range=1024
 [power]
 id=11
 name=Rain of Arrows
+description=Rain arrows down upon foes in a small area
 icon=22
 soundfx=shoot.ogg
 
@@ -166,6 +167,7 @@ soundfx=shoot.ogg
 [power]
 id=13
 name=Thorned Arrow
+description=Hit a foe with a thorned arrow to make them bleed
 icon=30
 soundfx=shoot.ogg
 
@@ -264,6 +266,7 @@ name=Hermetic Speed
 icon=18
 passive=true
 post_effect=229,110,0
+description=Increase all speed by 10%
 buff=true
 type=fixed
 
@@ -273,6 +276,7 @@ name=Tough as Nails
 icon=4
 passive=true
 post_effect=237,10,0
+description=Increase your HP by 10%
 buff=true
 type=fixed
 
@@ -282,6 +286,7 @@ name=Camouflage
 icon=3
 passive=true
 post_effect=215,10,0
+description=Increase your dodge by 10%
 buff=true
 type=fixed
 
@@ -291,6 +296,7 @@ name=Wisdom of Ages
 icon=28
 passive=true
 post_effect=238,10,0
+description=Increase your MP by 10%
 buff=true
 type=fixed
 
@@ -300,6 +306,7 @@ name=Hawkeye
 icon=17
 passive=true
 post_effect=214,10,0
+description=Increase your accuracy by 10%
 buff=true
 type=fixed
 
@@ -309,6 +316,7 @@ name=Midas Touch
 icon=16
 passive=true
 post_effect=223,10,0
+description=Find 10% more gold
 buff=true
 type=fixed
 

@@ -102,19 +102,19 @@ position=192,144
 requires_point=true
 requires_level=4
 
-#[power]
-#id=
-#tab=1
-#position=96,208
-#requires_point=true
-#requires_level=7
+[power]
+id=12
+tab=1
+position=96,208
+requires_point=true
+requires_level=7
 
-#[power]
-#id=
-#tab=1
-#position=192,208
-#requires_point=true
-#requires_level=10
+[power]
+id=13
+tab=1
+position=192,208
+requires_point=true
+requires_level=10
 
 #[power]
 #id=
