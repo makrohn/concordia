@@ -3,4 +3,37 @@ gfx=orc1
 talker=true
 
 [dialog]
+topic=Mines Work
 her=I'm going to get out of here, I swear!  They say there's a secret tunnel in the mines, but I hurt myself too badly last time to go back.
+
+[dialog]
+topic=Weapons
+requires_status=adventurer
+requires_not=weapon
+set_status=weaponChoice
+her=They don't allow us much but sticks and stones down here.  They don't want us to escape.  But, if you need a weapon, I have a couple stashed away.  It'll help if you decide to go into the mines.
+her=If I give you a single weapon, it probably won't be noticed.  Choose carefully.
+
+[dialog]
+topic=Take A Magic Stick
+requires_status=weaponChoice
+set_status=weapon
+requires_not=weapon
+reward_item=70
+her=Here's a stick.  Some shaman who was here said it's magical.  I hope it works for you.
+
+[dialog]
+topic=Take a Bow and Arrow
+requires_status=weaponChoice
+set_status=weapon
+requires_not=weapon
+reward_item=60
+her=Here's a bow and arrow.  One of the skeletons fell off of the walls and dropped it; I picked it up before anyone noticed.
+
+[dialog]
+topic=Take a Sword
+requires_status=weaponChoice
+set_status=weapon
+requires_not=weapon
+reward_item=50
+her=Here's a sword.  This is the one I used to kill bats during my days in the mines.  I wish I could still swing it.

@@ -1,7 +1,8 @@
-#[class]
-#name=Adventurer
-#description=A blank slate.
+[class]
+name=Adventurer
+description=A blank slate.
 campaign=adventurer
+equipment=100
 
 [class]
 name=Fighter
