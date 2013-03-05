@@ -1,3 +1,8 @@
+# Change 2/21/2013
+------------------
+
+Concordia now installs the Flare executables using the source code from https://github.com/clintbellanger/flare-engine.  If you're upgrading from a prior version of Concordia, be aware that your settings will now be located in ~/.config/flare/settings.txt (or similar) and saves in ~/.local/share/saves/conc01_save*.txt (or similar).  If you have any trouble running Concordia, make sure that "concordia" is your only active mod.
+
 # Valley of Concordia
 -----------------------------------------------------------------------------
 
@@ -24,4 +29,4 @@ The GNU Unifont font is released under GPL v2, with the exception that embedding
 Savefile Change!
 ================
 
-On 2/21/2013, the savefile mechanic was changed.  If you want to use your old savefiles from before the change, copy them from your Polymorphable save directory to your Flare save directory, and rename them from save#.txt to poly_save#.txt
+On 2/21/2013, the savefile mechanic was changed.  If you want to use your old savefiles from before the change, copy them from your Concordia save directory to your Flare save directory, and rename them from save#.txt to conc01_save#.txt
