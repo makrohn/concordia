@@ -76,7 +76,7 @@ new_state=cast
 post_effect=211,10,300
 requires_hp=15
 description=Sacrifice a small amount of HP for increased regeneration for 10 seconds
-cooldown=180000
+cooldown=5400
 buff=true
 type=fixed
 
@@ -208,7 +208,7 @@ floor=true
 trait_elemental=earth
 starting_pos=target
 multitarget=true
-cooldown=1000
+cooldown=30
 post_effect=203,0,30
 
 [power]
@@ -369,7 +369,7 @@ name=Healing Potion
 soundfx=../../soundfx/inventory/bottle.ogg
 new_state=instant
 requires_item=1
-cooldown=600
+cooldown=30
 buff=true
 post_effect=230,25,1
 
@@ -381,7 +381,7 @@ name=Mana Potion
 soundfx=../../soundfx/inventory/bottle.ogg
 new_state=instant
 requires_item=2
-cooldown=600
+cooldown=30
 buff=true
 post_effect=231,25,1
 
