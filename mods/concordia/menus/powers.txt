@@ -42,7 +42,6 @@ id=5
 tab=0
 position=96,144
 requires_point=true
-requires_level=1
 
 [power]
 id=4
@@ -50,6 +49,7 @@ tab=0
 position=192,144
 requires_point=true
 requires_level=4
+requires_offense=2
 
 [power]
 id=6
@@ -57,6 +57,7 @@ tab=0
 position=96,208
 requires_point=true
 requires_level=7
+requires_offense=4
 
 [power]
 id=7
@@ -64,6 +65,7 @@ tab=0
 position=192,208
 requires_point=true
 requires_level=10
+requires_offense=6
 
 [power]
 id=8
@@ -71,6 +73,7 @@ tab=0
 position=96,272
 requires_point=true
 requires_level=13
+requires_offense=8
 
 [power]
 id=9
@@ -78,6 +81,7 @@ tab=0
 position=192,272
 requires_point=true
 requires_level=16
+requires_offense=9
 
 ########################################
 #Archer Tree
@@ -93,7 +97,6 @@ id=10
 tab=1
 position=96,144
 requires_point=true
-requires_level=1
 
 [power]
 id=11
@@ -101,6 +104,7 @@ tab=1
 position=192,144
 requires_point=true
 requires_level=4
+requires_ranged=2
 
 [power]
 id=12
@@ -108,6 +112,7 @@ tab=1
 position=96,208
 requires_point=true
 requires_level=7
+requires_ranged=4
 
 [power]
 id=13
@@ -115,6 +120,7 @@ tab=1
 position=192,208
 requires_point=true
 requires_level=10
+requires_ranged=6
 
 [power]
 id=14
@@ -122,6 +128,7 @@ tab=1
 position=96,272
 requires_point=true
 requires_level=13
+requires_ranged=8
 
 [power]
 id=15
@@ -129,6 +136,7 @@ tab=1
 position=192,272
 requires_point=true
 requires_level=16
+requires_ranged=9
 
 ########################################
 #Mage Tree
@@ -152,6 +160,7 @@ tab=2
 position=192,144
 requires_point=true
 requires_level=4
+requires_mental=2
 
 [power]
 id=18
@@ -159,6 +168,7 @@ tab=2
 position=96,208
 requires_point=true
 requires_level=7
+requires_mental=4
 
 [power]
 id=19
@@ -166,6 +176,7 @@ tab=2
 position=192,208
 requires_point=true
 requires_level=10
+requires_mental=6
 
 [power]
 id=20
@@ -173,6 +184,7 @@ tab=2
 position=96,272
 requires_point=true
 requires_level=13
+requires_mental=8
 
 [power]
 id=21
@@ -180,6 +192,7 @@ tab=2
 position=192,272
 requires_point=true
 requires_level=16
+requires_mental=9
 
 ########################################
 #Passive Tree
