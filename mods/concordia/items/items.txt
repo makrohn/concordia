@@ -93,7 +93,7 @@ dmg_melee=2,6
 dmg_ranged=2,6
 gfx=longsword
 req=p,9
-req=o,5
+req=o,9
 loot_animation=longsword
 #Cooldown power to add accuracy
 
@@ -108,7 +108,7 @@ dmg_melee=2,6
 dmg_ment=2,6
 gfx=longsword
 req=p,9
-req=m,5
+req=m,9
 loot_animation=longsword
 #Cooldown power to add mp regen
 
@@ -292,11 +292,10 @@ loot_animation=steelwand
 
 [item]
 id=100
-name=Clothes
+name=Rags
 level=1
 quality=normal
 item_type=body
-abs=1,1
 icon=80
 gfx=clothes
 loot_animation=clothes
@@ -310,7 +309,7 @@ item_type=body
 abs=1,1
 icon=88
 gfx=leather
-req=o,2
+req=p,2
 loot_animation=leather
 
 [item]
@@ -322,7 +321,7 @@ item_type=body
 abs=1,1
 icon=89
 gfx=hardenedleather
-req=o,4
+req=p,4
 loot_animation=hardenedleather
 
 [item]
@@ -334,7 +333,7 @@ item_type=body
 abs=1,1
 icon=90
 gfx=salamanderleather
-req=o,6
+req=p,6
 loot_animation=salamanderleather
 
 [item]
@@ -346,7 +345,7 @@ item_type=body
 abs=1,1
 icon=91
 gfx=yetihide
-req=o,8
+req=p,8
 loot_animation=yetihide
 
 [item]
@@ -387,7 +386,7 @@ loot_animation=burntchain
 
 [item]
 id=123
-name=Archmage Chaimmail
+name=Primal Chainmail
 level=12
 quality=normal
 item_type=body
