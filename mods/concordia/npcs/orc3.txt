@@ -3,5 +3,4 @@ gfx=orc3
 talker=true
 
 [dialog]
-him=I was a general before the war.
-him=If I only had the men, I could scale those cliffs and destroy those deadites.  Let me know if you're game.
+him=I was a general before the war. If I only had the men, I could scale those cliffs and destroy those deadites.  Let me know if you're game.

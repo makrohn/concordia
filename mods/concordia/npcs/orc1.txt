@@ -11,8 +11,7 @@ topic=Weapons
 requires_status=adventurer
 requires_not=weapon
 set_status=weaponChoice
-her=They don't allow us much but sticks and stones down here.  They don't want us to escape.  But, if you need a weapon, I have a couple stashed away.  It'll help if you decide to go into the mines.
-her=If I give you a single weapon, it probably won't be noticed.  Choose carefully.
+her=They don't allow us much but sticks and stones down here. They don't want us to escape. But, if you need a weapon, I have a couple stashed away. It'll help if you decide to go into the mines. If I give you a single weapon, it probably won't be noticed.  Choose carefully.
 
 [dialog]
 topic=Take A Magic Stick

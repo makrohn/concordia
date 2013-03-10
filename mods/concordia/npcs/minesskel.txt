@@ -3,11 +3,11 @@ gfx=guardskeldown
 talker=true
 
 [dialog]
-him=Undead can't go far into here, because of the bats, but we do need some of the minerals that are deeper in the mine.
-him=We'll make you a deal.  You bring us some minerals, I'll give you a gold piece.  A whole gold piece!  How's that sound?
-him=It only takes ten thousand to buy your freedom!  Har, har!
+topic=Mines Work
+him=Undead can't go far into here, because of the bats, but we do need some of the minerals that are deeper in the mine. We'll make you a deal.  You bring us some minerals, I'll give you a gold piece. A whole gold piece!  How's that sound? It only takes ten thousand to buy your freedom!  Har, har!
 
 [dialog]
+topic=Minerals
 requires_item=200
 reward_currency=1
 remove_item=200
