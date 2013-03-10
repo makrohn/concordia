@@ -336,13 +336,22 @@ post_effect=214,-100,300
 id=21
 name=Tornado
 icon=29
-description=Hit the target and surrounding enemies with tornados
-starting_pos=target
+description=Create a slow-moving tornado
+new_state=cast
+requires_mental_weapon=true
+face=true
+animation=tornado.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=192
 radius=256
-damage_multiplier=300
-delay=60
+speed=6
+range=256
+starting_pos=melee
+type=missile
 multitarget=true
-soundfx=spell1.ogg
+floor=true
 
 ########################################
 #Passive Powers
