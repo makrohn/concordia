@@ -73,7 +73,7 @@ id=4
 name=Preparation
 icon=19
 new_state=cast
-post_effect=211,10,300
+post_effect=211,60,300
 requires_hp=15
 description=Sacrifice a small amount of HP for increased regeneration for 10 seconds
 cooldown=5400
@@ -105,18 +105,74 @@ soundfx=swoosh.ogg
 id=6
 name=Vampiric Strike
 icon=7
-hp_steal=25
+type=fixed
+hp_steal=50
+requires_mp=5
 description=Steal life from the enemy
+soundfx=swoosh.ogg
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=128
+multitarget=true
+starting_pos=melee
+allow_power_mod=true
+requires_physical_weapon=true
 soundfx=swoosh.ogg
 
 [power]
 id=7
 name=Poisoned Blade
 icon=25
-description=Poison the enemies around you for ten seconds
+description=Poison the enemies around you for ten seconds *TO DO*
 damage_multiplier=50
 post_effect=200,5,300
 soundfx=swoosh.ogg
+
+[power]
+id=8
+name=Fire Blade
+type=fixed
+icon=26
+requires_mp=10
+description=Burn your enemies with a fiery sword for triple damage
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=128
+multitarget=true
+starting_pos=melee
+allow_power_mod=true
+requires_physical_weapon=true
+trait_elemental=fire
+damage_multiplier=300
+soundfx=swoosh.ogg
+post_effect=30
+
+[power]
+id=9
+name=Angelic Host
+type=fixed
+description=Divine assistance will remove you from your foes and rain fire whence you stood. *NEEDS ANIM*
+icon=38
+requires_empty_target=true
+requires_targeting=true
+requires_los=true
+use_hazard=true
+lifespan=16
+floor=true
+starting_pos=source
+buff_teleport=true
+range=512
+new_state=instant
+cooldown=180
+post_power=35
 
 ########################################
 #Archer Powers
@@ -344,7 +400,7 @@ mp_steal=20
 id=20
 name=Spit Acid
 icon=9
-description=Spit blinding acid at your enemies
+description=Spit blinding acid at your enemies *TO DO*
 post_effect=214,-100,300
 
 [power]
@@ -513,6 +569,26 @@ starting_pos=target
 multitarget=true
 post_effect=30
 post_effect=200,1,180
+
+[power]
+id=35
+name=Swing
+type=fixed
+icon=1
+description=For Angelic Host
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=128
+multitarget=true
+starting_pos=melee
+allow_power_mod=true
+requires_physical_weapon=true
+soundfx=swoosh.ogg
+damage_multiplier=500
 
 ########################################
 #Enemy Powers

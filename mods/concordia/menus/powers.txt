@@ -65,19 +65,19 @@ position=192,208
 requires_point=true
 requires_level=10
 
-#[power]
-#id=
-#tab=0
-#position=96,272
-#requires_point=true
-#requires_level=13
+[power]
+id=8
+tab=0
+position=96,272
+requires_point=true
+requires_level=13
 
-#[power]
-#id=
-#tab=0
-#position=192,272
-#requires_point=true
-#requires_level=16
+[power]
+id=9
+tab=0
+position=192,272
+requires_point=true
+requires_level=16
 
 ########################################
 #Archer Tree
