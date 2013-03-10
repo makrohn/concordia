@@ -1,0 +1,33 @@
+8-bit - 8 dungeons.  
+16-bit 10 towns, 10 dungeons.
+
+6 tiers for most tiered things - armor levels, weapon levels
+
+Boss every dungeon
+Strong linearity
+
+Look for a world map tileset.  Should be easily doable with collision layer and teleports.
+Progress will be managed with a combination of chokepoints (eg gates) and difficulty (super huge monsters)
+
+World Map won't have enemies
+
+Dungeons - should have multiple rooms per map, since enemies regenerate.  A couple of chests.  Hopefully several maps per dungeon.
+Try to get at least one mainline quest and one or two side quests per dungeon, and steps within to reward XP appropriately to hit target levels.
+Towns - Should be small an easily navigable, with clearly marked signs.  Players should perhaps feel like they're seeing a sector of some towns if necessary.  I've already violated this with the labor camp.  Redesign labor camp to have a MUCH smaller area, with fields outside.  Make it long if necessary.  Too much wasted space.
+
+Tree design - actives and passives for sword
+elemental choices for magic
+debuffs for the archer
+
+Enemies need ranged and close powers
+
+Best weapons require max in two stats
+Best armors require max in one stat and half in the others
+
+Come up with a currency name
+
+Swings are all AoE
+Shoots are all damage at range
+Casts are short range damage but have effects
+
+Class themes - see titles
