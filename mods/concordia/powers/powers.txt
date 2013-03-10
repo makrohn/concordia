@@ -199,6 +199,49 @@ description=Hit a foe with a thorned arrow to make them bleed
 icon=30
 soundfx=shoot.ogg
 
+[power]
+id=14
+name=Expert Shot
+type=missile
+icon=35
+description=Deal huge damage
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=arrow.txt
+requires_mp=10
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=26
+radius=64
+speed=30
+requires_offense_weapon=true
+range=1024
+soundfx=shoot.ogg
+cooldown=300
+damage_multiplier=300
+
+[power]
+id=15
+type=fixed
+icon=36
+name=Bear Trap
+description=Scatter bear traps on the ground to snare any enemies who approach.
+use_hazard=true
+new_state=cast
+speed=0
+base_damage=ranged
+lifespan=800
+radius=64
+animation=arrow.txt
+base_damage=ranged
+damage_multiplier=200
+count=7
+target_neighbor=2
+post_effect=201,0,150
+
 ########################################
 #Mage Powers
 ########################################
