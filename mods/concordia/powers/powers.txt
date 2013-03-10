@@ -292,7 +292,7 @@ damage_multiplier=150
 lifespan=60
 radius=64
 floor=true
-trait_elemental=earth
+trait_elemental=water
 starting_pos=target
 multitarget=true
 cooldown=30
@@ -300,29 +300,45 @@ post_effect=203,0,30
 
 [power]
 id=18
-name=Chain Lightning
+name=Lightning Claws
+type=effect
 icon=8
-description=Lightning bolt that strikes twice
-post_power=28
+description=Lightning bolts strike the ground around you
+requires_mp=1
+new_state=cast
+animation=lightningclaw.txt
+soundfx=shock.ogg
+use_hazard=true
+lifespan=48
+radius=96
+floor=false
+trait_elemental=shock
+starting_pos=source
+multitarget=true
+damage_multiplier=200
+type=fixed
+base_damage=ment
 
 [power]
 id=19
-name=Curling Vines
-icon=23
+name=R'lyeh Rises
+icon=37
 radius=256
-description=Immobilize a group of enemies for five seconds
+description=Drag enemies to a watery grave, absorbing their essence as MP
 starting_pos=target
 multitarget=true
 new_state=cast
 face=true
-requires_mp=5
+cooldown=300
 post_effect=201,0,150
 use_hazard=true
 base_damage=ment
-lifespan=60
+lifespan=48
 radius=128
 floor=true
 type=fixed
+animation=torrentacle.txt
+mp_steal=20
 
 [power]
 id=20
