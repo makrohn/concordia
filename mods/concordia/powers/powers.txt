@@ -87,7 +87,7 @@ icon=13
 post_effect=232,60,30
 requires_mp=5
 type=fixed
-description=Swing your sword through all nearby enemies
+description=Throw back nearby enemies
 new_state=swing
 face=true
 use_hazard=true
@@ -125,9 +125,9 @@ soundfx=swoosh.ogg
 
 [power]
 id=7
-name=Poisoned Blade
+name=Summon Wolf
 icon=25
-description=Poison the enemies around you for ten seconds *TO DO*
+description=Summon a wolf companion *TO DO*
 damage_multiplier=50
 post_effect=200,5,300
 soundfx=swoosh.ogg
@@ -398,9 +398,9 @@ mp_steal=20
 
 [power]
 id=20
-name=Spit Acid
+name=Swarm of Bees
 icon=9
-description=Spit blinding acid at your enemies *TO DO*
+description=Summon a swarm of bees to attack your enemies *TO DO*
 post_effect=214,-100,300
 
 [power]
