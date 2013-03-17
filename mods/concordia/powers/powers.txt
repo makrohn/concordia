@@ -70,13 +70,13 @@ soundfx=spell4.ogg
 
 [power]
 id=4
-name=Preparation
+name=Berserk
 icon=19
 new_state=cast
-post_effect=211,60,300
-requires_hp=15
-description=Sacrifice a small amount of HP for increased regeneration for 10 seconds
-cooldown=5400
+post_effect=200,2,300
+post_effect=220,10,300
+description=Inflict damage to self over time in return for increased strength. *broken*
+#cooldown=5400
 buff=true
 type=fixed
 
@@ -398,10 +398,17 @@ mp_steal=20
 
 [power]
 id=20
-name=Swarm of Bees
-icon=9
-description=Summon a swarm of bees to attack your enemies *TO DO*
-post_effect=214,-100,300
+name=Magic Shell
+type=effect
+icon=21
+description=Summon the strength of the turtle to shield yourself from damage.
+new_state=cast
+requires_mp=1
+post_effect=227,500,0
+cooldown=300
+type=fixed
+buff=true
+damage_multiplier=500
 
 [power]
 id=21
@@ -805,9 +812,10 @@ effect_type=immunity
 id=227
 name=Shield
 type=effect
-icon=15
+icon=21
 effect_type=shield
-animation=shield.txt
+animation=shell.txt
+effect_render_above=true
 
 [power]
 id=228

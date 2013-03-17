@@ -34,9 +34,9 @@ dmg_ranged_max=4
 #speed=14	
 #dspeed=10
 
-#bonus_per_physical=0
-#bonus_per_mental=0
-#bonus_per_offense=0
+bonus_per_physical=1
+bonus_per_mental=1
+bonus_per_offense=1
 #bonus_per_defense=0
 
 #sfx_step=cloth
