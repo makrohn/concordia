@@ -126,7 +126,10 @@ void ItemManager::loadAll() {
 	shrinkVecToFit(item_sets);
 
 	if (items.empty()) fprintf(stderr, "No items were found.\n");
-	if (item_sets.empty()) printf("No item sets were found.\n");
+
+	// TODO: disabled for 0.18, enable again
+	// we had no item sets in that release.
+	//if (item_sets.empty()) printf("No item sets were found.\n");
 }
 
 /**
@@ -514,7 +517,7 @@ TooltipData ItemManager::getTooltip(int item, StatBlock *stats, int context) {
 	string modifier;
 	while (bonus_counter < items[item].bonus_val.size() && items[item].bonus_stat[bonus_counter] != "") {
 		if (items[item].bonus_stat[bonus_counter] == "speed") {
-			modifier = msg->get("%d\% Speed", items[item].bonus_val[bonus_counter]);
+			modifier = msg->get("%d%% Speed", items[item].bonus_val[bonus_counter]);
 			if (items[item].bonus_val[bonus_counter] >= 100) color = color_bonus;
 			else color = color_penalty;
 		} else {

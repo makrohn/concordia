@@ -39,9 +39,9 @@ const int CLICK_RANGE = 3 * UNITS_PER_TILE; //for activating events
 MapRenderer::MapRenderer(CampaignManager *_camp)
  : music(NULL)
  , tip(new WidgetTooltip())
- , tip_pos(Point())
+ , tip_pos()
  , show_tooltip(false)
- , events(vector<Map_Event>())
+ , events()
  , background(NULL)
  , fringe(NULL)
  , object(NULL)
@@ -50,24 +50,24 @@ MapRenderer::MapRenderer(CampaignManager *_camp)
  , shakycam(Point())
  , new_music(false)
  , backgroundsurface(NULL)
- , backgroundsurfaceoffset(Point(0,0))
+ , backgroundsurfaceoffset()
  , repaint_background(false)
  , camp(_camp)
  , powers(NULL)
  , w(0)
  , h(0)
- , cam(Point(0,0))
- , hero_tile(Point())
- , spawn(Point())
+ , cam()
+ , hero_tile()
+ , spawn()
  , spawn_dir(0)
  , map_change(false)
  , teleportation(false)
- , teleport_destination(Point())
- , respawn_point(Point())
+ , teleport_destination()
+ , respawn_point()
  , log_msg("")
  , shaky_cam_ticks(0)
  , stash(false)
- , stash_pos(Point())
+ , stash_pos()
  , enemies_cleared(false)
 {
 }
@@ -402,10 +402,17 @@ int MapRenderer::load(string filename) {
 					e->s = infile.nextValue();
 					e->x = toInt(infile.nextValue()) * UNITS_PER_TILE + UNITS_PER_TILE/2;
 					e->y = toInt(infile.nextValue()) * UNITS_PER_TILE + UNITS_PER_TILE/2;
-					e->z = toInt(infile.nextValue());
+
+					// drop chance
 					string chance = infile.nextValue();
-					if (chance == "fixed") e->w = 0;
-					else e->w = toInt(chance);
+					if (chance == "fixed") e->z = 0;
+					else e->z = toInt(chance);
+
+					// quantity min/max
+					e->a = toInt(infile.nextValue());
+					if (e->a < 1) e->a = 1;
+					e->b = toInt(infile.nextValue());
+					if (e->b < e->a) e->b = e->a;
 
 					// add repeating loot
 					string repeat_val = infile.nextValue();
@@ -416,10 +423,15 @@ int MapRenderer::load(string filename) {
 						e->s = repeat_val;
 						e->x = toInt(infile.nextValue()) * UNITS_PER_TILE + UNITS_PER_TILE/2;
 						e->y = toInt(infile.nextValue()) * UNITS_PER_TILE + UNITS_PER_TILE/2;
-						e->z = toInt(infile.nextValue());
-						chance = infile.nextValue();
-						if (chance == "fixed") e->w = 0;
-						else e->w = toInt(chance);
+
+						string chance = infile.nextValue();
+						if (chance == "fixed") e->z = 0;
+						else e->z = toInt(chance);
+
+						e->a = toInt(infile.nextValue());
+						if (e->a < 1) e->a = 1;
+						e->b = toInt(infile.nextValue());
+						if (e->b < e->a) e->b = e->a;
 
 						repeat_val = infile.nextValue();
 					}
@@ -548,6 +560,9 @@ int MapRenderer::load(string filename) {
 				}
 				else if (infile.key == "npc") {
 					new_npc.id = infile.val;
+					e->s = infile.val;
+				}
+				else if (infile.key == "music") {
 					e->s = infile.val;
 				}
 			}
@@ -1087,11 +1102,15 @@ void MapRenderer::checkHotspots() {
 					if ((*it).cooldown_ticks != 0) continue;
 
 					// new tooltip?
-					if (!(*it).tooltip.empty())
+					if (!(*it).tooltip.empty() && TOOLTIP_CONTEXT != TOOLTIP_MENU) {
 						show_tooltip = true;
-					if (!tip_buf.compareFirstLine((*it).tooltip)) {
-						tip_buf.clear();
-						tip_buf.addText((*it).tooltip);
+						if (!tip_buf.compareFirstLine((*it).tooltip)) {
+							tip_buf.clear();
+							tip_buf.addText((*it).tooltip);
+						}
+						TOOLTIP_CONTEXT = TOOLTIP_MAP;
+					} else if (TOOLTIP_CONTEXT != TOOLTIP_MENU) {
+						TOOLTIP_CONTEXT = TOOLTIP_NONE;
 					}
 
 					if ((abs(cam.x - (*it).location.x * UNITS_PER_TILE) < CLICK_RANGE)
@@ -1299,23 +1318,25 @@ bool MapRenderer::executeEvent(Map_Event &ev) {
 
 			int power_index = ec->x;
 
-			// TODO: delete this without breaking hazards, takeHit, etc.
-			StatBlock *dummy = new StatBlock();
-			dummy->accuracy = 1000; //always hits its target
+			if (ev.stats == NULL) {
+				ev.stats = new StatBlock();
 
-			// if a power path was specified, place the source position there
-			if (ev.power_src.x > 0) {
-				dummy->pos.x = ev.power_src.x * UNITS_PER_TILE + UNITS_PER_TILE/2;
-				dummy->pos.y = ev.power_src.y * UNITS_PER_TILE + UNITS_PER_TILE/2;
-			}
-			// otherwise the source position is the event position
-			else {
-				dummy->pos.x = ev.location.x * UNITS_PER_TILE + UNITS_PER_TILE/2;
-				dummy->pos.y = ev.location.y * UNITS_PER_TILE + UNITS_PER_TILE/2;
-			}
+				ev.stats->accuracy = 1000; //always hits its target
 
-			dummy->dmg_melee_min = dummy->dmg_ranged_min = dummy->dmg_ment_min = ev.damagemin;
-			dummy->dmg_melee_max = dummy->dmg_ranged_max = dummy->dmg_ment_max = ev.damagemax;
+				// if a power path was specified, place the source position there
+				if (ev.power_src.x > 0) {
+					ev.stats->pos.x = ev.power_src.x * UNITS_PER_TILE + UNITS_PER_TILE/2;
+					ev.stats->pos.y = ev.power_src.y * UNITS_PER_TILE + UNITS_PER_TILE/2;
+				}
+				// otherwise the source position is the event position
+				else {
+					ev.stats->pos.x = ev.location.x * UNITS_PER_TILE + UNITS_PER_TILE/2;
+					ev.stats->pos.y = ev.location.y * UNITS_PER_TILE + UNITS_PER_TILE/2;
+				}
+
+				ev.stats->dmg_melee_min = ev.stats->dmg_ranged_min = ev.stats->dmg_ment_min = ev.damagemin;
+				ev.stats->dmg_melee_max = ev.stats->dmg_ranged_max = ev.stats->dmg_ment_max = ev.damagemax;
+			}
 
 			Point target;
 
@@ -1332,11 +1353,11 @@ bool MapRenderer::executeEvent(Map_Event &ev) {
 			}
 			// no path specified, targets self location
 			else {
-				target.x = dummy->pos.x;
-				target.y = dummy->pos.y;
+				target.x = ev.stats->pos.x;
+				target.y = ev.stats->pos.y;
 			}
 
-			powers->activate(power_index, dummy, target);
+			powers->activate(power_index, ev.stats, target);
 
 		}
 		else if (ec->type == "stash") {
@@ -1346,6 +1367,12 @@ bool MapRenderer::executeEvent(Map_Event &ev) {
 		}
 		else if (ec->type == "npc") {
 			event_npc = ec->s;
+		}
+		else if (ec->type == "music") {
+			if (this->music_filename != ec->s) {
+				this->music_filename = ec->s;
+				loadMusic();
+			}
 		}
 	}
 	if (ev.type == "run_once" || ev.type == "on_load" || ev.type == "on_clear" || destroy_event)

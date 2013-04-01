@@ -1,5 +1,6 @@
 /*
 Copyright © 2011-2012 Clint Bellanger
+Copyright © 2013 Henrik Andersson
 
 This file is part of FLARE.
 
@@ -57,8 +58,14 @@ bool GetText::next() {
 	key = "";
 	val = "";
 
+	fuzzy = false;
+
 	while (infile.good()) {
 		line = getLine(infile);
+
+		// check if comment and if fuzzy
+		if (line.compare(0,2,"#,") && line.find("fuzzy") == 0)
+		        fuzzy = true;
 
 		// this is a key
 		if (line.find("msgid") == 0) {
@@ -91,28 +98,27 @@ bool GetText::next() {
 
 			// handle keypairs
 			if (key != "")
-      {
-        if(val != "") // One-line value found.
-        {
-          return true;
-        }
-        else  // Might be a multi-line value.
-        {
-          line = getLine(infile);
-          while(line.find("\"") == 0)
-          {
-            // We remove the double quotes.
-            val += line.substr(1, line.length()-2);
-            line = getLine(infile);
-          }
-          if(val != "") // It was a multi-line value indeed.
-          {
-            return true;
-          }
-        }
-      }
+			{
+				if(val != "") // One-line value found.
+				{
+					return true;
+				}
+				else  // Might be a multi-line value.
+				{
+					line = getLine(infile);
+					while(line.find("\"") == 0)
+					{
+						// We remove the double quotes.
+						val += line.substr(1, line.length()-2);
+						line = getLine(infile);
+					}
+					if(val != "") // It was a multi-line value indeed.
+					{
+						return true;
+					}
+				}
+			}
 		}
-
 	}
 
 	// hit the end of file
