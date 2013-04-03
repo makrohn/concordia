@@ -35,13 +35,13 @@ MenuStash::MenuStash(ItemManager *_items, StatBlock *_stats)
 	: Menu()
 	, items(_items)
 	, stats(_stats)
-	, closeButton(new WidgetButton(mods->locate("images/menus/buttons/button_x.png")))
+	, closeButton(new WidgetButton("images/menus/buttons/button_x.png"))
 	, color_normal(font->getColor("menu_normal"))
 	, stock()
 	, updated(false)
 
 {
-	loadGraphics();
+	background = loadGraphicSurface("images/menus/stash.png");
 
 	// Load config settings
 	FileParser infile;
@@ -64,21 +64,9 @@ MenuStash::MenuStash(ItemManager *_items, StatBlock *_stats)
 			}
 		}
 		infile.close();
-	} else fprintf(stderr, "Unable to open menus/stash.txt!\n");
+	}
 
 	STASH_SLOTS = slots_cols * slots_rows;
-}
-
-void MenuStash::loadGraphics() {
-	background = IMG_Load(mods->locate("images/menus/stash.png").c_str());
-	if (!background) {
-		fprintf(stderr, "Couldn't load image: %s\n", IMG_GetError());
-	} else {
-		// optimize
-		SDL_Surface *cleanup = background;
-		background = SDL_DisplayFormatAlpha(background);
-		SDL_FreeSurface(cleanup);
-	}
 }
 
 void MenuStash::update() {

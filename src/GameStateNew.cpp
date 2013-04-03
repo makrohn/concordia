@@ -51,25 +51,25 @@ GameStateNew::GameStateNew() : GameState() {
 	modified_name = false;
 
 	// set up buttons
-	button_exit = new WidgetButton(mods->locate("images/menus/buttons/button_default.png"));
+	button_exit = new WidgetButton("images/menus/buttons/button_default.png");
 	button_exit->label = msg->get("Cancel");
 	button_exit->pos.x = VIEW_W_HALF - button_exit->pos.w;
 	button_exit->pos.y = VIEW_H - button_exit->pos.h;
 	button_exit->refresh();
 
-	button_create = new WidgetButton(mods->locate("images/menus/buttons/button_default.png"));
+	button_create = new WidgetButton("images/menus/buttons/button_default.png");
 	button_create->label = msg->get("Create");
 	button_create->pos.x = VIEW_W_HALF;
 	button_create->pos.y = VIEW_H - button_create->pos.h;
 	button_create->enabled = false;
 	button_create->refresh();
 
-	button_prev = new WidgetButton(mods->locate("images/menus/buttons/left.png"));
-	button_next = new WidgetButton(mods->locate("images/menus/buttons/right.png"));
+	button_prev = new WidgetButton("images/menus/buttons/left.png");
+	button_next = new WidgetButton("images/menus/buttons/right.png");
 	input_name = new WidgetInput();
-	button_permadeath = new WidgetCheckBox(mods->locate("images/menus/buttons/checkbox_default.png"));
+	button_permadeath = new WidgetCheckBox("images/menus/buttons/checkbox_default.png");
 
-	class_list = new WidgetListBox (HERO_CLASSES.size(), 12, mods->locate("images/menus/buttons/listbox_default.png"));
+	class_list = new WidgetListBox (HERO_CLASSES.size(), 12, "images/menus/buttons/listbox_default.png");
 	class_list->can_deselect = false;
 	class_list->selected[0] = true;
 
@@ -121,7 +121,7 @@ GameStateNew::GameStateNew() : GameState() {
 		}
 	  }
 	  infile.close();
-	} else fprintf(stderr, "Unable to open menus/gamenew.txt!\n");
+	}
 
 	button_prev->pos.x += (VIEW_W - FRAME_W)/2;
 	button_prev->pos.y += (VIEW_H - FRAME_H)/2;
@@ -175,27 +175,12 @@ GameStateNew::GameStateNew() : GameState() {
 }
 
 void GameStateNew::loadGraphics() {
-	portrait_border = IMG_Load(mods->locate("images/menus/portrait_border.png").c_str());
-	if(!portrait_border) {
-		fprintf(stderr, "Couldn't load image: %s\n", IMG_GetError());
-	} else {
-		// optimize
-		SDL_SetColorKey( portrait_border, SDL_SRCCOLORKEY, SDL_MapRGB(portrait_border->format, 255, 0, 255) );
-		SDL_Surface *cleanup = portrait_border;
-		portrait_border = SDL_DisplayFormatAlpha(portrait_border);
-		SDL_FreeSurface(cleanup);
-	}
+	portrait_border = loadGraphicSurface("images/menus/portrait_border.png", "Couldn't load portrait border image", false, true);
 }
 
 void GameStateNew::loadPortrait(const string& portrait_filename) {
 	SDL_FreeSurface(portrait_image);
-	portrait_image = IMG_Load(mods->locate("images/portraits/" + portrait_filename + ".png").c_str());
-	if (!portrait_image) return;
-
-	// optimize
-	SDL_Surface *cleanup = portrait_image;
-	portrait_image = SDL_DisplayFormatAlpha(portrait_image);
-	SDL_FreeSurface(cleanup);
+	portrait_image = loadGraphicSurface("images/portraits/" + portrait_filename + ".png");
 }
 
 /**

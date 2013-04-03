@@ -30,12 +30,12 @@ GameStateTitle::GameStateTitle() : GameState() {
 	exit_game = false;
 	load_game = false;
 
-	loadGraphics();
+	logo = loadGraphicSurface("images/menus/logo.png");
 
 	// set up buttons
-	button_play = new WidgetButton(mods->locate("images/menus/buttons/button_default.png"));
-	button_exit = new WidgetButton(mods->locate("images/menus/buttons/button_default.png"));
-	button_cfg = new WidgetButton(mods->locate("images/menus/buttons/button_default.png"));
+	button_play = new WidgetButton("images/menus/buttons/button_default.png");
+	button_exit = new WidgetButton("images/menus/buttons/button_default.png");
+	button_cfg = new WidgetButton("images/menus/buttons/button_default.png");
 
 	button_play->label = msg->get("Play Game");
 	button_play->pos.x = VIEW_W_HALF - button_play->pos.w/2;
@@ -61,19 +61,6 @@ GameStateTitle::GameStateTitle() : GameState() {
 	label_version->set(VIEW_W, 0, JUSTIFY_RIGHT, VALIGN_TOP, msg->get("Flare Alpha v0.18"), font->getColor("menu_normal"));
 
 	inpt->enableMouseEmulation();
-}
-
-void GameStateTitle::loadGraphics() {
-
-	SDL_Surface *cleanup = IMG_Load(mods->locate("images/menus/logo.png").c_str());
-
-	if(!cleanup) {
-		fprintf(stderr, "Couldn't load image: %s\n", IMG_GetError());
-	} else {
-		// optimize
-		logo = SDL_DisplayFormatAlpha(cleanup);
-		SDL_FreeSurface(cleanup);
-	}
 }
 
 void GameStateTitle::logic() {

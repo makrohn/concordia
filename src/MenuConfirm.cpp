@@ -32,25 +32,13 @@ MenuConfirm::MenuConfirm(const string& _buttonMsg, const string& _boxMsg) : Menu
 	boxMsg = _boxMsg;
 
 	if (hasConfirmButton) {
-		buttonConfirm = new WidgetButton(mods->locate("images/menus/buttons/button_default.png"));
+		buttonConfirm = new WidgetButton("images/menus/buttons/button_default.png");
 		buttonConfirm->label = _buttonMsg;
 	}
 
-	buttonClose = new WidgetButton(mods->locate("images/menus/buttons/button_x.png"));
+	buttonClose = new WidgetButton("images/menus/buttons/button_x.png");
 
-	loadGraphics();
-}
-
-void MenuConfirm::loadGraphics() {
-	background = IMG_Load(mods->locate("images/menus/confirm_bg.png").c_str());
-	if(!background) {
-		fprintf(stderr, "Couldn't load image: %s\n", IMG_GetError());
-	} else {
-		// optimize
-		SDL_Surface *cleanup = background;
-		background = SDL_DisplayFormatAlpha(background);
-		SDL_FreeSurface(cleanup);
-	}
+	background = loadGraphicSurface("images/menus/confirm_bg.png");
 }
 
 void MenuConfirm::update() {
