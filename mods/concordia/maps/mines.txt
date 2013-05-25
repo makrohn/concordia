@@ -416,7 +416,7 @@ intermap=lowlands.txt,104,29
 
 [event]
 # Mineral Chest
-type=run_once
+type=on_trigger
 location=60,7,1,1
 hotspot=location
 loot=id,59,7,200
