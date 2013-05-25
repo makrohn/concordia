@@ -526,27 +526,27 @@ location=68,21,1,1
 
 [event]
 # Teleport to Mine
-type=teleport
+type=on_trigger
 location=104,30,1,1
 intermap=mines.txt,12,6
 
 [event]
 # Teleport to Checkpoint
-type=teleport
+type=on_trigger
 location=121,81,1,1
 
 [event]
 # Teleport to Cliffside
-type=teleport
+type=on_trigger
 location=64,0,14,1
 
 [event]
 # Teleport to Overseer's Quarters
-type=teleport
+type=on_trigger
 location=48,35,1,1
 
 [event]
 # Teleport to Dining Hall
-type=teleport
+type=on_trigger
 location=80,53,1,1
 

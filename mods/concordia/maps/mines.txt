@@ -410,7 +410,7 @@ number=4,4
 
 [event]
 # Teleport to Lowlands
-type=teleport
+type=on_trigger
 location=12,5,1,1
 intermap=lowlands.txt,104,29
 
