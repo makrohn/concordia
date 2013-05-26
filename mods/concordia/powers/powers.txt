@@ -128,9 +128,11 @@ id=7
 name=Summon Wolf
 icon=25
 description=Summon a wolf companion *TO DO*
-modifier_damage=multiply,50,0
-post_effect=200,5,300
-soundfx=swoosh.ogg
+type=spawn
+spawn_type=bee
+new_state=cast
+starting_pos=source
+target_neighbor=1
 
 [power]
 id=8
