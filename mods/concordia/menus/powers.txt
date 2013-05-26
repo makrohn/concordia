@@ -49,7 +49,7 @@ tab=0
 position=192,144
 requires_point=true
 requires_level=4
-requires_offense=2
+requires_physical=2
 
 [power]
 id=6
@@ -57,7 +57,7 @@ tab=0
 position=96,208
 requires_point=true
 requires_level=7
-requires_offense=4
+requires_physical=4
 
 [power]
 id=7
@@ -65,7 +65,7 @@ tab=0
 position=192,208
 requires_point=true
 requires_level=10
-requires_offense=6
+requires_physical=6
 
 [power]
 id=8
@@ -73,7 +73,7 @@ tab=0
 position=96,272
 requires_point=true
 requires_level=13
-requires_offense=8
+requires_physical=8
 
 [power]
 id=9
@@ -81,7 +81,7 @@ tab=0
 position=192,272
 requires_point=true
 requires_level=16
-requires_offense=9
+requires_physical=9
 
 ########################################
 #Archer Tree
@@ -104,7 +104,7 @@ tab=1
 position=192,144
 requires_point=true
 requires_level=4
-requires_ranged=2
+requires_offense=2
 
 [power]
 id=12
@@ -112,7 +112,7 @@ tab=1
 position=96,208
 requires_point=true
 requires_level=7
-requires_ranged=4
+requires_offense=4
 
 [power]
 id=13
@@ -120,7 +120,7 @@ tab=1
 position=192,208
 requires_point=true
 requires_level=10
-requires_ranged=6
+requires_offense=6
 
 [power]
 id=14
@@ -128,7 +128,7 @@ tab=1
 position=96,272
 requires_point=true
 requires_level=13
-requires_ranged=8
+requires_offense=8
 
 [power]
 id=15
@@ -136,7 +136,7 @@ tab=1
 position=192,272
 requires_point=true
 requires_level=16
-requires_ranged=9
+requires_offense=9
 
 ########################################
 #Mage Tree
