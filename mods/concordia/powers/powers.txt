@@ -133,6 +133,7 @@ spawn_type=bee
 new_state=cast
 starting_pos=source
 target_neighbor=1
+spawn_limit=fixed,1
 
 [power]
 id=8
@@ -224,6 +225,7 @@ starting_pos=target
 multitarget=true
 cooldown=30
 requires_los=true
+
 
 [power]
 id=12
