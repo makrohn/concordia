@@ -14,7 +14,7 @@ use_hazard=true
 aim_assist=true
 base_damage=melee
 lifespan=1
-radius=128
+radius=32
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
@@ -600,6 +600,44 @@ allow_power_mod=true
 requires_physical_weapon=true
 soundfx=swoosh.ogg
 modifier_damage=multiply,500,0
+
+[power]
+id=36
+name=Swing (Mace)
+type=fixed
+icon=1
+description=Swing your sword through all nearby enemies
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=72
+multitarget=true
+starting_pos=melee
+allow_power_mod=true
+requires_physical_weapon=true
+soundfx=swoosh.ogg
+
+[power]
+id=37
+name=Swing (Rapier+)
+type=fixed
+icon=1
+description=Swing your sword through all nearby enemies
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=96
+multitarget=true
+starting_pos=melee
+allow_power_mod=true
+requires_physical_weapon=true
+soundfx=swoosh.ogg
 
 ########################################
 #Enemy Powers
