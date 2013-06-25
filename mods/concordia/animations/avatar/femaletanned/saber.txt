@@ -15,19 +15,19 @@ frames=1
 duration=3
 type=back_forth
 
-[melee]
+[swing]
 position=1
 frames=6
 duration=3
 type=play_once
 
-[ment]
+[cast]
 position=0
 frames=1
 duration=3
 type=back_forth
 
-[ranged]
+[shoot]
 position=0
 frames=1
 duration=3

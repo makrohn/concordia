@@ -83,7 +83,7 @@ frame=7,5,421,47,21,42,12,38
 frame=7,6,421,47,21,42,12,38
 frame=7,7,288,0,30,47,15,41
 
-[ranged]
+[shoot]
 frames=5
 duration=3
 type=play_once
@@ -128,7 +128,7 @@ frame=4,5,962,0,35,44,16,38
 frame=4,6,962,0,35,44,16,38
 frame=4,7,531,0,24,47,13,41
 
-[ment]
+[cast]
 frames=7
 duration=3
 type=play_once
@@ -242,7 +242,7 @@ frame=5,5,1577,0,34,34,14,30
 frame=5,6,1577,0,34,34,14,30
 frame=5,7,1577,0,34,34,14,30
 
-[melee]
+[swing]
 frames=6
 duration=3
 type=play_once
