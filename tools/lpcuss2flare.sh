@@ -23,8 +23,10 @@ convert $1.png -crop 832x256 +repage temp.png
 convert temp-0.png -crop 448x64 sc.png
 convert sc-2.png sc-2.png sc-2.png sc-0.png sc-6.png sc-6.png sc-6.png sc-4.png -append -page +0+0 -define png:color-type=6 spellcast.png
 rm sc*
+convert temp-1.png -crop 512x64 tr.png
+convert tr-2.png tr-2.png tr-2.png tr-0.png tr-6.png tr-6.png tr-6.png tr-4.png -append -page +0+0 -define png:color-type=6 thrust.png
+rm tr*
 convert temp-2.png -crop 576x64 wc.png
-cp wc-4.png ../mods/concordia/images/avatar/$2/preview/$1.png
 convert wc-2.png wc-2.png wc-2.png wc-0.png wc-6.png wc-6.png wc-6.png wc-4.png -append -page +0+0 -define png:color-type=6 walkcycle.png
 rm wc*
 convert temp-3.png -crop 384x64 sl.png
@@ -36,11 +38,11 @@ rm sh-*
 convert temp-5.png -crop 384x64 die.png
 convert die-0.png die-0.png die-0.png die-0.png die-0.png die-0.png die-0.png die-0.png -append -page +0+0 -define png:color-type=6 death.png
 rm die-*
-convert  -define png:color-type=6 walkcycle.png slash.png spellcast.png shoot.png death.png +append $1.png
-rm temp-* death.png shoot.png slash.png spellcast.png walkcycle.png
+convert  -define png:color-type=6 walkcycle.png slash.png spellcast.png shoot.png thrust.png death.png +append $1.png
+rm temp-* death.png shoot.png slash.png spellcast.png walkcycle.png thrust.png
 convert $1.png -define png:color-type=6 $1.png
 echo image=images/avatar/$2/$1.png > ../mods/concordia/animations/avatar/$2/$1.txt
 cat hero.txt >> ../mods/concordia/animations/avatar/$2/$1.txt
 mv $1.png ../mods/concordia/images/avatar/$2/$1.png
 cd flare
-./spritesheetpacker.py --images ../../mods/concordia/images/avatar/$2/$1.png --definitions ../../mods/concordia/animations/avatar/$2/$1.txt
+#./spritesheetpacker.py --images ../../mods/concordia/images/avatar/$2/$1.png --definitions ../../mods/concordia/animations/avatar/$2/$1.txt

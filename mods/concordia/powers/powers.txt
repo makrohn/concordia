@@ -64,6 +64,25 @@ starting_pos=melee
 post_effect=202,50,300
 soundfx=spell4.ogg
 
+[power]
+id=38
+name=Thrust
+type=fixed
+icon=1
+description=Swing your sword through all nearby enemies
+new_state=thrust
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=32
+multitarget=true
+starting_pos=melee
+allow_power_mod=true
+requires_physical_weapon=true
+soundfx=swoosh.ogg
+
 ########################################
 #Fighter Powers
 ########################################

@@ -297,6 +297,18 @@ loot_animation=steelwand
 #power for ice burst
 
 [item]
+id=80
+name=Spear
+level=1
+quality=normal
+icon=58
+item_type=main
+dmg_melee=2,6
+gfx=spear
+req=p,1
+loot_animation=dagger
+
+[item]
 id=100
 name=Rags
 level=1
