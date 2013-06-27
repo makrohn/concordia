@@ -33,6 +33,7 @@ dmg_melee=2,6
 gfx=dagger
 req=p,1
 loot_animation=dagger
+equip_flags=melee
 
 [item]
 id=51
@@ -46,6 +47,7 @@ gfx=mace
 req=p,3
 loot_animation=mace
 power_mod=36
+equip_flags=melee
 
 [item]
 id=52
@@ -59,6 +61,7 @@ gfx=saber
 req=p,5
 loot_animation=saber
 power_mod=36
+equip_flags=melee
 
 [item]
 id=53
@@ -72,6 +75,7 @@ gfx=rapier
 req=p,7
 loot_animation=rapier
 power_mod=37
+equip_flags=melee
 
 [item]
 id=54
@@ -85,6 +89,7 @@ gfx=longsword
 req=p,9
 loot_animation=longsword
 power_mod=37
+equip_flags=melee
 
 [item]
 id=55
@@ -101,6 +106,7 @@ req=o,9
 loot_animation=longsword
 #Cooldown power to add accuracy
 power_mod=37
+equip_flags=melee
 
 [item]
 id=56
@@ -117,6 +123,7 @@ req=m,9
 loot_animation=longsword
 #Cooldown power to add mp regen
 power_mod=37
+equip_flags=melee
 
 [item]
 id=60
@@ -129,6 +136,7 @@ dmg_ranged=2,6
 gfx=shortbow
 req=o,1
 loot_animation=shortbow
+equip_flags=ranged
 
 [item]
 id=61
@@ -141,6 +149,7 @@ dmg_ranged=2,6
 gfx=shortbow
 req=o,3
 loot_animation=shortbow
+equip_flags=ranged
 
 [item]
 id=62
@@ -153,6 +162,7 @@ dmg_ranged=2,6
 gfx=recurvebow
 req=o,5
 loot_animation=recurvebow
+equip_flags=ranged
 
 [item]
 id=63
@@ -165,6 +175,7 @@ dmg_ranged=2,6
 gfx=recurvebow
 req=o,7
 loot_animation=recurvebow
+equip_flags=ranged
 
 [item]
 id=64
@@ -177,6 +188,7 @@ dmg_ranged=2,6
 gfx=greatbow
 req=o,9
 loot_animation=greatbow
+equip_flags=ranged
 
 [item]
 id=65
@@ -192,6 +204,7 @@ req=o,9
 req=p,5
 loot_animation=greatbow
 #power to knockback foes
+equip_flags=ranged
 
 [item]
 id=66
@@ -207,6 +220,7 @@ req=o,9
 req=m,5
 loot_animation=greatbow
 #power to add crit
+equip_flags=ranged
 
 [item]
 id=70
@@ -219,6 +233,7 @@ dmg_ment=2,6
 gfx=woodwand
 req=m,1
 loot_animation=woodwand
+equip_flags=mental
 
 [item]
 id=71
@@ -231,6 +246,7 @@ dmg_ment=2,6
 gfx=woodwand
 req=m,3
 loot_animation=woodwand
+equip_flags=mental
 
 [item]
 id=72
@@ -243,6 +259,7 @@ dmg_ment=2,6
 gfx=woodwand
 req=m,5
 loot_animation=woodwand
+equip_flags=mental
 
 [item]
 id=73
@@ -255,6 +272,7 @@ dmg_ment=2,6
 gfx=woodwand
 req=m,7
 loot_animation=woodwand
+equip_flags=mental
 
 [item]
 id=74
@@ -267,6 +285,7 @@ dmg_ment=2,6
 gfx=steelwand
 req=m,9
 loot_animation=steelwand
+equip_flags=mental
 
 [item]
 id=75
@@ -281,6 +300,7 @@ req=m,9
 req=p,5
 loot_animation=steelwand
 #power for temp immunity
+equip_flags=mental
 
 [item]
 id=76
@@ -295,6 +315,7 @@ req=m,9
 req=o,5
 loot_animation=steelwand
 #power for ice burst
+equip_flags=mental
 
 [item]
 id=80
@@ -305,9 +326,10 @@ icon=58
 item_type=main
 dmg_melee=2,6
 gfx=spear
-req=p,1
+req=d,1
 loot_animation=dagger
 power_mod=38
+equip_flags=spear
 
 [item]
 id=81
@@ -318,9 +340,10 @@ icon=58
 item_type=main
 dmg_melee=2,6
 gfx=trident
-req=p,1
+req=d,5
 loot_animation=dagger
 power_mod=38
+equip_flags=spear
 
 [item]
 id=80
@@ -331,9 +354,10 @@ icon=58
 item_type=main
 dmg_melee=2,6
 gfx=dragonspear
-req=p,1
+req=d,7
 loot_animation=dagger
 power_mod=38
+equip_flags=spear
 
 [item]
 id=100

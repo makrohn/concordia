@@ -18,7 +18,7 @@ radius=32
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_physical_weapon=true
+requires_flags=melee
 soundfx=swoosh.ogg
 
 [power]
@@ -38,7 +38,7 @@ base_damage=ranged
 lifespan=26
 radius=64
 speed=30
-requires_offense_weapon=true
+requires_flags=ranged
 range=1024
 soundfx=shoot.ogg
 
@@ -49,7 +49,7 @@ type=missile
 icon=2
 description=Basic magic attack; halves enemy movement for ten seconds
 new_state=swing
-requires_mental_weapon=true
+requires_flags=mental
 face=true
 directional=true
 animation=plasmaball.txt
@@ -80,7 +80,7 @@ radius=32
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_physical_weapon=true
+requires_flags=spear
 soundfx=swoosh.ogg
 
 ########################################

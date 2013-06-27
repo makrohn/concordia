@@ -9,20 +9,23 @@ caption=160,24,center,top
 close=294,2
 unspent_points=160,380,center,top
 #unspent_points=hidden
-tabs=4
+tabs=5
 
-tab_area=40,48,240,348
+tab_area=16,48,264,348
 
-tab_title=Fighter
+tab_title=Swords
 tab_tree=powers_tree.png
 
-tab_title=Hunter
+tab_title=Bows
 tab_tree=powers_tree.png
 
-tab_title=Devout
+tab_title=Spells
 tab_tree=powers_tree.png
 
 tab_title=Passive
+tab_tree=powers_tree.png
+
+tab_title=Spears
 tab_tree=powers_tree.png
 
 # First tab has index=0 
@@ -239,3 +242,13 @@ tab=3
 position=192,272
 requires_point=true
 requires_level=16
+
+########################################
+#Passive Tree
+########################################
+
+[power]
+id=38
+tab=4
+position=144,80
+requires_point=true
