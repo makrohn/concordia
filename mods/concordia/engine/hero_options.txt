@@ -6,7 +6,11 @@
 option=female,dark,female26
 option=female,light,female27
 option=female,tanned,female28
-option=female,tanned2,female28
+option=female,tanned2,male28
+option=male,dark,male26
+option=male,light,male27
+option=male,tanned,male28
+option=male,tanned2,male28
 
 layer=0,head,hat,body,main
 layer=1,head,hat,body,main
