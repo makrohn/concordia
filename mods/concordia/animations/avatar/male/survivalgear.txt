@@ -1,4 +1,4 @@
-image=images/avatar/female/leatherhat.png
+image=images/avatar/male/survivalgear.png
 render_size=64,64
 render_offset=32,58
 
