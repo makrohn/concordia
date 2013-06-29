@@ -1,4 +1,4 @@
-image=images/avatar/female/trident.png
+image=images/avatar/male/trident.png
 
 render_size=192,192
 render_offset=96,122
@@ -18,7 +18,7 @@ type=back_forth
 [thrust]
 position=1
 frames=8
-duration=3
+duration=2
 type=play_once
 
 [cast]

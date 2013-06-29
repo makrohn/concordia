@@ -1,4 +1,4 @@
-image=images/avatar/female/mace.png
+image=images/avatar/male/mace.png
 
 render_size=192,192
 render_offset=96,122
@@ -18,7 +18,7 @@ type=back_forth
 [swing]
 position=1
 frames=6
-duration=3
+duration=2
 type=play_once
 
 [cast]
