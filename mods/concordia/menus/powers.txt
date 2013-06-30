@@ -208,14 +208,14 @@ position=144,80
 
 [power]
 id=39
-tab=2
+tab=3
 position=96,144
 requires_point=true
 requires_level=1
 
 [power]
 id=40
-tab=2
+tab=3
 position=192,144
 requires_point=true
 requires_level=4
@@ -223,7 +223,7 @@ requires_defense=2
 
 [power]
 id=41
-tab=2
+tab=3
 position=96,208
 requires_point=true
 requires_level=7
@@ -231,7 +231,7 @@ requires_defense=4
 
 [power]
 id=42
-tab=2
+tab=3
 position=192,208
 requires_point=true
 requires_level=10
@@ -239,7 +239,7 @@ requires_defense=6
 
 [power]
 id=43
-tab=2
+tab=3
 position=96,272
 requires_point=true
 requires_level=13
@@ -247,7 +247,7 @@ requires_defense=8
 
 [power]
 id=44
-tab=2
+tab=3
 position=192,272
 requires_point=true
 requires_level=16

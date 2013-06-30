@@ -3,8 +3,9 @@ name=Hoplite
 description=You built agility fishing and hunting with a spear.
 campaign=spearfisher
 equipment=80,100
-actionbar=0,0,0,0,0,0,0,0,0,0,38,0
+actionbar=0,0,0,0,0,0,0,0,0,0,38,39
 defense=1
+powers=39
 
 [class]
 name=Fighter
