@@ -319,7 +319,7 @@ equip_flags=mental
 
 [item]
 id=80
-name=Spear
+name=Sharpened Stick
 level=1
 quality=normal
 icon=58
@@ -333,6 +333,20 @@ equip_flags=spear
 
 [item]
 id=81
+name=Spear
+level=1
+quality=normal
+icon=58
+item_type=main
+dmg_melee=2,6
+gfx=spear
+req=d,1
+loot_animation=dagger
+power_mod=38
+equip_flags=spear
+
+[item]
+id=82
 name=Trident
 level=1
 quality=normal
@@ -346,7 +360,7 @@ power_mod=38
 equip_flags=spear
 
 [item]
-id=80
+id=83
 name=Dragonspear
 level=1
 quality=normal
@@ -370,6 +384,54 @@ gfx=clothes
 loot_animation=clothes
 
 [item]
+id=101
+name=Cave Clothes
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=80
+gfx=clothes
+req=o,2
+loot_animation=caveclothes
+
+[item]
+id=102
+name=Survival Gear
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=80
+gfx=survivalgear
+req=o,1
+loot_animation=clothes
+
+[item]
+id=103
+name=Forest Clothes
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=80
+gfx=forestclothes
+req=o,1
+loot_animation=clothes
+
+[item]
+id=104
+name=Ninja Gear
+level=1
+quality=normal
+item_type=body
+abs=1,1
+icon=80
+gfx=ninjagear
+req=o,1
+loot_animation=clothes
+
+[item]
 id=110
 name=Leather Armor
 level=1
@@ -383,7 +445,7 @@ loot_animation=leather
 
 [item]
 id=111
-name=Hardend Leather Armor
+name=Hardened Leather Armor
 level=4
 quality=normal
 item_type=body
@@ -474,7 +536,7 @@ item_type=body
 abs=1,1
 icon=107
 gfx=bronzeplate
-req=p,2
+req=d,2
 loot_animation=bronzeplate
 
 [item]
@@ -486,7 +548,7 @@ item_type=body
 abs=1,1
 icon=104
 gfx=platemail
-req=p,4
+req=d,4
 loot_animation=plate
 
 [item]
@@ -498,7 +560,7 @@ item_type=body
 abs=1,1
 icon=106
 gfx=icyplate
-req=p,6
+req=d,6
 loot_animation=icyplate
 
 [item]
@@ -510,7 +572,7 @@ item_type=body
 abs=1,1
 icon=105
 gfx=holyplate
-req=p,8
+req=d,8
 loot_animation=holyplate
 
 [item]

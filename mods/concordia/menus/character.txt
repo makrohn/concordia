@@ -29,7 +29,7 @@ offense=16,112,16,16
 label_offense=40,120,left,center
 
 defense=156,112,16,16
-label_defense=hidden
+label_defense=40,144,left,center
 
 unspent=156,88,144,16
 

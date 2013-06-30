@@ -64,25 +64,6 @@ starting_pos=melee
 post_effect=202,50,300
 soundfx=spell4.ogg
 
-[power]
-id=38
-name=Thrust
-type=fixed
-icon=1
-description=Swing your sword through all nearby enemies
-new_state=thrust
-face=true
-use_hazard=true
-aim_assist=true
-base_damage=melee
-lifespan=1
-radius=32
-multitarget=true
-starting_pos=melee
-allow_power_mod=true
-requires_flags=spear
-soundfx=swoosh.ogg
-
 ########################################
 #Fighter Powers
 ########################################
@@ -117,7 +98,6 @@ radius=128
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_physical_weapon=true
 soundfx=swoosh.ogg
 
 [power]
@@ -139,7 +119,7 @@ radius=128
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_physical_weapon=true
+requires_flags=melee
 soundfx=swoosh.ogg
 
 [power]
@@ -171,7 +151,7 @@ radius=128
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_physical_weapon=true
+requires_flags=melee
 trait_elemental=fire
 modifier_damage=multiply,300,0
 soundfx=swoosh.ogg
@@ -209,7 +189,7 @@ new_state=shoot
 face=true
 count=2
 missile_angle=15
-requires_offense_weapon=true
+requires_flags=ranged
 requires_mp=3
 base_damage=ranged
 aim_assist=true
@@ -244,6 +224,7 @@ starting_pos=target
 multitarget=true
 cooldown=30
 requires_los=true
+requires_flags=ranged
 
 
 [power]
@@ -265,7 +246,7 @@ modifier_damage=multiply,50,0
 lifespan=26
 radius=64
 speed=30
-requires_offense_weapon=true
+requires_flags=ranged
 range=1024
 soundfx=shoot.ogg
 post_power=34
@@ -288,7 +269,7 @@ base_damage=ranged
 lifespan=26
 radius=64
 speed=30
-requires_offense_weapon=true
+requires_flags=ranged
 range=1024
 soundfx=shoot.ogg
 post_effect=201,100,1
@@ -312,7 +293,7 @@ base_damage=ranged
 lifespan=26
 radius=64
 speed=30
-requires_offense_weapon=true
+requires_flags=ranged
 range=1024
 soundfx=shoot.ogg
 cooldown=300
@@ -453,6 +434,33 @@ starting_pos=melee
 type=missile
 multitarget=true
 floor=true
+
+########################################
+#Hoplite Powers
+########################################
+
+[power]
+id=38
+name=Thrust
+type=fixed
+icon=1
+description=Swing your sword through all nearby enemies
+new_state=thrust
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=32
+multitarget=true
+starting_pos=melee
+allow_power_mod=true
+requires_flags=spear
+soundfx=swoosh.ogg
+
+[power]
+id=39
+name=Net throw
 
 ########################################
 #Passive Powers
