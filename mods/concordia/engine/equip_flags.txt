@@ -1,0 +1,15 @@
+[flag]
+name=melee
+description=melee weapon
+
+[flag]
+name=ranged
+description=bow
+
+[flag]
+name=mental
+description=wand
+
+[flag]
+name=spear
+description=spear
