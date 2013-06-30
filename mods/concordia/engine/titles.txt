@@ -10,6 +10,10 @@
 #power=
 #title=Assassin
 
+#[title]
+#power=
+#title=Centurion
+
 [title]
 primary_stat=physical
 title=Gladiator
@@ -23,6 +27,10 @@ primary_stat=offense
 title=Ranger
 
 [title]
+primary_stat=defense
+title=Hoplite
+
+[title]
 requires_status=fighter
 title=Fighter
 
@@ -33,6 +41,10 @@ title=Devout
 [title]
 requires_status=hunter
 title=Hunter
+
+[title]
+requires_status=spearfisher
+title=Spearfisher
 
 [title]
 title=Adventurer

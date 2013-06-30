@@ -13,19 +13,19 @@ tabs=5
 
 tab_area=16,48,264,348
 
-tab_title=Swords
+tab_title=Fighter
 tab_tree=powers_tree.png
 
-tab_title=Bows
+tab_title=Archer
 tab_tree=powers_tree.png
 
-tab_title=Spells
+tab_title=Mage
+tab_tree=powers_tree.png
+
+tab_title=Hoplite
 tab_tree=powers_tree.png
 
 tab_title=Passive
-tab_tree=powers_tree.png
-
-tab_title=Spears
 tab_tree=powers_tree.png
 
 # First tab has index=0 
@@ -198,57 +198,103 @@ requires_level=16
 requires_mental=9
 
 ########################################
+#Spears Tree
+########################################
+
+[power]
+id=38
+tab=3
+position=144,80
+
+[power]
+id=39
+tab=2
+position=96,144
+requires_point=true
+requires_level=1
+
+[power]
+id=40
+tab=2
+position=192,144
+requires_point=true
+requires_level=4
+requires_defense=2
+
+[power]
+id=41
+tab=2
+position=96,208
+requires_point=true
+requires_level=7
+requires_defense=4
+
+[power]
+id=42
+tab=2
+position=192,208
+requires_point=true
+requires_level=10
+requires_defense=6
+
+[power]
+id=43
+tab=2
+position=96,272
+requires_point=true
+requires_level=13
+requires_defense=8
+
+[power]
+id=44
+tab=2
+position=192,272
+requires_point=true
+requires_level=16
+requires_defense=9
+
+########################################
 #Passive Tree
 ########################################
 
 [power]
 id=22
-tab=3
+tab=4
 position=96,144
 requires_point=true
 requires_level=1
 
 [power]
 id=23
-tab=3
+tab=4
 position=192,144
 requires_point=true
 requires_level=4
 
 [power]
 id=24
-tab=3
+tab=4
 position=96,208
 requires_point=true
 requires_level=7
 
 [power]
 id=25
-tab=3
+tab=4
 position=192,208
 requires_point=true
 requires_level=10
 
 [power]
 id=26
-tab=3
+tab=4
 position=96,272
 requires_point=true
 requires_level=13
 
 [power]
 id=27
-tab=3
+tab=4
 position=192,272
 requires_point=true
-requires_level=16
-
-########################################
-#Passive Tree
-########################################
-
-[power]
-id=38
-tab=4
-position=144,80
-requires_point=true
+requires_level=16true

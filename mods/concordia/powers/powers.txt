@@ -444,7 +444,7 @@ id=38
 name=Thrust
 type=fixed
 icon=1
-description=Swing your sword through all nearby enemies
+description=Thrust your spear at an enemy
 new_state=thrust
 face=true
 use_hazard=true
@@ -452,7 +452,6 @@ aim_assist=true
 base_damage=melee
 lifespan=1
 radius=32
-multitarget=true
 starting_pos=melee
 allow_power_mod=true
 requires_flags=spear
@@ -460,7 +459,42 @@ soundfx=swoosh.ogg
 
 [power]
 id=39
-name=Net throw
+name=Pierce
+trait_armor penetration=true
+icon=1
+description=Pierce your enemy's armor
+new_state=thrust
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=32
+starting_pos=melee
+allow_power_mod=true
+requires_flags=spear
+soundfx=swoosh.ogg
+requires_mp=1
+
+[power]
+id=40
+name=Cast Net
+
+[power]
+id=41
+name=
+
+[power]
+id=42
+name=
+
+[power]
+id=43
+name=
+
+[power]
+id=44
+name=
 
 ########################################
 #Passive Powers

@@ -1,6 +1,6 @@
 [class]
 name=Hoplite
-description=You speared your prey from the river to barter for basic goods.
+description=You built agility fishing and hunting with a spear.
 campaign=spearfisher
 equipment=80,100
 actionbar=0,0,0,0,0,0,0,0,0,0,38,0

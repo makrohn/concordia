@@ -19,29 +19,29 @@ accuracy_per_level=0
 accuracy_per_offense=5
 avoidance=25
 avoidance_per_level=0
-avoidance_per_defense=0
+avoidance_per_defense=5
 crit=5
 crit_per_level=1
 
 dmg_melee_min=1
 dmg_melee_max=4
 dmg_melee_min_per_physical=1
-dmg_melee_max_per_physical=1
+dmg_melee_max_per_physical=2
 
 dmg_ment_min=1
 dmg_ment_max=4
 dmg_ment_min_per_mental=1
-dmg_ment_max_per_mental=1
+dmg_ment_max_per_mental=2
 
 dmg_ranged_min=1
 dmg_ranged_max=4
-dmg_ranged_min_per_offense=5
-dmg_ranged_max_per_offense=5
+dmg_ranged_min_per_offense=1
+dmg_ranged_max_per_offense=2
 
-#absorb_min=0
-#absorb_max=0
-#absorb_min_per_defense=5
-#absorb_max_per_defense=5
+absorb_min=0
+absorb_max=0
+absorb_min_per_defense=1
+absorb_max_per_defense=2
 
 #speed=14	
 #dspeed=10
