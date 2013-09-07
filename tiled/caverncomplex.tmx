@@ -682,7 +682,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="event" width="128" height="128"/>
+ <objectgroup name="event" width="128" height="128">
+  <object name="Teleport to Mines" type="on_trigger" x="960" y="3936" width="96" height="32">
+   <properties>
+    <property name="intermap" value="mines.txt,59,7"/>
+    <property name="requires_status" value="mines_chosen"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="npc" width="128" height="128"/>
  <objectgroup name="enemy" width="128" height="128"/>
  <objectgroup name="enemygroup" width="128" height="128"/>

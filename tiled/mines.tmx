@@ -419,7 +419,25 @@
     <property name="hotspot" value="location"/>
     <property name="loot" value="id,59,7,200"/>
     <property name="mapmod" value="object,60,7,592"/>
+    <property name="repeat" value="false"/>
+    <property name="requires_not" value="mines_chosen"/>
+    <property name="set_status" value="mines_explored"/>
     <property name="tooltip" value="Chest of Minerals"/>
+   </properties>
+  </object>
+  <object name="Chest Switch" type="on_trigger" x="1920" y="224" width="32" height="32">
+   <properties>
+    <property name="hotspot" value="location"/>
+    <property name="mapmod" value="collision,59,6,0;foreground,58,6,1415;foreground,59,6,1416;foreground,60,6,1417"/>
+    <property name="msg" value="A switch in the chest reveals a hidden passage!"/>
+    <property name="repeat" value="false"/>
+    <property name="requires_status" value="mines_chosen"/>
+    <property name="tooltip" value="Chest"/>
+   </properties>
+  </object>
+  <object name="Teleport to Complex" type="on_trigger" x="1888" y="192" width="32" height="32">
+   <properties>
+    <property name="intermap" value="caverncomplex.txt,30,117"/>
    </properties>
   </object>
  </objectgroup>

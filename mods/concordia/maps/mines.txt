@@ -421,5 +421,25 @@ location=60,7,1,1
 hotspot=location
 loot=id,59,7,200
 mapmod=object,60,7,592
+repeat=false
+requires_not=mines_chosen
+set_status=mines_explored
 tooltip=Chest of Minerals
+
+[event]
+# Chest Switch
+type=on_trigger
+location=60,7,1,1
+hotspot=location
+mapmod=collision,59,6,0;foreground,58,6,1415;foreground,59,6,1416;foreground,60,6,1417
+msg=A switch in the chest reveals a hidden passage!
+repeat=false
+requires_status=mines_chosen
+tooltip=Chest
+
+[event]
+# Teleport to Complex
+type=on_trigger
+location=59,6,1,1
+intermap=caverncomplex.txt,30,117
 
