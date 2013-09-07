@@ -869,4 +869,19 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="event" width="128" height="128">
+  <object name="Reveal Hole" type="on_trigger" x="2208" y="2240" width="384" height="416">
+   <properties>
+    <property name="mapmod" value="fringe,73,74,436;fringe,74,74,437;fringe,75,74,438;fringe,73,75,466;fringe,74,75,467;fringe,75,75,468;fringe,73,76,496;fringe,74,76,497;fringe,75,76,498"/>
+    <property name="repeat" value="false"/>
+    <property name="requires_status" value="cavern_dir"/>
+   </properties>
+  </object>
+  <object name="Teleport to Caverns" type="on_trigger" x="2368" y="2400" width="32" height="32">
+   <properties>
+    <property name="intermap" value="caverncomplex.txt,5,14"/>
+    <property name="requires_status" value="cavern_dir"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -681,3 +681,10 @@ location=30,123,3,1
 intermap=mines.txt,59,7
 requires_status=mines_chosen
 
+[event]
+# Teleport to Maroon
+type=on_trigger
+location=4,14,1,1
+intermap=maroon.txt,72,75
+requires_status=cavern_dir
+

@@ -3,7 +3,10 @@ gfx=general
 talker=true
 
 [dialog]
+topic=Rebellion
 her=I can't believe we're going back to the camp.  We can finally end the occupation.
 her=I was a general back in Haladria, before the undead enslaved our people and shipped me across the ocean.  The morons didn't even know who they had on their hands.
 her=Now that I've escaped, though, they'll never even know what hit them!  Ha!  
 her=You're as great a soldier as I have ever trained, and I hope I get to fight by your side soon.
+her=These woods belong to one of the human clans, Clan Ario.  Find Lucardo to the southwest, and he should be able to lead you to the caverns.
+set_status=found_justice

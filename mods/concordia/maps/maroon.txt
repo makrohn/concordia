@@ -891,3 +891,18 @@ location=33,89,16,15
 level=1,1
 number=2,6
 
+[event]
+# Reveal Hole
+type=on_trigger
+location=69,70,12,13
+mapmod=fringe,73,74,436;fringe,74,74,437;fringe,75,74,438;fringe,73,75,466;fringe,74,75,467;fringe,75,75,468;fringe,73,76,496;fringe,74,76,497;fringe,75,76,498
+repeat=false
+requires_status=cavern_dir
+
+[event]
+# Teleport to Caverns
+type=on_trigger
+location=74,75,1,1
+intermap=caverncomplex.txt,5,14
+requires_status=cavern_dir
+

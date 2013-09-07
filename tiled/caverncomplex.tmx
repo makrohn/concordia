@@ -689,6 +689,12 @@
     <property name="requires_status" value="mines_chosen"/>
    </properties>
   </object>
+  <object name="Teleport to Maroon" type="on_trigger" x="128" y="448" width="32" height="32">
+   <properties>
+    <property name="intermap" value="maroon.txt,72,75"/>
+    <property name="requires_status" value="cavern_dir"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="npc" width="128" height="128"/>
  <objectgroup name="enemy" width="128" height="128"/>
