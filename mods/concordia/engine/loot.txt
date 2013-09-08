@@ -9,7 +9,7 @@ tooltip_margin=32
 
 # Autopickup
 autopickup_range=96
-autopickup_currency=1
+autopickup_currency=0
 
 # Currency
 currency_name=Gold
@@ -18,6 +18,6 @@ vendor_ratio=25
 # currency loot ranges
 # values are: filename, lower limit, upper limit
 # -1 can be used for the upper limit to set no upper limit
-currency_range=coins5,0,9
-currency_range=coins25,10,24
-currency_range=coins100,25,-1
+currency_range=coins5,0,24
+currency_range=coins25,25,99
+currency_range=coins100,100,-1

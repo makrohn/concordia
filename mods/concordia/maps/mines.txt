@@ -359,9 +359,14 @@ data=
 type=minesskel
 location=14,6,1,1
 
+[enemy]
+# Mines Bat
+type=minesbat
+location=14,13,1,1
+
 [enemygroup]
 # Mines Bats
-type=minesbat
+type=dungeon
 location=14,31,4,3
 level=1,1
 number=2,2

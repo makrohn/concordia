@@ -4,7 +4,7 @@ height=128
 tilewidth=32
 tileheight=32
 tileset=master.txt
-title=caverncomplex
+title=Cavern Complex
 
 [tilesets]
 tileset=../../../tiled/masters/tiled_collision.png,32,32,0,0
@@ -687,4 +687,17 @@ type=on_trigger
 location=4,14,1,1
 intermap=maroon.txt,72,75
 requires_status=cavern_dir
+
+[event]
+# Too Steep Warning
+type=on_trigger
+location=4,101,1,2
+msg=The ladder's rungs are stripped off, and the wall is too steep to climb.
+
+[enemygroup]
+# Minebats
+type=minesbat
+location=12,12,4,4
+level=1,2
+number=1,4
 
