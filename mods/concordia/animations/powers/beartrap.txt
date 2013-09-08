@@ -1,7 +1,7 @@
 image=images/powers/beartrap.png
 
 render_size=32,32
-render_offset=16,16
+render_offset=16,26
 
 [power]
 frames=1

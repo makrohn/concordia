@@ -1,7 +1,7 @@
 image=images/powers/earthpost.png
 
 render_size=32,32
-render_offset=16,58
+render_offset=16,26
 
 [power]
 frames=3

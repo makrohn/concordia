@@ -1,7 +1,7 @@
 image=images/powers/arrow.png
 
 render_size=64,64
-render_offset=32,32
+render_offset=32,58
 
 [power]
 frames=1

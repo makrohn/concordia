@@ -1,7 +1,7 @@
 image=images/powers/torrentacle.png
 
 render_size=128,128
-render_offset=59,80
+render_offset=59,122
 
 [power]
 frames=16

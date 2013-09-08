@@ -1,7 +1,7 @@
 image=images/powers/arrowrain.png
 
 render_size=256,256
-render_offset=128,58
+render_offset=128,250
 
 [power]
 frames=3
