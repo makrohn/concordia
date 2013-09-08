@@ -23,6 +23,20 @@ loot_animation=mppotion
 max_quantity=10
 
 [item]
+id=3
+name=Coins
+quality=normal
+icon=88
+item_type=other
+price=1
+price_sell=1
+max_quantity=5000
+soundfx=soundfx/inventory/inventory_coins.ogg
+loot_animation=coins5,0,24
+loot_animation=coins25,25,99
+loot_animation=coins100,100,0
+
+[item]
 id=50
 name=Dagger
 level=1
