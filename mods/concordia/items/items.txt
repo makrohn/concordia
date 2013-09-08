@@ -24,9 +24,9 @@ max_quantity=10
 
 [item]
 id=3
-name=Coins
+name=Crowns
 quality=normal
-icon=88
+icon=41
 item_type=other
 price=1
 price_sell=1
