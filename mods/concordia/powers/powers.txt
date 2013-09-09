@@ -419,8 +419,7 @@ id=21
 name=Tornado
 icon=29
 description=Create a slow-moving tornado
-new_state=cast
-requires_mental_weapon=true
+requires_flags=mental
 face=true
 animation=tornado.txt
 use_hazard=true
@@ -460,7 +459,7 @@ soundfx=swoosh.ogg
 [power]
 id=39
 name=Pierce
-trait_armor penetration=true
+trait_armor_penetration=true
 icon=40
 description=Pierce your enemy's armor
 new_state=thrust
@@ -632,7 +631,7 @@ soundfx=sand-spell.ogg
 type=fixed
 new_state=cast
 use_hazard=true
-base_damage=offense
+base_damage=ranged
 lifespan=60
 radius=128
 floor=true
@@ -658,7 +657,7 @@ radius=128
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_physical_weapon=true
+requires_flags=melee
 soundfx=swoosh.ogg
 modifier_damage=multiply,500,0
 
@@ -678,7 +677,7 @@ radius=72
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_physical_weapon=true
+requires_flags=melee
 soundfx=swoosh.ogg
 
 [power]
@@ -697,7 +696,7 @@ radius=96
 multitarget=true
 starting_pos=melee
 allow_power_mod=true
-requires_physical_weapon=true
+requires_flags=melee
 soundfx=swoosh.ogg
 
 ########################################
@@ -721,7 +720,7 @@ base_damage=ranged
 lifespan=52
 radius=64
 speed=15
-requires_offense_weapon=true
+requires_flags=ranged
 range=1024
 soundfx=screech.ogg
 
@@ -742,7 +741,7 @@ base_damage=ranged
 lifespan=52
 radius=64
 speed=15
-requires_offense_weapon=true
+requires_flags=ranged
 range=1024
 soundfx=shoot.ogg
 
