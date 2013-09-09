@@ -46,4 +46,4 @@ absorb_max_per_defense=2
 #speed=14	
 #dspeed=10
 
-#sfx_step=cloth
+sfx_step=cloth

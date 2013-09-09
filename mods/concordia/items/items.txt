@@ -395,6 +395,7 @@ quality=normal
 item_type=body
 icon=80
 gfx=clothes
+stepfx=cloth
 loot_animation=clothes
 
 [item]
@@ -408,6 +409,7 @@ icon=80
 gfx=clothes
 req=o,2
 loot_animation=caveclothes
+stepfx=cloth
 
 [item]
 id=102
@@ -415,6 +417,7 @@ name=Survival Gear
 level=1
 quality=normal
 item_type=body
+stepfx=cloth
 abs=1,1
 icon=80
 gfx=survivalgear
@@ -425,6 +428,7 @@ loot_animation=clothes
 id=103
 name=Forest Clothes
 level=1
+stepfx=cloth
 quality=normal
 item_type=body
 abs=1,1
@@ -440,6 +444,7 @@ level=1
 quality=normal
 item_type=body
 abs=1,1
+stepfx=cloth
 icon=80
 gfx=ninjagear
 req=o,1
