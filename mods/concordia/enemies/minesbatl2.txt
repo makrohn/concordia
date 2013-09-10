@@ -1,5 +1,4 @@
 name=Bat
-humanoid=true
 level=2
 categories=minesbat,dungeon
 rarity=common

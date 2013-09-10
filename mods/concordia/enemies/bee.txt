@@ -1,5 +1,4 @@
 name=Bee
-humanoid=true
 level=1
 categories=bee,forest
 rarity=common
