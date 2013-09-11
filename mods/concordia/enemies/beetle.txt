@@ -22,8 +22,8 @@ power_beacon=132
 power_melee_phys=1
 cooldown_hit=4
 
-accuracy=100
-avoidance=0
+accuracy=69
+avoidance=19
 
 dmg_melee_min=8
 dmg_melee_max=16
