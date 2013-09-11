@@ -704,8 +704,8 @@
   <object name="Chest" type="on_trigger" x="3520" y="1248" width="32" height="32">
    <properties>
     <property name="hotspot" value="location"/>
-    <property name="loot" value="id,109,39,2"/>
-    <property name="mapmod" value="object,110,39,592"/>
+    <property name="loot" value="2,111,39,fixed,1"/>
+    <property name="mapmod" value="object,110,39,593"/>
     <property name="repeat" value="false"/>
     <property name="tooltip" value="Chest"/>
    </properties>

@@ -700,8 +700,8 @@ msg=The ladder's rungs are stripped off, and the wall is too steep to climb.
 type=on_trigger
 location=110,39,1,1
 hotspot=location
-loot=id,109,39,2
-mapmod=object,110,39,592
+loot=2,111,39,fixed,1
+mapmod=object,110,39,593
 repeat=false
 tooltip=Chest
 
