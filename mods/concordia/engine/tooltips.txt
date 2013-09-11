@@ -1,6 +1,6 @@
 # Tooltip engine settings
 
-tooltip_offset=12
+tooltip_offset=8
 tooltip_width=200
 tooltip_margin=4
 

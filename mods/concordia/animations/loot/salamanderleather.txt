@@ -1,6 +1,6 @@
 image=images/loot/salamanderleather.png
 render_size=64,64
-render_offset=32,38
+render_offset=48,58
 
 [power]
 frames=5

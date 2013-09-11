@@ -1,6 +1,6 @@
 image=images/loot/mppotion.png
 render_size=32,32
-render_offset=16,19
+render_offset=16,26
 
 [power]
 frames=5
