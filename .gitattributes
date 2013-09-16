@@ -1,0 +1,7 @@
+art_src/ export-ignore
+planning/ export-ignore
+tools/ export-ignore
+tiled/ export-ignore
+
+.gitattributes export-ignore
+.gitignore export-ignore
