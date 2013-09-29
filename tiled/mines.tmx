@@ -422,7 +422,7 @@
     <property name="loot" value="id,59,7,200"/>
     <property name="mapmod" value="object,60,7,592"/>
     <property name="repeat" value="false"/>
-    <property name="requires_not" value="mines_chosen"/>
+    <property name="requires_not_status" value="mines_chosen"/>
     <property name="set_status" value="mines_explored"/>
     <property name="tooltip" value="Chest of Minerals"/>
    </properties>

@@ -5,13 +5,13 @@ talker=true
 [dialog]
 topic=Working hard
 him=Work the mines or work the fields.  They promise we can go free if we work hard enough, but I don't believe them anymore.
-requires_not=mines_choice
+requires_not_status=mines_choice
 
 [dialog]
 topic=Freedom
 requires_status=mines_explored
-requires_not=mines_choice
-requires_not=mines_chosen
+requires_not_status=mines_choice
+requires_not_status=mines_chosen
 him=You've been into the mines.  You know their tricks...  a gold for every sack of minerals you bring them?  It's slave labor with the false hope of freedom.
 him=Do you want to go free?
 set_status=mines_choice
@@ -19,7 +19,7 @@ set_status=mines_choice
 [dialog]
 topic=Yes
 requires_status=mines_choice
-requires_not=mines_chosen
+requires_not_status=mines_chosen
 him=If you truly want to go free, go deep into the mines, past where the bats live.  There's a chest, maybe you've seen it.  A switch inside will reveal a hidden passage,
 set_status=mines_chosen
 unset_status=mines_choice
@@ -27,6 +27,6 @@ unset_status=mines_choice
 [dialog]
 topic=No
 requires_status=mines_choice
-requires_not=mines_chosen
+requires_not_status=mines_chosen
 him=Come back when you've summoned up more courage.
 unset_status=mines_choice

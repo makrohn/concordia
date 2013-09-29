@@ -427,7 +427,7 @@ hotspot=location
 loot=id,59,7,200
 mapmod=object,60,7,592
 repeat=false
-requires_not=mines_chosen
+requires_not_status=mines_chosen
 set_status=mines_explored
 tooltip=Chest of Minerals
 
