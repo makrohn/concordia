@@ -744,6 +744,8 @@ number=3,3
 # Dungeon
 type=dungeon
 location=62,41,38,3
+level=1,2
+number=2,4
 
 [enemygroup]
 # Beetles
@@ -807,4 +809,18 @@ type=dungeon
 location=51,107,11,9
 level=1,2
 number=4,5
+
+[enemygroup]
+# Dungeon
+type=dungeon
+location=60,58,7,4
+level=2,2
+number=2,2
+
+[enemygroup]
+# Dungeon
+type=dungeon
+location=76,83,19,10
+level=1,2
+number=5,10
 

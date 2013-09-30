@@ -744,7 +744,12 @@
     <property name="number" value="3,3"/>
    </properties>
   </object>
-  <object name="Dungeon" type="dungeon" x="1984" y="1312" width="1216" height="96"/>
+  <object name="Dungeon" type="dungeon" x="1984" y="1312" width="1216" height="96">
+   <properties>
+    <property name="level" value="1,2"/>
+    <property name="number" value="2,4"/>
+   </properties>
+  </object>
   <object name="Beetles" type="beetle" x="3456" y="3584" width="512" height="320">
    <properties>
     <property name="level" value="1,1"/>
@@ -797,6 +802,18 @@
    <properties>
     <property name="level" value="1,2"/>
     <property name="number" value="4,5"/>
+   </properties>
+  </object>
+  <object name="Dungeon" type="dungeon" x="1920" y="1856" width="224" height="128">
+   <properties>
+    <property name="level" value="2,2"/>
+    <property name="number" value="2,2"/>
+   </properties>
+  </object>
+  <object name="Dungeon" type="dungeon" x="2432" y="2656" width="608" height="320">
+   <properties>
+    <property name="level" value="1,2"/>
+    <property name="number" value="5,10"/>
    </properties>
   </object>
  </objectgroup>
