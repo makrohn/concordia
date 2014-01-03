@@ -5,7 +5,7 @@ rarity=common
 xp=1
 
 sfx_prefix=none
-animations=beetle
+animations=animations/enemies/beetle.txt
 
 loot=currency,100,2,2
 

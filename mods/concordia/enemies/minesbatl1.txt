@@ -5,7 +5,7 @@ rarity=common
 xp=1
 
 sfx_prefix=none
-animations=bat
+animations=animations/enemies/bat.txt
 
 loot=1,25
 
