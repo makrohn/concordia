@@ -39,6 +39,7 @@ lifespan=26
 radius=2
 speed=15
 requires_flags=ranged
+target_range=32
 soundfx=soundfx/powers/shoot.ogg
 
 [power]
@@ -58,6 +59,7 @@ base_damage=ment
 lifespan=24
 radius=2
 speed=12
+target_range=16
 starting_pos=melee
 post_effect=Slowed,50,300
 soundfx=soundfx/powers/spell4.ogg
@@ -169,6 +171,7 @@ lifespan=16
 floor=true
 starting_pos=source
 buff_teleport=true
+target_range=16
 new_state=instant
 cooldown=180
 post_power=35
@@ -201,6 +204,7 @@ aim_assist=true
 lifespan=26
 radius=2
 speed=15
+target_range=32
 
 [power]
 id=11
@@ -243,6 +247,7 @@ lifespan=26
 radius=2
 speed=15
 requires_flags=ranged
+target_range=32
 soundfx=soundfx/powers/shoot.ogg
 post_power=34
 
@@ -265,6 +270,7 @@ lifespan=26
 radius=2
 speed=15
 requires_flags=ranged
+target_range=32
 soundfx=soundfx/powers/shoot.ogg
 post_effect=Immobilized,100,1
 post_effect=Accuracy,-200,10000
@@ -288,6 +294,7 @@ lifespan=26
 radius=2
 speed=15
 requires_flags=ranged
+target_range=32
 soundfx=soundfx/powers/shoot.ogg
 cooldown=300
 modifier_damage=multiply,300,0
@@ -421,6 +428,7 @@ base_damage=ment
 lifespan=192
 radius=8
 speed=3
+target_range=8
 starting_pos=melee
 type=missile
 multitarget=true
@@ -713,6 +721,7 @@ lifespan=52
 radius=2
 speed=15
 requires_flags=ranged
+target_range=32
 soundfx=soundfx/powers/screech.ogg
 
 [power]
@@ -733,4 +742,5 @@ lifespan=52
 radius=2
 speed=15
 requires_flags=ranged
+target_range=32
 soundfx=soundfx/powers/shoot.ogg
