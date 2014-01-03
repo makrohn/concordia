@@ -61,7 +61,7 @@ radius=2
 speed=12
 range=16
 starting_pos=melee
-post_effect=202,50,300
+post_effect=Slowed,50,300
 soundfx=spell4.ogg
 
 ########################################
@@ -73,8 +73,8 @@ id=4
 name=Berserk
 icon=19
 new_state=cast
-post_effect=200,2,300
-post_effect=220,10,300
+post_effect=Bleeding,2,300
+post_effect=Physical,10,300
 description=Inflict damage to self over time in return for increased strength. *broken*
 #cooldown=5400
 buff=true
@@ -84,7 +84,7 @@ type=fixed
 id=5
 name=Warcry
 icon=13
-post_effect=232,60,30
+post_effect=Knockback,60,30
 requires_mp=5
 type=fixed
 description=Throw back nearby enemies
@@ -155,7 +155,7 @@ requires_flags=melee
 trait_elemental=fire
 modifier_damage=multiply,300,0
 soundfx=swoosh.ogg
-post_effect=30
+post_power=30
 
 [power]
 id=9
@@ -272,8 +272,8 @@ speed=15
 requires_flags=ranged
 range=32
 soundfx=shoot.ogg
-post_effect=201,100,1
-post_effect=214,-200,10000
+post_effect=Immobilized,100,1
+post_effect=Accuracy,-200,10000
 
 [power]
 id=14
@@ -316,7 +316,7 @@ base_damage=ranged
 modifier_damage=multiply,200,0
 count=7
 target_neighbor=2
-post_effect=201,0,150
+post_effect=Immobilized,0,150
 
 ########################################
 #Mage Powers
@@ -332,7 +332,7 @@ new_state=cast
 requires_mp=6
 trait_elemental=light
 buff=true
-post_effect=228,0,0
+post_effect=Heal,0,0
 soundfx=blessing2.ogg
 modifier_damage=multiply,300,0
 
@@ -356,7 +356,7 @@ trait_elemental=water
 starting_pos=target
 multitarget=true
 cooldown=30
-post_effect=203,0,30
+post_effect=Stunned,0,30
 
 [power]
 id=18
@@ -390,7 +390,7 @@ multitarget=true
 new_state=cast
 face=true
 cooldown=300
-post_effect=201,0,150
+post_effect=Immobilized,0,150
 use_hazard=true
 base_damage=ment
 lifespan=48
@@ -408,7 +408,7 @@ icon=21
 description=Summon the strength of the turtle to shield yourself from damage.
 new_state=cast
 requires_mp=1
-post_effect=227,500,0
+post_effect=Shield,500,0
 cooldown=300
 type=fixed
 buff=true
@@ -504,7 +504,7 @@ id=22
 name=Hermetic Speed
 icon=18
 passive=true
-post_effect=229,110,0
+post_effect=Haste,110,0
 description=Increase all speed by 10%
 buff=true
 type=fixed
@@ -514,7 +514,7 @@ id=23
 name=Tough as Nails
 icon=4
 passive=true
-post_effect=237,10,0
+post_effect=HP Percent,10,0
 description=Increase your HP by 10%
 buff=true
 type=fixed
@@ -524,7 +524,7 @@ id=24
 name=Camouflage
 icon=3
 passive=true
-post_effect=215,10,0
+post_effect=Avoidance,10,0
 description=Increase your dodge by 10%
 buff=true
 type=fixed
@@ -534,7 +534,7 @@ id=25
 name=Wisdom of Ages
 icon=28
 passive=true
-post_effect=238,10,0
+post_effect=MP Percent,10,0
 description=Increase your MP by 10%
 buff=true
 type=fixed
@@ -544,7 +544,7 @@ id=26
 name=Hawkeye
 icon=17
 passive=true
-post_effect=214,10,0
+post_effect=Accuracy,10,0
 description=Increase your accuracy by 10%
 buff=true
 type=fixed
@@ -554,7 +554,7 @@ id=27
 name=Midas Touch
 icon=16
 passive=true
-post_effect=223,10,0
+post_effect=Gold,10,0
 description=Find 10% more gold
 buff=true
 type=fixed
@@ -610,7 +610,7 @@ new_state=instant
 requires_item=1
 cooldown=30
 buff=true
-post_effect=230,25,1
+post_effect=HP,25,1
 
 [power]
 id=33
@@ -622,7 +622,7 @@ new_state=instant
 requires_item=2
 cooldown=30
 buff=true
-post_effect=231,25,1
+post_effect=MP,25,1
 
 [power]
 id=34
@@ -638,8 +638,8 @@ floor=true
 trait_elemental=fire
 starting_pos=target
 multitarget=true
-post_effect=30
-post_effect=200,1,180
+post_power=30
+post_effect=Bleeding,1,180
 
 [power]
 id=35
@@ -744,256 +744,3 @@ speed=15
 requires_flags=ranged
 range=32
 soundfx=shoot.ogg
-
-########################################
-#Effects
-########################################
-[power]
-id=200
-name=Bleeding
-type=effect
-icon=25
-effect_type=damage
-
-[power]
-id=201
-name=Immobilized
-type=effect
-icon=24
-effect_type=speed
-
-[power]
-id=202
-name=Slowed
-type=effect
-icon=24
-effect_type=speed
-
-[power]
-id=203
-name=Stunned
-type=effect
-icon=26
-effect_type=stun
-
-[power]
-id=210
-name=HP (bonus)
-tag=HP
-type=effect
-effect_type=hp
-effect_additive=true
-
-[power]
-id=211
-name=HP Regen (bonus)
-tag=HP regen
-type=effect
-effect_type=hp_regen
-effect_additive=true
-
-[power]
-id=212
-name=MP (bonus)
-tag=MP
-type=effect
-effect_type=mp
-effect_additive=true
-
-[power]
-id=213
-name=MP Regen (bonus)
-tag=MP regen
-type=effect
-effect_type=mp_regen
-effect_additive=true
-
-[power]
-id=214
-name=Accuracy (bonus)
-tag=accuracy
-type=effect
-effect_type=accuracy
-effect_additive=true
-
-[power]
-id=215
-name=Avoidance (bonus)
-tag=avoidance
-type=effect
-effect_type=avoidance
-effect_additive=true
-
-[power]
-id=216
-name=Crit (bonus)
-tag=crit
-type=effect
-effect_type=crit
-effect_additive=true
-
-[power]
-id=217
-name=Speed (bonus)
-tag=speed
-type=effect
-effect_type=speed
-
-[power]
-id=218
-name=Offense (bonus)
-tag=offense
-type=effect
-effect_type=offense
-effect_additive=true
-
-[power]
-id=219
-name=Defense (bonus)
-tag=defense
-type=effect
-effect_type=defense
-effect_additive=true
-
-[power]
-id=220
-name=Physical (bonus)
-tag=physical
-type=effect
-effect_type=physical
-effect_additive=true
-
-[power]
-id=221
-name=Mental (bonus)
-tag=mental
-type=effect
-effect_type=mental
-effect_additive=true
-
-[power]
-id=222
-name=XP(bonus)
-tag=XP gain
-type=effect
-effect_type=xp
-effect_additive=true
-
-[power]
-id=223
-name=Gold (bonus)
-tag=gold find
-type=effect
-effect_type=currency
-effect_additive=true
-
-[power]
-id=224
-name=Fire Resistance (bonus)
-tag=fire resist
-type=effect
-effect_type=fire_resist
-effect_additive=true
-
-[power]
-id=225
-name=Ice Resistance (bonus)
-tag=ice resist
-type=effect
-effect_type=ice_resist
-effect_additive=true
-
-[power]
-id=226
-name=Immunity
-type=effect
-icon=12
-effect_type=immunity
-
-[power]
-id=227
-name=Shield
-type=effect
-icon=21
-effect_type=shield
-animation=shell.txt
-effect_render_above=true
-
-[power]
-id=228
-name=Heal
-type=effect
-effect_type=heal
-animation=heal.txt
-
-[power]
-id=229
-name=Haste
-type=effect
-effect_type=speed
-
-[power]
-id=230
-name=HP over time
-type=effect
-effect_type=hpot
-
-[power]
-id=231
-name=MP over time
-type=effect
-effect_type=mpot
-
-[power]
-id=232
-name=Knockback
-type=effect
-effect_type=forced_move
-
-[power]
-id=233
-name=Earth Resistance (bonus)
-tag=ice resist
-type=effect
-effect_type=earth_resist
-effect_additive=true
-
-[power]
-id=234
-name=Wind Resistance (bonus)
-tag=ice resist
-type=effect
-effect_type=wind_resist
-effect_additive=true
-
-[power]
-id=235
-name=Holy Resistance (bonus)
-tag=ice resist
-type=effect
-effect_type=holy_resist
-effect_additive=true
-
-[power]
-id=236
-name=Dark Resistance (bonus)
-tag=ice resist
-type=effect
-effect_type=dark_resist
-effect_additive=true
-
-[power]
-id=237
-name=HP Percent (bonus)
-tag=HPperc
-type=effect
-effect_type=hp_percent
-effect_additive=true
-
-[power]
-id=238
-name=MP Percent (bonus)
-tag=MPperc
-type=effect
-effect_type=mp_percent
-effect_additive=true
