@@ -5,7 +5,7 @@
 name=Bleeding
 icon=25
 type=damage
-animation=animations/powers/spark_red_loop.txt
+animation=animations/powers/animations/powers/spark_red_loop.txt
 
 [effect]
 name=Immobilized
@@ -110,12 +110,12 @@ type=immunity
 name=Shield
 icon=11
 type=shield
-animation=animations/powers/shield.txt
+animation=animations/powers/animations/powers/shield.txt
 
 [effect]
 name=Heal
 type=heal
-animation=animations/powers/heal.txt
+animation=animations/powers/animations/powers/heal.txt
 
 [effect]
 name=Haste
