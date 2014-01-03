@@ -1,5 +1,5 @@
 name=Shell
-gfx=human2
+gfx=animations/npcs/human2.txt
 talker=true
 
 [dialog]

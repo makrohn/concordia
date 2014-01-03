@@ -1,5 +1,5 @@
 name=Primal Gentario
-gfx=shaman
+gfx=animations/npcs/shaman.txt
 talker=true
 
 [dialog]

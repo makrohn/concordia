@@ -1,2 +1,2 @@
 name=Cow
-gfx=cowright
+gfx=animations/npcs/cowright.txt

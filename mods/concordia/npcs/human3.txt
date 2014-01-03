@@ -1,5 +1,5 @@
 name=Toan
-gfx=human3
+gfx=animations/npcs/human3.txt
 talker=true
 
 [dialog]

@@ -1,5 +1,5 @@
 name=Pix
-gfx=orc2
+gfx=animations/npcs/orc2.txt
 talker=true
 
 [dialog]

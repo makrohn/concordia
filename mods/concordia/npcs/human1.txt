@@ -1,5 +1,5 @@
 name=Maria
-gfx=human1
+gfx=animations/npcs/human1.txt
 talker=true
 
 [dialog]

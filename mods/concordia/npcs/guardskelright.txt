@@ -1,2 +1,2 @@
 name=Guard
-gfx=guardskelright
+gfx=animations/npcs/guardskelright.txt

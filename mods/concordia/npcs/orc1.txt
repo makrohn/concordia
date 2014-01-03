@@ -1,5 +1,5 @@
 name=Tanna
-gfx=orc1
+gfx=animations/npcs/orc1.txt
 talker=true
 
 [dialog]

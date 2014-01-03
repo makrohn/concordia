@@ -1,5 +1,5 @@
 name=Clubb
-gfx=orc3
+gfx=animations/npcs/orc3.txt
 talker=true
 
 [dialog]

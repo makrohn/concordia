@@ -1,5 +1,5 @@
 name=Justice
-gfx=general
+gfx=animations/npcs/general.txt
 talker=true
 
 [dialog]

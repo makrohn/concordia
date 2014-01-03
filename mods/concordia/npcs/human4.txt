@@ -1,5 +1,5 @@
 name=Ham
-gfx=human4
+gfx=animations/npcs/human4.txt
 talker=true
 
 [dialog]

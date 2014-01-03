@@ -1,5 +1,5 @@
 name=Lucardo
-gfx=sniper
+gfx=animations/npcs/sniper.txt
 talker=true
 
 [dialog]
