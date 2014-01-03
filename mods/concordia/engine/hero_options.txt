@@ -11,12 +11,3 @@ option=male,dark,male01
 option=male,light,male2
 option=male,tanned,male3
 option=male,tanned2,male4
-
-layer=0,head,hat,body,main
-layer=1,head,hat,body,main
-layer=2,head,hat,body,main
-layer=3,main,head,hat,body
-layer=4,head,hat,body,main
-layer=5,head,hat,body,main
-layer=6,head,hat,body,main
-layer=7,head,hat,body,main
