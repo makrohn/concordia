@@ -16,7 +16,7 @@ duration=3
 type=back_forth
 
 [run]
-position=5
+position=0
 frames=5
 duration=3
 type=back_forth
