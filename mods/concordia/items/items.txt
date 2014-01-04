@@ -7,7 +7,7 @@ power=32
 power_desc=Restore 25 HP
 item_type=consumable
 soundfx=soundfx/inventory/bottle.ogg
-loot_animation=hppotion
+loot_animation=animations/loot/hppotion.txt
 max_quantity=10
 
 [item]
@@ -19,7 +19,7 @@ power=33
 power_desc=Restore 25 MP
 item_type=consumable
 soundfx=soundfx/inventory/bottle.ogg
-loot_animation=mppotion
+loot_animation=animations/loot/mppotion.txt
 max_quantity=10
 
 [item]
@@ -32,9 +32,9 @@ price=1
 price_sell=1
 max_quantity=5000
 soundfx=soundfx/inventory/inventory_coins.ogg
-loot_animation=coins5,0,24
-loot_animation=coins25,25,99
-loot_animation=coins100,100,0
+loot_animation=animations/loot/coins5,0,24.txt
+loot_animation=animations/loot/coins25,25,99.txt
+loot_animation=animations/loot/coins100,100,0.txt
 
 [item]
 id=50
@@ -46,7 +46,7 @@ item_type=main
 dmg_melee=2,6
 gfx=dagger
 req=p,1
-loot_animation=dagger
+loot_animation=animations/loot/dagger.txt
 equip_flags=melee
 
 [item]
@@ -59,7 +59,7 @@ item_type=main
 dmg_melee=2,6
 gfx=mace
 req=p,3
-loot_animation=mace
+loot_animation=animations/loot/mace.txt
 power_mod=36
 equip_flags=melee
 
@@ -73,7 +73,7 @@ item_type=main
 dmg_melee=2,6
 gfx=saber
 req=p,5
-loot_animation=saber
+loot_animation=animations/loot/saber.txt
 power_mod=36
 equip_flags=melee
 
@@ -87,7 +87,7 @@ item_type=main
 dmg_melee=2,6
 gfx=rapier
 req=p,7
-loot_animation=rapier
+loot_animation=animations/loot/rapier.txt
 power_mod=37
 equip_flags=melee
 
@@ -101,7 +101,7 @@ item_type=main
 dmg_melee=2,6
 gfx=longsword
 req=p,9
-loot_animation=longsword
+loot_animation=animations/loot/longsword.txt
 power_mod=37
 equip_flags=melee
 
@@ -117,7 +117,7 @@ dmg_ranged=2,6
 gfx=longsword
 req=p,9
 req=o,9
-loot_animation=longsword
+loot_animation=animations/loot/longsword.txt
 #Cooldown power to add accuracy
 power_mod=37
 equip_flags=melee
@@ -134,7 +134,7 @@ dmg_ment=2,6
 gfx=longsword
 req=p,9
 req=m,9
-loot_animation=longsword
+loot_animation=animations/loot/longsword.txt
 #Cooldown power to add mp regen
 power_mod=37
 equip_flags=melee
@@ -149,7 +149,7 @@ item_type=main
 dmg_ranged=2,6
 gfx=shortbow
 req=o,1
-loot_animation=shortbow
+loot_animation=animations/loot/shortbow.txt
 equip_flags=ranged
 
 [item]
@@ -162,7 +162,7 @@ item_type=main
 dmg_ranged=2,6
 gfx=shortbow
 req=o,3
-loot_animation=shortbow
+loot_animation=animations/loot/shortbow.txt
 equip_flags=ranged
 
 [item]
@@ -175,7 +175,7 @@ item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
 req=o,5
-loot_animation=recurvebow
+loot_animation=animations/loot/recurvebow.txt
 equip_flags=ranged
 
 [item]
@@ -188,7 +188,7 @@ item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
 req=o,7
-loot_animation=recurvebow
+loot_animation=animations/loot/recurvebow.txt
 equip_flags=ranged
 
 [item]
@@ -201,7 +201,7 @@ item_type=main
 dmg_ranged=2,6
 gfx=greatbow
 req=o,9
-loot_animation=greatbow
+loot_animation=animations/loot/greatbow.txt
 equip_flags=ranged
 
 [item]
@@ -216,7 +216,7 @@ dmg_melee=2,6
 gfx=greatbow
 req=o,9
 req=p,5
-loot_animation=greatbow
+loot_animation=animations/loot/greatbow.txt
 #power to knockback foes
 equip_flags=ranged
 
@@ -232,7 +232,7 @@ dmg_melee=2,6
 gfx=greatbow
 req=o,9
 req=m,5
-loot_animation=greatbow
+loot_animation=animations/loot/greatbow.txt
 #power to add crit
 equip_flags=ranged
 
@@ -246,7 +246,7 @@ item_type=main
 dmg_ment=2,6
 gfx=woodwand
 req=m,1
-loot_animation=woodwand
+loot_animation=animations/loot/woodwand.txt
 equip_flags=mental
 
 [item]
@@ -259,7 +259,7 @@ item_type=main
 dmg_ment=2,6
 gfx=woodwand
 req=m,3
-loot_animation=woodwand
+loot_animation=animations/loot/woodwand.txt
 equip_flags=mental
 
 [item]
@@ -272,7 +272,7 @@ item_type=main
 dmg_ment=2,6
 gfx=woodwand
 req=m,5
-loot_animation=woodwand
+loot_animation=animations/loot/woodwand.txt
 equip_flags=mental
 
 [item]
@@ -285,7 +285,7 @@ item_type=main
 dmg_ment=2,6
 gfx=woodwand
 req=m,7
-loot_animation=woodwand
+loot_animation=animations/loot/woodwand.txt
 equip_flags=mental
 
 [item]
@@ -298,7 +298,7 @@ item_type=main
 dmg_ment=2,6
 gfx=steelwand
 req=m,9
-loot_animation=steelwand
+loot_animation=animations/loot/steelwand.txt
 equip_flags=mental
 
 [item]
@@ -312,7 +312,7 @@ dmg_ment=2,6
 gfx=steelwand
 req=m,9
 req=p,5
-loot_animation=steelwand
+loot_animation=animations/loot/steelwand.txt
 #power for temp immunity
 equip_flags=mental
 
@@ -327,7 +327,7 @@ dmg_ment=2,6
 gfx=steelwand
 req=m,9
 req=o,5
-loot_animation=steelwand
+loot_animation=animations/loot/steelwand.txt
 #power for ice burst
 equip_flags=mental
 
@@ -341,7 +341,7 @@ item_type=main
 dmg_melee=2,6
 gfx=spear
 req=d,1
-loot_animation=dagger
+loot_animation=animations/loot/dagger.txt
 power_mod=38
 equip_flags=spear
 
@@ -355,7 +355,7 @@ item_type=main
 dmg_melee=2,6
 gfx=spear
 req=d,1
-loot_animation=dagger
+loot_animation=animations/loot/dagger.txt
 power_mod=38
 equip_flags=spear
 
@@ -369,7 +369,7 @@ item_type=main
 dmg_melee=2,6
 gfx=trident
 req=d,5
-loot_animation=dagger
+loot_animation=animations/loot/dagger.txt
 power_mod=38
 equip_flags=spear
 
@@ -383,7 +383,7 @@ item_type=main
 dmg_melee=2,6
 gfx=dragonspear
 req=d,7
-loot_animation=dagger
+loot_animation=animations/loot/dagger.txt
 power_mod=38
 equip_flags=spear
 
@@ -396,7 +396,7 @@ item_type=body
 icon=80
 gfx=clothes
 stepfx=cloth
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 
 [item]
 id=101
@@ -408,7 +408,7 @@ abs=1,1
 icon=80
 gfx=clothes
 req=o,2
-loot_animation=caveclothes
+loot_animation=animations/loot/caveclothes.txt
 stepfx=cloth
 
 [item]
@@ -422,7 +422,7 @@ abs=1,1
 icon=80
 gfx=survivalgear
 req=o,1
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 
 [item]
 id=103
@@ -435,7 +435,7 @@ abs=1,1
 icon=80
 gfx=forestclothes
 req=o,1
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 
 [item]
 id=104
@@ -448,7 +448,7 @@ stepfx=cloth
 icon=80
 gfx=ninjagear
 req=o,1
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 
 [item]
 id=110
@@ -460,7 +460,7 @@ abs=1,1
 icon=88
 gfx=leather
 req=p,2
-loot_animation=leather
+loot_animation=animations/loot/leather.txt
 
 [item]
 id=111
@@ -472,7 +472,7 @@ abs=1,1
 icon=89
 gfx=hardenedleather
 req=p,4
-loot_animation=hardenedleather
+loot_animation=animations/loot/hardenedleather.txt
 
 [item]
 id=112
@@ -484,7 +484,7 @@ abs=1,1
 icon=90
 gfx=salamanderleather
 req=p,6
-loot_animation=salamanderleather
+loot_animation=animations/loot/salamanderleather.txt
 
 [item]
 id=113
@@ -496,7 +496,7 @@ abs=1,1
 icon=91
 gfx=yetihide
 req=p,8
-loot_animation=yetihide
+loot_animation=animations/loot/yetihide.txt
 
 [item]
 id=120
@@ -508,7 +508,7 @@ abs=1,1
 icon=97
 gfx=chainmail
 req=m,2
-loot_animation=chainmail
+loot_animation=animations/loot/chainmail.txt
 
 [item]
 id=121
@@ -520,7 +520,7 @@ abs=1,1
 icon=96
 gfx=mithril
 req=m,4
-loot_animation=mithril
+loot_animation=animations/loot/mithril.txt
 
 [item]
 id=122
@@ -532,7 +532,7 @@ abs=1,1
 icon=98
 gfx=burntchain
 req=m,6
-loot_animation=burntchain
+loot_animation=animations/loot/burntchain.txt
 
 [item]
 id=123
@@ -544,7 +544,7 @@ abs=1,1
 icon=99
 gfx=archmagechain
 req=m,8
-loot_animation=archmagechain
+loot_animation=animations/loot/archmagechain.txt
 
 [item]
 id=130
@@ -556,7 +556,7 @@ abs=1,1
 icon=107
 gfx=bronzeplate
 req=d,2
-loot_animation=bronzeplate
+loot_animation=animations/loot/bronzeplate.txt
 
 [item]
 id=131
@@ -568,7 +568,7 @@ abs=1,1
 icon=104
 gfx=platemail
 req=d,4
-loot_animation=plate
+loot_animation=animations/loot/plate.txt
 
 [item]
 id=132
@@ -580,7 +580,7 @@ abs=1,1
 icon=106
 gfx=icyplate
 req=d,6
-loot_animation=icyplate
+loot_animation=animations/loot/icyplate.txt
 
 [item]
 id=133
@@ -592,7 +592,7 @@ abs=1,1
 icon=105
 gfx=holyplate
 req=d,8
-loot_animation=holyplate
+loot_animation=animations/loot/holyplate.txt
 
 [item]
 id=140
@@ -603,7 +603,7 @@ item_type=hat
 abs=1,1
 icon=72
 gfx=clothhood
-loot_animation=clothhood
+loot_animation=animations/loot/clothhood.txt
 
 [item]
 id=150
@@ -614,7 +614,7 @@ item_type=hat
 abs=1,1
 icon=74
 gfx=leatherhat
-loot_animation=leatherhat
+loot_animation=animations/loot/leatherhat.txt
 
 [item]
 id=160
@@ -625,7 +625,7 @@ item_type=hat
 abs=1,1
 icon=75
 gfx=chainhat
-loot_animation=chainhat
+loot_animation=animations/loot/chainhat.txt
 
 [item]
 id=161
@@ -636,7 +636,7 @@ item_type=hat
 abs=1,1
 icon=75
 gfx=chainhood
-loot_animation=chainhood
+loot_animation=animations/loot/chainhood.txt
 
 [item]
 id=170
@@ -647,7 +647,7 @@ item_type=hat
 abs=1,1
 icon=73
 gfx=helmet
-loot_animation=helmet
+loot_animation=animations/loot/helmet.txt
 
 [item]
 id=200
@@ -655,4 +655,4 @@ name=Minerals
 quality=high
 item_type=quest
 icon=112
-loot_animation=helmet
+loot_animation=animations/loot/helmet.txt
