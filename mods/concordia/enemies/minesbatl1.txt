@@ -1,10 +1,9 @@
 name=Bat
 level=1
-categories=minesbat,dungeon
+categories=minesbat,dungeon,minesbatl1
 rarity=common
 xp=1
 
-sfx_prefix=none
 animations=animations/enemies/bat.txt
 
 loot=1,25

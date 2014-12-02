@@ -10,22 +10,22 @@ location=0,0,3
 requires_status=spearfisher
 type=on_trigger
 location=0,0,1,1
-intermap=lowlands.txt,50,50
+intermap=maps/lowlands.txt,50,50
 
 [event]
 requires_status=fighter
 type=on_trigger
 location=0,0,1,1
-intermap=lowlands.txt,50,50
+intermap=maps/lowlands.txt,50,50
 
 [event]
 requires_status=hunter
 type=on_trigger
 location=0,0,1,1
-intermap=maroon.txt,107,8
+intermap=maps/maroon.txt,107,8
 
 [event]
 requires_status=devout
 type=on_trigger
 location=0,0,1,1
-intermap=maroon.txt,107,8
+intermap=maps/maroon.txt,107,8

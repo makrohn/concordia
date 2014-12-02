@@ -4,7 +4,6 @@ categories=wolf,forest
 rarity=common
 xp=1
 
-sfx_prefix=none
 animations=animations/enemies/wolf.txt
 
 loot=currency,100,2,2

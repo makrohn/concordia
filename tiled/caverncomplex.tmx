@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="128" height="128" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="biding.ogg"/>
-  <property name="tileset" value="master.txt"/>
+  <property name="music" value="music/biding.ogg"/>
+  <property name="tileset" value="tilesetdefs/master.txt"/>
   <property name="title" value="Cavern Complex"/>
  </properties>
  <tileset firstgid="1" name="tiled_collision" tilewidth="32" tileheight="32">
@@ -683,16 +683,16 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="event" width="128" height="128">
+ <objectgroup name="event">
   <object name="Teleport to Mines" type="on_trigger" x="960" y="3936" width="96" height="32">
    <properties>
-    <property name="intermap" value="mines.txt,59,7"/>
+    <property name="intermap" value="maps/mines.txt,59,7"/>
     <property name="requires_status" value="mines_chosen"/>
    </properties>
   </object>
   <object name="Teleport to Maroon" type="on_trigger" x="128" y="448" width="32" height="32">
    <properties>
-    <property name="intermap" value="maroon.txt,72,75"/>
+    <property name="intermap" value="maps/maroon.txt,72,75"/>
     <property name="requires_status" value="cavern_dir"/>
    </properties>
   </object>
@@ -704,16 +704,15 @@
   <object name="Chest" type="on_trigger" x="3520" y="1248" width="32" height="32">
    <properties>
     <property name="hotspot" value="location"/>
-    <property name="loot" value="2,111,39,fixed,1"/>
+    <property name="loot" value="2,fixed,1"/>
     <property name="mapmod" value="object,110,39,593"/>
     <property name="repeat" value="false"/>
     <property name="tooltip" value="Chest"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="npc" width="128" height="128"/>
- <objectgroup name="enemy" width="128" height="128"/>
- <objectgroup name="enemygroup" width="128" height="128">
+ <objectgroup name="npc"/>
+ <objectgroup name="enemy">
   <object name="Minebats" type="minesbat" x="320" y="160" width="256" height="480">
    <properties>
     <property name="level" value="1,2"/>

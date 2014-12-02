@@ -3,16 +3,17 @@ width=32
 height=32
 tilewidth=32
 tileheight=32
+orientation=orthogonal
 tileset=tilesetdefs/master.txt
 title=Maroon
 
 [tilesets]
-tileset=tilesetdefs/../../../tiled/masters/tiled_collision.png,32,32,0,0
-tileset=tilesetdefs/../../../tiled/masters/32.png,32,32,0,0
-tileset=tilesetdefs/../../../tiled/masters/64.png,32,32,0,0
-tileset=tilesetdefs/../../../tiled/masters/96.png,32,32,0,0
-tileset=tilesetdefs/../../../tiled/masters/128.png,32,128,0,0
-tileset=tilesetdefs/../../../tiled/automap.png,32,32,0,0
+tileset=../../../tiled/masters/tiled_collision.png,32,32,0,0
+tileset=../../../tiled/masters/32.png,32,32,0,0
+tileset=../../../tiled/masters/64.png,32,32,0,0
+tileset=../../../tiled/masters/96.png,32,32,0,0
+tileset=../../../tiled/masters/128.png,32,128,0,0
+tileset=../../../tiled/automap.png,32,32,0,0
 
 [layer]
 type=rules

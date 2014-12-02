@@ -1,4 +1,4 @@
-img=master.png
+img=images/tilesets/master.png
 tile=16,0,0,32,32,16,16
 tile=17,32,0,32,32,16,16
 tile=18,64,0,32,32,16,16

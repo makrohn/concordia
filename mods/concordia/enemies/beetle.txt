@@ -4,7 +4,6 @@ categories=beetle,dungeon
 rarity=common
 xp=1
 
-sfx_prefix=none
 animations=animations/enemies/beetle.txt
 
 loot=currency,100,2,2

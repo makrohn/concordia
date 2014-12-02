@@ -45,7 +45,7 @@ icon=58
 item_type=main
 dmg_melee=2,6
 gfx=dagger
-req=p,1
+requires_stat=physical,1
 loot_animation=animations/loot/dagger.txt
 equip_flags=melee
 
@@ -58,9 +58,9 @@ icon=59
 item_type=main
 dmg_melee=2,6
 gfx=mace
-req=p,3
+requires_stat=physical,3
 loot_animation=animations/loot/mace.txt
-power_mod=36
+replace_power=1,36
 equip_flags=melee
 
 [item]
@@ -72,9 +72,9 @@ icon=56
 item_type=main
 dmg_melee=2,6
 gfx=saber
-req=p,5
+requires_stat=physical,5
 loot_animation=animations/loot/saber.txt
-power_mod=36
+replace_power=1,36
 equip_flags=melee
 
 [item]
@@ -86,9 +86,9 @@ icon=57
 item_type=main
 dmg_melee=2,6
 gfx=rapier
-req=p,7
+requires_stat=physical,7
 loot_animation=animations/loot/rapier.txt
-power_mod=37
+replace_power=1,37
 equip_flags=melee
 
 [item]
@@ -100,9 +100,9 @@ icon=60
 item_type=main
 dmg_melee=2,6
 gfx=longsword
-req=p,9
+requires_stat=physical,9
 loot_animation=animations/loot/longsword.txt
-power_mod=37
+replace_power=1,37
 equip_flags=melee
 
 [item]
@@ -115,11 +115,11 @@ item_type=main
 dmg_melee=2,6
 dmg_ranged=2,6
 gfx=longsword
-req=p,9
-req=o,9
+requires_stat=physical,9
+requires_stat=offense,9
 loot_animation=animations/loot/longsword.txt
 #Cooldown power to add accuracy
-power_mod=37
+replace_power=1,37
 equip_flags=melee
 
 [item]
@@ -132,11 +132,11 @@ item_type=main
 dmg_melee=2,6
 dmg_ment=2,6
 gfx=longsword
-req=p,9
-req=m,9
+requires_stat=physical,9
+requires_stat=mental,9
 loot_animation=animations/loot/longsword.txt
 #Cooldown power to add mp regen
-power_mod=37
+replace_power=1,37
 equip_flags=melee
 
 [item]
@@ -148,7 +148,7 @@ icon=48
 item_type=main
 dmg_ranged=2,6
 gfx=shortbow
-req=o,1
+requires_stat=offense,1
 loot_animation=animations/loot/shortbow.txt
 equip_flags=ranged
 
@@ -161,7 +161,7 @@ icon=50
 item_type=main
 dmg_ranged=2,6
 gfx=shortbow
-req=o,3
+requires_stat=offense,3
 loot_animation=animations/loot/shortbow.txt
 equip_flags=ranged
 
@@ -174,7 +174,7 @@ icon=51
 item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
-req=o,5
+requires_stat=offense,5
 loot_animation=animations/loot/recurvebow.txt
 equip_flags=ranged
 
@@ -187,7 +187,7 @@ icon=52
 item_type=main
 dmg_ranged=2,6
 gfx=recurvebow
-req=o,7
+requires_stat=offense,7
 loot_animation=animations/loot/recurvebow.txt
 equip_flags=ranged
 
@@ -200,7 +200,7 @@ icon=49
 item_type=main
 dmg_ranged=2,6
 gfx=greatbow
-req=o,9
+requires_stat=offense,9
 loot_animation=animations/loot/greatbow.txt
 equip_flags=ranged
 
@@ -214,8 +214,8 @@ item_type=main
 dmg_ranged=2,6
 dmg_melee=2,6
 gfx=greatbow
-req=o,9
-req=p,5
+requires_stat=offense,9
+requires_stat=physical,5
 loot_animation=animations/loot/greatbow.txt
 #power to knockback foes
 equip_flags=ranged
@@ -230,8 +230,8 @@ item_type=main
 dmg_ranged=2,6
 dmg_melee=2,6
 gfx=greatbow
-req=o,9
-req=m,5
+requires_stat=offense,9
+requires_stat=mental,5
 loot_animation=animations/loot/greatbow.txt
 #power to add crit
 equip_flags=ranged
@@ -245,7 +245,7 @@ icon=65
 item_type=main
 dmg_ment=2,6
 gfx=woodwand
-req=m,1
+requires_stat=mental,1
 loot_animation=animations/loot/woodwand.txt
 equip_flags=mental
 
@@ -258,7 +258,7 @@ icon=66
 item_type=main
 dmg_ment=2,6
 gfx=woodwand
-req=m,3
+requires_stat=mental,3
 loot_animation=animations/loot/woodwand.txt
 equip_flags=mental
 
@@ -271,7 +271,7 @@ icon=66
 item_type=main
 dmg_ment=2,6
 gfx=woodwand
-req=m,5
+requires_stat=mental,5
 loot_animation=animations/loot/woodwand.txt
 equip_flags=mental
 
@@ -284,7 +284,7 @@ icon=67
 item_type=main
 dmg_ment=2,6
 gfx=woodwand
-req=m,7
+requires_stat=mental,7
 loot_animation=animations/loot/woodwand.txt
 equip_flags=mental
 
@@ -297,7 +297,7 @@ icon=68
 item_type=main
 dmg_ment=2,6
 gfx=steelwand
-req=m,9
+requires_stat=mental,9
 loot_animation=animations/loot/steelwand.txt
 equip_flags=mental
 
@@ -310,8 +310,8 @@ icon=69
 item_type=main
 dmg_ment=2,6
 gfx=steelwand
-req=m,9
-req=p,5
+requires_stat=mental,9
+requires_stat=physical,5
 loot_animation=animations/loot/steelwand.txt
 #power for temp immunity
 equip_flags=mental
@@ -325,8 +325,8 @@ icon=70
 item_type=main
 dmg_ment=2,6
 gfx=steelwand
-req=m,9
-req=o,5
+requires_stat=mental,9
+requires_stat=offense,5
 loot_animation=animations/loot/steelwand.txt
 #power for ice burst
 equip_flags=mental
@@ -340,9 +340,9 @@ icon=58
 item_type=main
 dmg_melee=2,6
 gfx=spear
-req=d,1
+requires_stat=defense,1
 loot_animation=animations/loot/dagger.txt
-power_mod=38
+replace_power=1,38
 equip_flags=spear
 
 [item]
@@ -354,9 +354,9 @@ icon=58
 item_type=main
 dmg_melee=2,6
 gfx=spear
-req=d,1
+requires_stat=defense,1
 loot_animation=animations/loot/dagger.txt
-power_mod=38
+replace_power=1,38
 equip_flags=spear
 
 [item]
@@ -368,9 +368,9 @@ icon=58
 item_type=main
 dmg_melee=2,6
 gfx=trident
-req=d,5
+requires_stat=defense,5
 loot_animation=animations/loot/dagger.txt
-power_mod=38
+replace_power=1,38
 equip_flags=spear
 
 [item]
@@ -382,9 +382,9 @@ icon=58
 item_type=main
 dmg_melee=2,6
 gfx=dragonspear
-req=d,7
+requires_stat=defense,7
 loot_animation=animations/loot/dagger.txt
-power_mod=38
+replace_power=1,38
 equip_flags=spear
 
 [item]
@@ -407,7 +407,7 @@ item_type=body
 abs=1,1
 icon=80
 gfx=clothes
-req=o,2
+requires_stat=offense,2
 loot_animation=animations/loot/caveclothes.txt
 stepfx=cloth
 
@@ -421,7 +421,7 @@ stepfx=cloth
 abs=1,1
 icon=80
 gfx=survivalgear
-req=o,1
+requires_stat=offense,1
 loot_animation=animations/loot/clothes.txt
 
 [item]
@@ -434,7 +434,7 @@ item_type=body
 abs=1,1
 icon=80
 gfx=forestclothes
-req=o,1
+requires_stat=offense,1
 loot_animation=animations/loot/clothes.txt
 
 [item]
@@ -447,7 +447,7 @@ abs=1,1
 stepfx=cloth
 icon=80
 gfx=ninjagear
-req=o,1
+requires_stat=offense,1
 loot_animation=animations/loot/clothes.txt
 
 [item]
@@ -459,7 +459,7 @@ item_type=body
 abs=1,1
 icon=88
 gfx=leather
-req=p,2
+requires_stat=physical,2
 loot_animation=animations/loot/leather.txt
 
 [item]
@@ -471,7 +471,7 @@ item_type=body
 abs=1,1
 icon=89
 gfx=hardenedleather
-req=p,4
+requires_stat=physical,4
 loot_animation=animations/loot/hardenedleather.txt
 
 [item]
@@ -483,7 +483,7 @@ item_type=body
 abs=1,1
 icon=90
 gfx=salamanderleather
-req=p,6
+requires_stat=physical,6
 loot_animation=animations/loot/salamanderleather.txt
 
 [item]
@@ -495,7 +495,7 @@ item_type=body
 abs=1,1
 icon=91
 gfx=yetihide
-req=p,8
+requires_stat=physical,8
 loot_animation=animations/loot/yetihide.txt
 
 [item]
@@ -507,7 +507,7 @@ item_type=body
 abs=1,1
 icon=97
 gfx=chainmail
-req=m,2
+requires_stat=mental,2
 loot_animation=animations/loot/chainmail.txt
 
 [item]
@@ -519,7 +519,7 @@ item_type=body
 abs=1,1
 icon=96
 gfx=mithril
-req=m,4
+requires_stat=mental,4
 loot_animation=animations/loot/mithril.txt
 
 [item]
@@ -531,7 +531,7 @@ item_type=body
 abs=1,1
 icon=98
 gfx=burntchain
-req=m,6
+requires_stat=mental,6
 loot_animation=animations/loot/burntchain.txt
 
 [item]
@@ -543,7 +543,7 @@ item_type=body
 abs=1,1
 icon=99
 gfx=archmagechain
-req=m,8
+requires_stat=mental,8
 loot_animation=animations/loot/archmagechain.txt
 
 [item]
@@ -555,7 +555,7 @@ item_type=body
 abs=1,1
 icon=107
 gfx=bronzeplate
-req=d,2
+requires_stat=defense,2
 loot_animation=animations/loot/bronzeplate.txt
 
 [item]
@@ -567,7 +567,7 @@ item_type=body
 abs=1,1
 icon=104
 gfx=platemail
-req=d,4
+requires_stat=defense,4
 loot_animation=animations/loot/plate.txt
 
 [item]
@@ -579,7 +579,7 @@ item_type=body
 abs=1,1
 icon=106
 gfx=icyplate
-req=d,6
+requires_stat=defense,6
 loot_animation=animations/loot/icyplate.txt
 
 [item]
@@ -591,7 +591,7 @@ item_type=body
 abs=1,1
 icon=105
 gfx=holyplate
-req=d,8
+requires_stat=defense,8
 loot_animation=animations/loot/holyplate.txt
 
 [item]

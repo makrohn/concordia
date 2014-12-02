@@ -3,17 +3,18 @@ width=128
 height=128
 tilewidth=32
 tileheight=32
+orientation=orthogonal
 music=music/biding.ogg
 tileset=tilesetdefs/master.txt
 title=Cavern Complex
 
 [tilesets]
-tileset=tilesetdefs/../../../tiled/masters/tiled_collision.png,32,32,0,0
-tileset=tilesetdefs/../../../tiled/masters/32.png,32,32,0,0
-tileset=tilesetdefs/../../../tiled/masters/64.png,32,64,0,0
-tileset=tilesetdefs/../../../tiled/masters/96.png,32,96,0,0
-tileset=tilesetdefs/../../../tiled/masters/128.png,32,128,0,0
-tileset=tilesetdefs/../../../tiled/automap.png,32,32,0,0
+tileset=../../../tiled/masters/tiled_collision.png,32,32,0,0
+tileset=../../../tiled/masters/32.png,32,32,0,0
+tileset=../../../tiled/masters/64.png,32,64,0,0
+tileset=../../../tiled/masters/96.png,32,96,0,0
+tileset=../../../tiled/masters/128.png,32,128,0,0
+tileset=../../../tiled/automap.png,32,32,0,0
 
 [layer]
 type=background
@@ -679,14 +680,14 @@ data=
 # Teleport to Mines
 type=on_trigger
 location=30,123,3,1
-intermap=mines.txt,59,7
+intermap=maps/mines.txt,59,7
 requires_status=mines_chosen
 
 [event]
 # Teleport to Maroon
 type=on_trigger
 location=4,14,1,1
-intermap=maroon.txt,72,75
+intermap=maps/maroon.txt,72,75
 requires_status=cavern_dir
 
 [event]
@@ -700,124 +701,124 @@ msg=The ladder's rungs are stripped off, and the wall is too steep to climb.
 type=on_trigger
 location=110,39,1,1
 hotspot=location
-loot=2,111,39,fixed,1
+loot=2,fixed,1
 mapmod=object,110,39,593
 repeat=false
 tooltip=Chest
 
-[enemygroup]
+[enemy]
 # Minebats
 type=minesbat
 location=10,5,8,15
 level=1,2
 number=1,4
 
-[enemygroup]
+[enemy]
 # Minesbats
 type=minesbat
 location=26,30,5,5
 level=1,2
 number=2,2
 
-[enemygroup]
+[enemy]
 # Dungeon Enemies
 type=dungeon
 location=45,41,15,12
 level=1,2
 number=5,6
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=80,22,5,5
 level=1,2
 number=3,3
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=68,12,5,5
 level=1,2
 number=3,3
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=62,41,38,3
 level=1,2
 number=2,4
 
-[enemygroup]
+[enemy]
 # Beetles
 type=beetle
 location=108,112,16,10
 level=1,1
 number=2,4
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=105,99,8,10
 level=1,1
 number=1,2
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=105,57,9,9
 level=1,2
 number=3,5
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=76,83,19,10
 level=1,2
 number=5,10
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=60,58,7,4
 level=2,2
 number=2,2
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=25,75,4,6
 level=2,2
 number=2,2
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=6,96,9,9
 level=1,2
 number=2,5
 
-[enemygroup]
+[enemy]
 # Minesbats
 type=minesbat
 location=52,89,3,6
 level=2,2
 number=2,2
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=51,107,11,9
 level=1,2
 number=4,5
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=60,58,7,4
 level=2,2
 number=2,2
 
-[enemygroup]
+[enemy]
 # Dungeon
 type=dungeon
 location=76,83,19,10

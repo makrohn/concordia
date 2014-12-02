@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="128" height="128" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="meadowthoughts.ogg"/>
-  <property name="tileset" value="master.txt"/>
+  <property name="music" value="music/meadowthoughts.ogg"/>
+  <property name="tileset" value="tilesetdefs/master.txt"/>
   <property name="title" value="Maroon"/>
  </properties>
  <tileset firstgid="1" name="tiled_collision" tilewidth="32" tileheight="32">
@@ -815,17 +815,16 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="npc" width="128" height="128">
-  <object name="chicken" type="chicken" x="3424" y="1408" width="32" height="32"/>
-  <object name="Cow" type="cowleft" x="3520" y="1280" width="32" height="32"/>
-  <object name="Sheep" type="sheepleft" x="3584" y="1344" width="32" height="32"/>
-  <object name="Sheep" type="sheepright" x="3712" y="1248" width="32" height="32"/>
-  <object name="Shaman" type="shaman" x="3584" y="288" width="32" height="32"/>
-  <object name="General" type="general" x="2304" y="1952" width="32" height="32"/>
-  <object name="Sniper" type="sniper" x="736" y="3200" width="32" height="32"/>
+ <objectgroup name="npc">
+  <object name="chicken" type="npcs/chicken.txt" x="3424" y="1408" width="32" height="32"/>
+  <object name="Cow" type="npcs/cowleft.txt" x="3520" y="1280" width="32" height="32"/>
+  <object name="Sheep" type="npcs/sheepleft.txt" x="3584" y="1344" width="32" height="32"/>
+  <object name="Sheep" type="npcs/sheepright.txt" x="3712" y="1248" width="32" height="32"/>
+  <object name="Shaman" type="npcs/shaman.txt" x="3584" y="288" width="32" height="32"/>
+  <object name="General" type="npcs/general.txt" x="2304" y="1952" width="32" height="32"/>
+  <object name="Sniper" type="npcs/sniper.txt" x="736" y="3200" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="enemy" width="128" height="128"/>
- <objectgroup name="enemygroup" width="128" height="128">
+ <objectgroup name="enemy">
   <object name="Bats" type="bee" x="3264" y="2208" width="448" height="416">
    <properties>
     <property name="level" value="1,1"/>
@@ -869,7 +868,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="event" width="128" height="128">
+ <objectgroup name="event">
   <object name="Reveal Hole" type="on_trigger" x="2208" y="2240" width="384" height="416">
    <properties>
     <property name="mapmod" value="fringe,73,74,436;fringe,74,74,437;fringe,75,74,438;fringe,73,75,466;fringe,74,75,467;fringe,75,75,468;fringe,73,76,496;fringe,74,76,497;fringe,75,76,498"/>
@@ -879,7 +878,7 @@
   </object>
   <object name="Teleport to Caverns" type="on_trigger" x="2368" y="2400" width="32" height="32">
    <properties>
-    <property name="intermap" value="caverncomplex.txt,5,14"/>
+    <property name="intermap" value="maps/caverncomplex.txt,5,14"/>
     <property name="requires_status" value="cavern_dir"/>
    </properties>
   </object>

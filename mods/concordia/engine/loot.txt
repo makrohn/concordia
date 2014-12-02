@@ -1,23 +1,15 @@
 # Loot settings
 
-# Animation
-loot_animation=0,0,64,128
-loot_animation_offset=32,112
-
 # Tooltip
 tooltip_margin=0
 
 # Autopickup
-autopickup_range=1.5
 autopickup_currency=1
 
 # Currency
 currency_name=Crowns
 vendor_ratio=25
 
-# currency loot ranges
-# values are: filename, lower limit, upper limit
-# -1 can be used for the upper limit to set no upper limit
-currency_range=coins5,0,24
-currency_range=coins25,25,99
-currency_range=coins100,100,-1
+# Drops
+drop_max=1
+drop_radius=1

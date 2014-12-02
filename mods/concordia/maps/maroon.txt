@@ -3,17 +3,18 @@ width=128
 height=128
 tilewidth=32
 tileheight=32
+orientation=orthogonal
 music=music/meadowthoughts.ogg
 tileset=tilesetdefs/master.txt
 title=Maroon
 
 [tilesets]
-tileset=tilesetdefs/../../../tiled/masters/tiled_collision.png,32,32,0,0
-tileset=tilesetdefs/../../../tiled/masters/32.png,32,32,0,0
-tileset=tilesetdefs/../../../tiled/masters/64.png,32,64,0,0
-tileset=tilesetdefs/../../../tiled/masters/96.png,32,96,0,0
-tileset=tilesetdefs/../../../tiled/masters/128.png,32,128,0,0
-tileset=tilesetdefs/../../../tiled/automap.png,32,32,0,0
+tileset=../../../tiled/masters/tiled_collision.png,32,32,0,0
+tileset=../../../tiled/masters/32.png,32,32,0,0
+tileset=../../../tiled/masters/64.png,32,64,0,0
+tileset=../../../tiled/masters/96.png,32,96,0,0
+tileset=../../../tiled/masters/128.png,32,128,0,0
+tileset=../../../tiled/automap.png,32,32,0,0
 
 [layer]
 type=rules
@@ -809,82 +810,82 @@ data=
 
 [npc]
 # chicken
-type=chicken
+type=npcs/chicken.txt
 location=107,44,1,1
 
 [npc]
 # Cow
-type=cowleft
+type=npcs/cowleft.txt
 location=110,40,1,1
 
 [npc]
 # Sheep
-type=sheepleft
+type=npcs/sheepleft.txt
 location=112,42,1,1
 
 [npc]
 # Sheep
-type=sheepright
+type=npcs/sheepright.txt
 location=116,39,1,1
 
 [npc]
 # Shaman
-type=shaman
+type=npcs/shaman.txt
 location=112,9,1,1
 
 [npc]
 # General
-type=general
+type=npcs/general.txt
 location=72,61,1,1
 
 [npc]
 # Sniper
-type=sniper
+type=npcs/sniper.txt
 location=23,100,1,1
 
-[enemygroup]
+[enemy]
 # Bats
 type=bee
 location=102,69,14,13
 level=1,1
 number=2,6
 
-[enemygroup]
+[enemy]
 # Bees
 type=bee
 location=106,117,15,10
 level=1,1
 number=2,6
 
-[enemygroup]
+[enemy]
 # Bees
 type=bee
 location=77,100,22,19
 level=1,1
 number=2,6
 
-[enemygroup]
+[enemy]
 # Bees
 type=bee
 location=43,1,21,14
 level=1,1
 number=2,6
 
-[enemygroup]
+[enemy]
 # Bees
 type=bee
 location=14,39,8,13
 level=1,1
 number=1,2
 
-[enemygroup]
+[enemy]
 # Bees
 type=bee
 location=6,74,16,17
 level=1,1
 number=2,6
 
-[enemygroup]
+[enemy]
 # Bees
 type=bee
 location=33,89,16,15
@@ -903,6 +904,6 @@ requires_status=cavern_dir
 # Teleport to Caverns
 type=on_trigger
 location=74,75,1,1
-intermap=caverncomplex.txt,5,14
+intermap=maps/caverncomplex.txt,5,14
 requires_status=cavern_dir
 

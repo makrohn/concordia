@@ -3,11 +3,11 @@
 # head is the png in /images/avatar/[base]
 # portrait is the png in /images/portraits
 
-option=female,dark,female1
-option=female,light,female2
-option=female,tanned,female3
-option=female,tanned2,female4
-option=male,dark,male01
-option=male,light,male2
-option=male,tanned,male3
-option=male,tanned2,male4
+option=female,dark,images/portraits/female1.png
+option=female,light,images/portraits/female2.png
+option=female,tanned,images/portraits/female3.png
+option=female,tanned2,images/portraits/female4.png
+option=male,dark,images/portraits/male01.png
+option=male,light,images/portraits/male2.png
+option=male,tanned,images/portraits/male3.png
+option=male,tanned2,images/portraits/male4.png

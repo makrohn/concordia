@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="128" height="88" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="ambientmain.ogg"/>
-  <property name="tileset" value="master.txt"/>
+  <property name="music" value="music/ambientmain.ogg"/>
+  <property name="tileset" value="tilesetdefs/master.txt"/>
   <property name="title" value="Lowlands Labor Camp"/>
  </properties>
  <tileset firstgid="1" name="tiled_collision" tilewidth="32" tileheight="32">
@@ -481,21 +481,21 @@
 </data>
  </layer>
  <objectgroup name="npc" width="128" height="88">
-  <object name="Skeleton" type="guardskelright" x="1024" y="2400" width="32" height="32"/>
-  <object name="Guard" type="guardskelleft" x="3936" y="2400" width="32" height="32"/>
-  <object name="Guard" type="guardskelleft" x="3936" y="1056" width="32" height="32"/>
-  <object name="Maria" type="human1" x="3232" y="2272" width="32" height="32"/>
-  <object name="Shell" type="human2" x="3328" y="192" width="32" height="32"/>
-  <object name="Toan" type="human3" x="2528" y="1728" width="32" height="32"/>
-  <object name="Ham" type="human4" x="3776" y="1408" width="32" height="32"/>
-  <object name="Pix" type="orc2" x="1504" y="1376" width="32" height="32"/>
-  <object name="Tanna" type="orc1" x="1472" y="2016" width="32" height="32"/>
-  <object name="Clubb" type="orc3" x="2176" y="672" width="32" height="32"/>
+  <object name="Skeleton" type="npcs/guardskelright.txt" x="1024" y="2400" width="32" height="32"/>
+  <object name="Guard" type="npcs/guardskelleft.txt" x="3936" y="2400" width="32" height="32"/>
+  <object name="Guard" type="npcs/guardskelleft.txt" x="3936" y="1056" width="32" height="32"/>
+  <object name="Maria" type="npcs/human1.txt" x="3232" y="2272" width="32" height="32"/>
+  <object name="Shell" type="npcs/human2.txt" x="3328" y="192" width="32" height="32"/>
+  <object name="Toan" type="npcs/human3.txt" x="2528" y="1728" width="32" height="32"/>
+  <object name="Ham" type="npcs/human4.txt" x="3776" y="1408" width="32" height="32"/>
+  <object name="Pix" type="npcs/orc2.txt" x="1504" y="1376" width="32" height="32"/>
+  <object name="Tanna" type="npcs/orc1.txt" x="1472" y="2016" width="32" height="32"/>
+  <object name="Clubb" type="npcs/orc3.txt" x="2176" y="672" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="event" width="128" height="88">
   <object name="Teleport to Mine" type="on_trigger" x="3328" y="960" width="32" height="32">
    <properties>
-    <property name="intermap" value="mines.txt,12,6"/>
+    <property name="intermap" value="maps/mines.txt,12,6"/>
    </properties>
   </object>
   <object name="Teleport to Checkpoint" type="on_trigger" x="3872" y="2592" width="32" height="32"/>
