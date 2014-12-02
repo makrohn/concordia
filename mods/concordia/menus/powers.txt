@@ -1,5 +1,10 @@
 # Settings for the PowersMenu display
 
+pos=0,0,320,416
+align=right
+soundfx_open=soundfx/menu_open.ogg
+soundfx_close=soundfx/menu_open.ogg
+
 label_title=160,24,center,top
 close=294,2
 unspent_points=160,380,center,top

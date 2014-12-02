@@ -3,6 +3,12 @@
 # text_pos is optional. If omitted, text will be placed in the center.
 # orientation is either 0 (horizontal) or 1 (vertical)
 
-pos=33,-36,18,106
+pos=0,36,106,26
+align=topleft
+
+bar_pos=33,-36,18,106
 text_pos=0,16
 orientation=1
+
+bar_gfx=images/menus/bar_xp.png
+bar_gfx_background=images/menus/bar_xp_background.png

@@ -29,6 +29,6 @@ dmg_melee_min=4
 dmg_melee_max=8
 dmg_ranged_min=4
 dmg_ranged_max=8
-cooldown=30
+cooldown=1s
 
 

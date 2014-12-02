@@ -3,6 +3,12 @@
 # text_pos is optional. If omitted, text will be placed in the center.
 # orientation is either 0 (horizontal) or 1 (vertical)
 
-pos=1,0,18,106
+pos=0,0,106,33
+align=topleft
+
+bar_pos=1,0,18,106
 orientation=1
 text_pos=32,0
+
+bar_gfx=images/menus/bar_hp.png
+bar_gfx_background=images/menus/bar_hp_background.png
