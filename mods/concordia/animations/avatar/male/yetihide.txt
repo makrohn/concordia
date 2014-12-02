@@ -3,7 +3,7 @@ image=images/avatar/male/yetihide.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,1090,0,17,29,9,25
 frame=0,1,1090,0,17,29,9,25
@@ -16,7 +16,7 @@ frame=0,7,157,0,24,30,12,26
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,2009,0,19,28,8,24
 frame=0,1,2009,0,19,28,8,24
@@ -61,7 +61,7 @@ frame=4,7,2294,0,15,27,9,23
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,1526,0,25,28,13,24
 frame=0,1,1526,0,25,28,13,24
@@ -130,7 +130,7 @@ frame=7,7,62,0,20,31,10,26
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,301,0,24,30,12,26
 frame=0,1,301,0,24,30,12,26
@@ -183,7 +183,7 @@ frame=5,7,2481,0,30,18,12,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,1158,0,17,29,9,25
 frame=0,1,1158,0,17,29,9,25
@@ -244,7 +244,7 @@ frame=6,7,277,0,24,30,12,26
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,1124,0,17,29,9,25
 frame=0,1,1124,0,17,29,9,25
@@ -297,7 +297,7 @@ frame=5,7,132,0,25,30,12,26
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,1328,0,17,29,9,25
 frame=0,1,1328,0,17,29,9,25
@@ -366,7 +366,7 @@ frame=7,7,2386,0,19,25,9,22
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,301,0,24,30,12,26
 frame=0,1,301,0,24,30,12,26
@@ -395,7 +395,7 @@ frame=2,7,2462,0,19,22,7,18
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,1158,0,17,29,9,25
 frame=0,1,1158,0,17,29,9,25

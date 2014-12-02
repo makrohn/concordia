@@ -3,7 +3,7 @@ image=images/avatar/female/archmagechain.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,25,1627,23,29,12,24
 frame=0,1,25,1627,23,29,12,24
@@ -16,7 +16,7 @@ frame=0,7,0,1879,24,30,12,24
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,0,669,26,35,15,29
 frame=0,1,0,669,26,35,15,29
@@ -61,7 +61,7 @@ frame=4,7,29,386,19,33,13,27
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,0,2027,24,27,13,23
 frame=0,1,0,2027,24,27,13,23
@@ -130,7 +130,7 @@ frame=7,7,0,953,26,30,13,24
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,24,2012,24,29,12,23
 frame=0,1,24,2012,24,29,12,23
@@ -183,7 +183,7 @@ frame=5,7,0,288,30,25,12,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,26,953,22,29,11,24
 frame=0,1,26,953,22,29,11,24
@@ -244,7 +244,7 @@ frame=6,7,0,1103,26,30,13,24
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,26,714,22,31,11,26
 frame=0,1,26,714,22,31,11,26
@@ -297,7 +297,7 @@ frame=5,7,0,258,30,30,12,26
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,26,1011,22,29,11,24
 frame=0,1,26,1011,22,29,11,24
@@ -366,7 +366,7 @@ frame=7,7,24,1862,24,31,14,26
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,24,2012,24,29,12,23
 frame=0,1,24,2012,24,29,12,23
@@ -395,7 +395,7 @@ frame=2,7,0,1790,25,26,11,20
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,26,953,22,29,11,24
 frame=0,1,26,953,22,29,11,24

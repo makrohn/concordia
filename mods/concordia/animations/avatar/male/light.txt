@@ -3,7 +3,7 @@ image=images/avatar/male/light.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,49,1624,23,47,11,43
 frame=0,1,49,1624,23,47,11,43
@@ -16,7 +16,7 @@ frame=0,7,33,692,30,47,15,43
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,33,645,33,47,20,43
 frame=0,1,33,645,33,47,20,43
@@ -61,7 +61,7 @@ frame=4,7,0,1763,23,47,13,43
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,50,1485,25,46,13,42
 frame=0,1,50,1485,25,46,13,42
@@ -130,7 +130,7 @@ frame=7,7,66,689,30,48,15,43
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,33,692,30,47,15,43
 frame=0,1,33,692,30,47,15,43
@@ -183,7 +183,7 @@ frame=5,7,34,516,34,35,14,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,49,1624,23,47,11,43
 frame=0,1,49,1624,23,47,11,43
@@ -244,7 +244,7 @@ frame=6,7,0,468,34,47,17,43
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,49,1624,23,47,11,43
 frame=0,1,49,1624,23,47,11,43
@@ -297,7 +297,7 @@ frame=5,7,39,93,39,47,13,43
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,49,1624,23,47,11,43
 frame=0,1,49,1624,23,47,11,43
@@ -366,7 +366,7 @@ frame=7,7,50,1531,25,46,14,43
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,33,692,30,47,15,43
 frame=0,1,33,692,30,47,15,43
@@ -395,7 +395,7 @@ frame=2,7,30,926,30,39,13,35
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,49,1624,23,47,11,43
 frame=0,1,49,1624,23,47,11,43

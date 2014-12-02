@@ -3,7 +3,7 @@ image=images/avatar/female/bronzeplate.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,931,31,23,31,12,26
 frame=0,1,931,31,23,31,12,26
@@ -16,7 +16,7 @@ frame=0,7,694,0,26,31,13,25
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,179,0,26,35,15,29
 frame=0,1,179,0,26,35,15,29
@@ -61,7 +61,7 @@ frame=4,7,338,0,20,34,13,28
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,1439,29,24,29,13,25
 frame=0,1,1439,29,24,29,13,25
@@ -130,7 +130,7 @@ frame=7,7,772,0,26,31,13,25
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,1152,30,26,30,13,24
 frame=0,1,1152,30,26,30,13,24
@@ -183,7 +183,7 @@ frame=5,7,25,37,31,27,13,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,976,31,22,31,11,26
 frame=0,1,976,31,22,31,11,26
@@ -244,7 +244,7 @@ frame=6,7,899,0,24,31,12,25
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,954,31,22,31,11,26
 frame=0,1,954,31,22,31,11,26
@@ -297,7 +297,7 @@ frame=5,7,231,35,30,29,12,25
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,998,31,22,31,11,26
 frame=0,1,998,31,22,31,11,26
@@ -366,7 +366,7 @@ frame=7,7,550,32,24,32,14,27
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,1152,30,26,30,13,24
 frame=0,1,1152,30,26,30,13,24
@@ -395,7 +395,7 @@ frame=2,7,0,38,25,26,11,20
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,976,31,22,31,11,26
 frame=0,1,976,31,22,31,11,26

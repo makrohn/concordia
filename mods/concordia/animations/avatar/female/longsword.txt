@@ -3,12 +3,12 @@ image=images/avatar/female/longsword.png
 
 [stance]
 frames=1
-duration=1
+duration=33ms
 type=back_forth
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,376,32,38,27,43,20
 frame=0,1,376,32,38,27,43,20

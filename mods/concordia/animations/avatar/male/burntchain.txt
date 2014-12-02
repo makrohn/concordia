@@ -3,7 +3,7 @@ image=images/avatar/male/burntchain.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,1019,0,22,31,11,26
 frame=0,1,1019,0,22,31,11,26
@@ -16,7 +16,7 @@ frame=0,7,476,0,30,32,15,26
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,178,0,26,35,14,29
 frame=0,1,178,0,26,35,14,29
@@ -61,7 +61,7 @@ frame=4,7,417,0,19,33,13,27
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,58,36,26,28,14,24
 frame=0,1,58,36,26,28,14,24
@@ -130,7 +130,7 @@ frame=7,7,536,0,30,32,15,26
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,476,0,30,32,15,26
 frame=0,1,476,0,30,32,15,26
@@ -183,7 +183,7 @@ frame=5,7,28,38,30,25,12,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,1063,0,22,31,11,26
 frame=0,1,1063,0,22,31,11,26
@@ -244,7 +244,7 @@ frame=6,7,611,32,30,32,15,26
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,1041,0,22,31,11,26
 frame=0,1,1041,0,22,31,11,26
@@ -297,7 +297,7 @@ frame=5,7,394,33,34,31,13,26
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,1085,0,22,31,11,26
 frame=0,1,1085,0,22,31,11,26
@@ -366,7 +366,7 @@ frame=7,7,962,31,24,31,14,26
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,476,0,30,32,15,26
 frame=0,1,476,0,30,32,15,26
@@ -395,7 +395,7 @@ frame=2,7,0,38,28,26,11,20
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,1063,0,22,31,11,26
 frame=0,1,1063,0,22,31,11,26

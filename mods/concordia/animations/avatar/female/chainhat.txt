@@ -3,7 +3,7 @@ image=images/avatar/female/chainhat.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,0,40,29,17,14,44
 frame=0,1,0,40,29,17,14,44
@@ -16,7 +16,7 @@ frame=0,7,0,21,30,19,15,45
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,0,40,29,17,14,44
 frame=0,1,0,40,29,17,14,44
@@ -61,7 +61,7 @@ frame=4,7,0,21,30,19,16,45
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,0,40,29,17,14,43
 frame=0,1,0,40,29,17,14,43
@@ -130,7 +130,7 @@ frame=7,7,0,21,30,19,15,45
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,0,21,30,19,15,44
 frame=0,1,0,21,30,19,15,44
@@ -183,7 +183,7 @@ frame=5,7,0,0,30,21,12,16
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,0,40,29,17,14,44
 frame=0,1,0,40,29,17,14,44
@@ -244,7 +244,7 @@ frame=6,7,0,21,30,19,15,45
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,0,40,29,17,14,44
 frame=0,1,0,40,29,17,14,44
@@ -297,7 +297,7 @@ frame=5,7,0,21,30,19,13,45
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,0,40,29,17,14,44
 frame=0,1,0,40,29,17,14,44
@@ -366,7 +366,7 @@ frame=7,7,0,21,30,19,15,45
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,0,21,30,19,15,44
 frame=0,1,0,21,30,19,15,44
@@ -395,7 +395,7 @@ frame=2,7,0,21,30,19,14,38
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,0,40,29,17,14,44
 frame=0,1,0,40,29,17,14,44

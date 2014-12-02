@@ -4,5 +4,5 @@ render_offset=16,26
 
 [power]
 frames=8
-duration=3
+duration=800ms
 type=play_once

@@ -3,7 +3,7 @@ image=images/avatar/male/tanned.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,2861,0,22,49,11,45
 frame=0,1,2861,0,22,49,11,45
@@ -16,7 +16,7 @@ frame=0,7,362,0,30,50,15,46
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,1645,0,32,49,20,45
 frame=0,1,1645,0,32,49,20,45
@@ -61,7 +61,7 @@ frame=4,7,853,0,24,50,14,46
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,3412,0,25,48,13,44
 frame=0,1,3412,0,25,48,13,44
@@ -130,7 +130,7 @@ frame=7,7,90,0,30,51,15,46
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,362,0,30,50,15,46
 frame=0,1,362,0,30,50,15,46
@@ -183,7 +183,7 @@ frame=5,7,3761,0,34,36,14,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,2861,0,22,49,11,45
 frame=0,1,2861,0,22,49,11,45
@@ -244,7 +244,7 @@ frame=6,7,328,0,34,50,17,46
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,2861,0,22,49,11,45
 frame=0,1,2861,0,22,49,11,45
@@ -297,7 +297,7 @@ frame=5,7,218,0,39,50,13,46
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,2949,0,22,49,11,45
 frame=0,1,2949,0,22,49,11,45
@@ -366,7 +366,7 @@ frame=7,7,2602,0,25,49,14,46
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,362,0,30,50,15,46
 frame=0,1,362,0,30,50,15,46
@@ -395,7 +395,7 @@ frame=2,7,3701,0,30,43,13,39
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,2861,0,22,49,11,45
 frame=0,1,2861,0,22,49,11,45

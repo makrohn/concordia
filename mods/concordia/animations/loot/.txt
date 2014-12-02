@@ -1,8 +1,0 @@
-image=images/loot/.png
-render_size=64,64
-render_offset=32,48
-
-[power]
-frames=5
-duration=3
-type=play_once

@@ -3,12 +3,12 @@ image=images/avatar/female/greatbow.png
 
 [stance]
 frames=1
-duration=1
+duration=33ms
 type=back_forth
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,0,296,29,52,32,51
 frame=0,1,0,296,29,52,32,51

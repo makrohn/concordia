@@ -3,7 +3,7 @@ image=images/avatar/female/light.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,2477,0,23,48,11,44
 frame=0,1,2477,0,23,48,11,44
@@ -16,7 +16,7 @@ frame=0,7,1356,0,28,48,14,44
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,878,0,33,48,21,44
 frame=0,1,878,0,33,48,21,44
@@ -61,7 +61,7 @@ frame=4,7,1903,0,27,48,15,44
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,3309,0,23,47,11,43
 frame=0,1,3309,0,23,47,11,43
@@ -130,7 +130,7 @@ frame=7,7,144,0,28,49,14,44
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,1356,0,28,48,14,43
 frame=0,1,1356,0,28,48,14,43
@@ -183,7 +183,7 @@ frame=5,7,3661,0,34,36,15,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,2477,0,23,48,11,44
 frame=0,1,2477,0,23,48,11,44
@@ -244,7 +244,7 @@ frame=6,7,1264,0,32,48,16,44
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,2477,0,23,48,11,44
 frame=0,1,2477,0,23,48,11,44
@@ -297,7 +297,7 @@ frame=5,7,677,0,34,48,12,44
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,2477,0,23,48,11,44
 frame=0,1,2477,0,23,48,11,44
@@ -366,7 +366,7 @@ frame=7,7,3184,0,27,47,14,44
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,1356,0,28,48,14,43
 frame=0,1,1356,0,28,48,14,43
@@ -395,7 +395,7 @@ frame=2,7,3605,0,28,41,13,37
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,2477,0,23,48,11,44
 frame=0,1,2477,0,23,48,11,44

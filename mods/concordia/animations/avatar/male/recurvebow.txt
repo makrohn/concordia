@@ -3,12 +3,12 @@ image=images/avatar/male/recurvebow.png
 
 [stance]
 frames=1
-duration=1
+duration=33ms
 type=back_forth
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,33,92,28,48,32,50
 frame=0,1,33,92,28,48,32,50

@@ -3,7 +3,7 @@ image=images/avatar/female/goldhelm.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,260,0,25,27,11,49
 frame=0,1,260,0,25,27,11,49
@@ -16,7 +16,7 @@ frame=0,7,26,0,26,28,13,49
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,335,0,25,27,11,49
 frame=0,1,335,0,25,27,11,49
@@ -61,7 +61,7 @@ frame=4,7,26,0,26,28,14,49
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,260,0,25,27,11,48
 frame=0,1,260,0,25,27,11,48
@@ -130,7 +130,7 @@ frame=7,7,26,0,26,28,13,49
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,260,0,25,27,11,49
 frame=0,1,260,0,25,27,11,49
@@ -191,7 +191,7 @@ frame=6,7,26,0,26,28,13,49
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,260,0,25,27,11,49
 frame=0,1,260,0,25,27,11,49
@@ -244,7 +244,7 @@ frame=5,7,26,0,26,28,11,49
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,260,0,25,27,11,49
 frame=0,1,260,0,25,27,11,49
@@ -313,7 +313,7 @@ frame=7,7,26,0,26,28,13,49
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,260,0,25,27,11,49
 frame=0,1,260,0,25,27,11,49
@@ -342,7 +342,7 @@ frame=2,7,26,0,26,28,13,49
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,260,0,25,27,11,49
 frame=0,1,260,0,25,27,11,49

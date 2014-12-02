@@ -3,7 +3,7 @@ image=images/avatar/male/ninjagear.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,1628,0,20,29,9,25
 frame=0,1,1628,0,20,29,9,25
@@ -16,7 +16,7 @@ frame=0,7,573,31,30,30,15,26
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,221,0,26,33,14,29
 frame=0,1,221,0,26,33,14,29
@@ -61,7 +61,7 @@ frame=4,7,672,0,19,31,13,27
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,247,33,25,28,13,24
 frame=0,1,247,33,25,28,13,24
@@ -130,7 +130,7 @@ frame=7,7,547,0,30,31,15,26
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,849,0,30,30,15,26
 frame=0,1,849,0,30,30,15,26
@@ -183,7 +183,7 @@ frame=5,7,0,36,30,25,12,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,1688,0,20,29,9,25
 frame=0,1,1688,0,20,29,9,25
@@ -244,7 +244,7 @@ frame=6,7,819,0,30,30,15,26
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,1668,0,20,29,9,25
 frame=0,1,1668,0,20,29,9,25
@@ -297,7 +297,7 @@ frame=5,7,443,31,34,30,13,26
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,1708,0,20,29,9,25
 frame=0,1,1708,0,20,29,9,25
@@ -366,7 +366,7 @@ frame=7,7,1387,0,24,29,14,26
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,849,0,30,30,15,26
 frame=0,1,849,0,30,30,15,26
@@ -395,7 +395,7 @@ frame=2,7,30,36,28,24,11,20
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,1688,0,20,29,9,25
 frame=0,1,1688,0,20,29,9,25

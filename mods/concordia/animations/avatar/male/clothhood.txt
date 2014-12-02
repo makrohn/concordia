@@ -3,7 +3,7 @@ image=images/avatar/male/clothhood.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,1552,0,23,26,11,43
 frame=0,1,1552,0,23,26,11,43
@@ -16,7 +16,7 @@ frame=0,7,236,0,30,28,15,44
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,2150,0,23,26,10,43
 frame=0,1,2150,0,23,26,10,43
@@ -61,7 +61,7 @@ frame=4,7,1346,0,27,27,15,44
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,1598,0,23,26,11,42
 frame=0,1,1598,0,23,26,11,42
@@ -130,7 +130,7 @@ frame=7,7,743,0,29,28,15,44
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,626,0,30,28,15,44
 frame=0,1,626,0,30,28,15,44
@@ -183,7 +183,7 @@ frame=5,7,2664,0,25,23,9,18
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,1690,0,23,26,11,43
 frame=0,1,1690,0,23,26,11,43
@@ -244,7 +244,7 @@ frame=6,7,506,0,30,28,15,44
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,1690,0,23,26,11,43
 frame=0,1,1690,0,23,26,11,43
@@ -297,7 +297,7 @@ frame=5,7,830,0,29,28,11,44
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,1690,0,23,26,11,43
 frame=0,1,1690,0,23,26,11,43
@@ -366,7 +366,7 @@ frame=7,7,2610,0,27,25,14,44
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,626,0,30,28,15,44
 frame=0,1,626,0,30,28,15,44
@@ -395,7 +395,7 @@ frame=2,7,888,0,29,28,12,36
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,1690,0,23,26,11,43
 frame=0,1,1690,0,23,26,11,43

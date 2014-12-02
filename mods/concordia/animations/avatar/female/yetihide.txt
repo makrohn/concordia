@@ -3,7 +3,7 @@ image=images/avatar/female/yetihide.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,610,0,17,29,9,25
 frame=0,1,610,0,17,29,9,25
@@ -16,7 +16,7 @@ frame=0,7,609,29,18,28,9,24
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,439,29,19,28,9,24
 frame=0,1,439,29,19,28,9,24
@@ -61,7 +61,7 @@ frame=4,7,189,30,15,27,9,23
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,204,29,21,28,11,24
 frame=0,1,204,29,21,28,11,24
@@ -130,7 +130,7 @@ frame=7,7,412,0,18,29,9,24
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,609,29,18,28,9,23
 frame=0,1,609,29,18,28,9,23
@@ -183,7 +183,7 @@ frame=5,7,1086,0,30,18,13,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,661,0,17,29,9,25
 frame=0,1,661,0,17,29,9,25
@@ -244,7 +244,7 @@ frame=6,7,861,29,18,28,9,24
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,610,0,17,29,9,25
 frame=0,1,610,0,17,29,9,25
@@ -297,7 +297,7 @@ frame=5,7,286,29,20,28,9,24
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,848,0,17,29,9,25
 frame=0,1,848,0,17,29,9,25
@@ -366,7 +366,7 @@ frame=7,7,1041,25,19,25,9,22
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,609,29,18,28,9,23
 frame=0,1,609,29,18,28,9,23
@@ -395,7 +395,7 @@ frame=2,7,1078,31,18,22,8,18
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,661,0,17,29,9,25
 frame=0,1,661,0,17,29,9,25

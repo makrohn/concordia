@@ -6,5 +6,5 @@ render_offset=64,64
 
 [stance]
 frames=4
-duration=5
+duration=666ms
 type=back_forth

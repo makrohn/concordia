@@ -5,6 +5,6 @@ render_offset=32,58
 
 [power]
 frames=10
-duration=3
+duration=1s
 type=looped
 active_frame=all

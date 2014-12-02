@@ -3,7 +3,7 @@ image=images/avatar/male/leatherhat.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,0,0,36,19,14,47
 frame=0,1,0,0,36,19,14,47
@@ -16,7 +16,7 @@ frame=0,7,0,76,27,22,14,52
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,0,0,36,19,13,47
 frame=0,1,0,0,36,19,13,47
@@ -61,7 +61,7 @@ frame=4,7,0,76,27,22,15,52
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,0,38,36,19,14,46
 frame=0,1,0,38,36,19,14,46
@@ -130,7 +130,7 @@ frame=7,7,0,76,27,22,14,52
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,0,76,27,22,14,52
 frame=0,1,0,76,27,22,14,52
@@ -183,7 +183,7 @@ frame=5,7,36,51,21,22,8,16
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,0,0,36,19,14,47
 frame=0,1,0,0,36,19,14,47
@@ -244,7 +244,7 @@ frame=6,7,0,76,27,22,14,52
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,0,0,36,19,14,47
 frame=0,1,0,0,36,19,14,47
@@ -297,7 +297,7 @@ frame=5,7,0,76,27,22,11,52
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,0,0,36,19,14,47
 frame=0,1,0,0,36,19,14,47
@@ -366,7 +366,7 @@ frame=7,7,0,76,27,22,14,52
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,0,76,27,22,14,52
 frame=0,1,0,76,27,22,14,52
@@ -395,7 +395,7 @@ frame=2,7,0,76,27,22,12,41
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,0,0,36,19,14,47
 frame=0,1,0,0,36,19,14,47

@@ -3,7 +3,7 @@ image=images/avatar/female/survivalgear.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,19,602,17,28,9,24
 frame=0,1,19,602,17,28,9,24
@@ -16,7 +16,7 @@ frame=0,7,0,1389,18,27,9,23
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,0,713,19,27,9,23
 frame=0,1,0,713,19,27,9,23
@@ -61,7 +61,7 @@ frame=4,7,15,1879,15,26,9,22
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,0,23,21,27,11,23
 frame=0,1,0,23,21,27,11,23
@@ -130,7 +130,7 @@ frame=7,7,19,798,17,28,8,23
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,18,1407,18,27,9,22
 frame=0,1,18,1407,18,27,9,22
@@ -183,7 +183,7 @@ frame=5,7,0,0,30,17,13,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,19,1158,17,27,9,23
 frame=0,1,19,1158,17,27,9,23
@@ -244,7 +244,7 @@ frame=6,7,0,1497,18,27,9,23
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,19,1104,17,27,9,23
 frame=0,1,19,1104,17,27,9,23
@@ -297,7 +297,7 @@ frame=5,7,0,160,20,27,9,23
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,17,1646,17,27,9,23
 frame=0,1,17,1646,17,27,9,23
@@ -366,7 +366,7 @@ frame=7,7,0,1037,19,27,9,24
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,18,1407,18,27,9,22
 frame=0,1,18,1407,18,27,9,22
@@ -395,7 +395,7 @@ frame=2,7,0,1709,16,20,7,16
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,19,1158,17,27,9,23
 frame=0,1,19,1158,17,27,9,23

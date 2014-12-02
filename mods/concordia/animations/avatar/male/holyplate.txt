@@ -3,7 +3,7 @@ image=images/avatar/male/holyplate.png
 
 [stance]
 frames=1
-duration=3
+duration=100ms
 type=back_forth
 frame=0,0,1213,31,22,31,11,26
 frame=0,1,1213,31,22,31,11,26
@@ -16,7 +16,7 @@ frame=0,7,491,0,30,32,15,26
 
 [shoot]
 frames=5
-duration=2
+duration=333ms
 type=play_once
 frame=0,0,179,0,26,35,14,29
 frame=0,1,179,0,26,35,14,29
@@ -61,7 +61,7 @@ frame=4,7,338,0,20,34,13,28
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,1761,29,26,29,14,25
 frame=0,1,1761,29,26,29,14,25
@@ -130,7 +130,7 @@ frame=7,7,551,0,30,32,15,26
 
 [die]
 frames=6
-duration=3
+duration=600ms
 type=play_once
 frame=0,0,641,0,30,32,15,26
 frame=0,1,641,0,30,32,15,26
@@ -183,7 +183,7 @@ frame=5,7,28,37,30,27,12,30
 
 [cast]
 frames=7
-duration=2
+duration=466ms
 type=play_once
 frame=0,0,1257,31,22,31,11,26
 frame=0,1,1257,31,22,31,11,26
@@ -244,7 +244,7 @@ frame=6,7,611,0,30,32,15,26
 
 [swing]
 frames=6
-duration=2
+duration=400ms
 type=play_once
 frame=0,0,1235,31,22,31,11,26
 frame=0,1,1235,31,22,31,11,26
@@ -297,7 +297,7 @@ frame=5,7,414,33,35,31,13,26
 
 [thrust]
 frames=8
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,1301,31,22,31,11,26
 frame=0,1,1301,31,22,31,11,26
@@ -366,7 +366,7 @@ frame=7,7,885,0,24,32,14,27
 
 [hit]
 frames=3
-duration=1
+duration=100ms
 type=back_forth
 frame=0,0,641,0,30,32,15,26
 frame=0,1,641,0,30,32,15,26
@@ -395,7 +395,7 @@ frame=2,7,0,38,28,26,11,20
 
 [block]
 frames=2
-duration=2
+duration=133ms
 type=play_once
 frame=0,0,1257,31,22,31,11,26
 frame=0,1,1257,31,22,31,11,26
